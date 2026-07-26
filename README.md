@@ -1,254 +1,91 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/title-dark.svg">
-    <img src="./.github/assets/title-light.svg" alt="anitorrent - Hayase extension pack for Nyaa, AnimeTosho, Seadex, SubsPlease, Yameii, ToonsHub" width="420">
-  </picture>
-</p>
+# Yuyase Plugin
 
-<p align="center">
-  <strong>Working Hayase extension pack for 2026.</strong> Drop-in replacement for the outdated <a href="https://github.com/hayase-app"><code>hayase-app</code></a> extensions (Nyaa, AnimeTosho, Seadex).<br>
-  Six auto-updating torrent sources: <strong>Nyaa</strong>, <strong>AnimeTosho</strong>, <strong>Seadex</strong>, <strong>SubsPlease</strong>, <strong>Yameii</strong> (English dubs), and <strong>ToonsHub</strong> (dual-audio).<br>
-  Works on Windows, macOS, Linux, and Hayase on Android. One install URL, no manual maintenance.
-</p>
+Torrent search extension pack for **Hayase**. Six auto-updating sources: **Nyaa**, **AnimeTosho**, **Seadex**, **SubsPlease**, **Yameii** (English dubs), and **ToonsHub** (dual-audio).
+
+Works on Windows, macOS, Linux, and Hayase on Android. One install URL, no manual maintenance.
 
 ## Install in Hayase
 
-Settings → Extensions → Repositories → paste → Import Extensions:
+Settings -> Extensions -> Repositories -> paste -> Import Extensions:
 
 ```
-https://raw.githubusercontent.com/anh9000/anitorrent/main/hayase/index.json
+https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/master/hayase/index.json
 ```
 
-That's it. One-time action. Hayase auto-polls the manifest on every launch, so any future release flows in automatically without re-importing.
+One-time action. Hayase auto-polls the manifest on every launch, so future releases flow in automatically.
 
-### Shiru install URL (untested, try at your own risk)
+### Shiru install URL (experimental)
 
 ```
-https://raw.githubusercontent.com/anh9000/anitorrent/main/shiru/index.json
+https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/master/shiru/index.json
 ```
-
-Settings → Extensions → paste.
-
-> **Shiru note:** a [Shiru](https://github.com/RockinChaos/Shiru) manifest is also published, but this has **not been tested in an actual Shiru install**. The code was designed against the lowest-common-denominator API both apps accept, so it should work. If you try it in Shiru and hit a problem, please [open an issue](https://github.com/anh9000/anitorrent/issues) with the details.
-
-## Tested on
-
-Built and verified against this Hayase build:
-
-```text
-┌────────────────────────┬──────────────────────┐
-│ COMPONENT              │ VERSION              │
-├────────────────────────┼──────────────────────┤
-│ Hayase Interface       │ v6.4.366             │
-│ Hayase Native          │ 6.4.69               │
-│ Platform               │ Windows              │
-│ All six sources online │ verified 2026-05-18  │
-└────────────────────────┴──────────────────────┘
-```
-
-The extensions page in Hayase, all six sources green and current:
-
-<p align="left">
-  <a href="https://raw.githubusercontent.com/anh9000/anitorrent/main/.github/assets/installed-extensions.png">
-    <img src="./.github/assets/installed-extensions.png" alt="anitorrent extensions installed in Hayase, all six rows online" width="720">
-  </a>
-</p>
-
-What a search looks like (Nippon Sangoku, episode 7), pulling results from multiple sources in one panel:
-
-<p align="left">
-  <a href="https://raw.githubusercontent.com/anh9000/anitorrent/main/.github/assets/search-results.png">
-    <img src="./.github/assets/search-results.png" alt="anitorrent search results modal in Hayase showing torrent rows from multiple sources" width="720">
-  </a>
-</p>
 
 ## Sources
 
-### Core (recommended for everyone)
-
 ```text
-┌────────────┬──────────┬──────────────────────────────────────────┐
-│ SOURCE     │ ACCURACY │ BEST FOR                                 │
-├────────────┼──────────┼──────────────────────────────────────────┤
-│ Nyaa       │ medium   │ raw firehose, every anime upload         │
-│ AnimeTosho │ high     │ anidb-mapped lookups, batch packs        │
-│ Seadex     │ high     │ community-curated best releases          │
-│ SubsPlease │ high     │ currently-airing weekly subs             │
-└────────────┴──────────┴──────────────────────────────────────────┘
++------------+----------+------------------------------------------+
+| SOURCE     | ACCURACY | BEST FOR                                 |
++------------+----------+------------------------------------------+
+| Nyaa       | medium   | raw firehose, every anime upload         |
+| AnimeTosho | high     | anidb-mapped lookups, batch packs        |
+| Seadex     | high     | community-curated best releases          |
+| SubsPlease | high     | currently-airing weekly subs             |
+| Yameii     | high     | single-uploader English dub re-encodes   |
+| ToonsHub   | high     | dual-audio + multi-sub group releases    |
++------------+----------+------------------------------------------+
 ```
 
-### Curator picks (optional)
+All six sources declare `media: "both"` in the manifest. Hayase shows Sub + Dub badges regardless; the badge is purely informational.
 
-These are personal picks that ship enabled by default but are entirely toggleable.<br>Disable them in Settings → Extensions if you don't want them.
+### About Yameii & ToonsHub
 
-```text
-┌────────────┬──────────┬────────────────────────────────────────────┐
-│ SOURCE     │ ACCURACY │ WHAT IT ADDS                               │
-├────────────┼──────────┼────────────────────────────────────────────┤
-│ Yameii     │ high     │ single-uploader English dub re-encodes     │
-│ ToonsHub   │ high     │ dual-audio + multi-sub group releases      │
-└────────────┴──────────┴────────────────────────────────────────────┘
+Personal picks that ship enabled by default but are entirely toggleable in Settings > Extensions.
+
+- **Yameii** — narrow catalog, consistent quality. IRC: `#Yameii@irc.rizon.net`
+- **ToonsHub** — covers many currently-airing shows. Telegram: [t.me/thtorrents](https://t.me/thtorrents)
+
+## How It Works
+
+When you open a torrent picker, Hayase sends the same query to every enabled source. They run in parallel, each filters its own results through shared matching logic, and Hayase merges everything and de-duplicates by infohash.
+
+When the query carries an AniList ID, sources route results through the **canonical pipeline** — which uses AniList's franchise graph to *reject* wrong-franchise leaks (e.g., Uma Musume S2 no longer returns Cinderella Gray, Road to the Top, or Beginning of a New Era). Queries without an AniList ID fall through to the legacy token-based path.
+
+### Canonical Pipeline
+
+```
+                     raw results
+                         |
+                Canonical Resolver (resolver.js)
+              AniList GraphQL -> franchise graph + branches
+                         |
+                Normalizer (normalize.js)
+              every release -> NormalizedTorrent schema
+                         |
+                Hard Validation Gates (filters.js)
+              wrong-franchise, wrong-branch, movie-vs-TV,
+              OVA-vs-season, episode-impossible, airdate
+                         |
+                Bayesian Scorer (scorer.js)
+              alias, episode, season, group, recency, seeders
+                         |
+                   Hayase-ready result shape
 ```
 
-- **Yameii** is a narrow catalog but consistent quality. IRC: `#Yameii@irc.rizon.net`
-- **ToonsHub** covers many currently-airing shows. Telegram: [t.me/thtorrents](https://t.me/thtorrents)
+### Preferences / Configuration
 
-All six sources declare `media: "both"` in the manifest. Hayase shows Sub + Dub badges regardless. The badge is purely informational, it does not filter results.
+Every source exports a `config()` endpoint that Hayase's settings UI can render as a toggles form. Supported preferences:
 
-## How it works
+- **Resolution** — 2160p, 1080p, 720p, 480p
+- **Codec** — HEVC, AV1, VP9, AVC
+- **Release Groups** — preferred and avoided
+- **Audio/Subtitle Languages** — preferred audio and subtitle tracks
+- **Dual Audio / Dubs** — boost dual audio or dub releases
+- **Batches** — prefer batch releases and allow fallback
+- **Max Results** — cap number of returned results
+- **Max File Size** — reject torrents over a MB threshold
+- **Exclusions** — keywords that filter out unwanted content
 
-When you open a torrent picker, Hayase hands the same query to every enabled source. They run in parallel, each filters its own results through the shared matching logic, and Hayase merges everything and de-duplicates by infohash (so a release that several sources carry shows up once).
-
-When the query carries an AniList ID, sources route result candidates through
-the **canonical pipeline** — the architectural heart of this pack — which uses
-AniList's franchise graph to *reject* sibling-franchise leaks (the
-"Umamusume Pretty Derby S2 returning Cinderella Gray / Road to the Top /
-Beginning of a New Era" bug). Queries without an AniList ID fall through to the
-legacy token-based path, which is still a high-precision filter on its own.
-
-### The canonical pipeline
-
-```text
-                       raw results
-                            │
-                            ▼
-                Canonical Resolver (src/lib/resolver.js)
-              AniList GraphQL → franchise graph + branches
-                            │
-                            ▼
-                Normalizer (src/lib/normalize.js)
-              every release → NormalizedTorrent schema
-                            │
-                            ▼
-                Hard Validation Gates (src/lib/filters.js)
-              wrong-franchise · wrong-branch · movie-vs-TV
-              OVA-vs-season · episode-impossible · airdate-impossible
-                            │
-                            ▼
-                Bayesian Scorer (src/lib/scorer.js)
-              alias · episode · season · group · recency · seeders
-                            │
-                            ▼
-                  legacy Hayase result shape
-```
-
-### Five invariants
-
-These keep the matching coherent as new trackers and edge cases show up. If
-every contributor follows them, the code stays clean instead of sliding into
-a museum of special cases.
-
-1. **One canonical entity per anime.** Everything starts from an AniList ID
-   resolved into a single canonical representation that lists every sibling
-   branch of the franchise (TV seasons, movies, OVAs, side stories,
-   alternative versions).
-2. **One normalized torrent schema.** Every source parser must emit the
-   `NormalizedTorrent` object from `src/lib/normalize.js`. Nothing downstream
-   is allowed to inspect raw tracker titles.
-3. **Validate first, score second.** A candidate that fails a hard gate is
-   dropped before the scorer ever sees it. The scorer only ranks candidates
-   that could genuinely be correct.
-4. **Source-specific intelligence stays in adapters.** Nyaa, AnimeTosho,
-    SubsPlease etc. keep their quirks inside their own `src/*.js` / query
-    builder. Nothing tracker-specific leaks into the resolver, gates, or scorer.
-5. **No source or group identity checks outside adapters.** Code in `src/lib/`
-    (shared pipeline) must never test for `source === "nyaa"`,
-    `releaseGroup === "Rojima"`, or access `tracker` fields from normalized
-    objects. These rules belong exclusively in the source adapter. The invariant
-    lint test (`npm run test:invariants`) enforces this automatically.
-
-```text
-┌─────────────────────────────────────────────────┐
-│ HAYASE  QUERY                                   │
-│ titles · episode · resolution · exclusions      │
-└────────────────────────┬────────────────────────┘
-                         │  the same query goes to every enabled source
-                         ▼
-┌─────────────────────────────────────────────────┐
-│ SOURCES   (queried in parallel)                 │
-│                                                 │
-│ Nyaa         nyaa.si             raw firehose   │
-│ AnimeTosho   feed.animetosho.org anidb-mapped   │
-│ Seadex       releases.moe        best releases  │
-│ SubsPlease   subsplease.org      weekly subs    │
-│ Yameii       nyaa.si             english dubs   │
-│ ToonsHub     nyaa.si             dual-audio     │
-└────────────────────────┬────────────────────────┘
-                         │  each source filters its own hits through
-                         ▼
-┌─────────────────────────────────────────────────┐
-│ SHARED FILTER · src/lib/shared.js               │
-│ pick query title · match show · episode · res   │
-└────────────────────────┬────────────────────────┘
-                         ▼
-┌─────────────────────────────────────────────────┐
-│ HAYASE MERGES EVERY SOURCE                      │
-│ de-duplicate by infohash                        │
-└────────────────────────┬────────────────────────┘
-                         ▼
-┌─────────────────────────────────────────────────┐
-│ RESULTS IN THE PICKER                           │
-└─────────────────────────────────────────────────┘
-```
-
-The matching logic (which title to search with, how to tell a torrent belongs to the show, episode and batch detection) lives once in `src/lib/shared.js` and is inlined into every source at build time, so a fix applies everywhere at once.
-
-## Frequently asked questions
-
-<details>
-<summary><strong>Where can I find Hayase extensions?</strong></summary>
-
-This repo is one option. The previously-popular extensions in the `hayase-app` ecosystem (Nyaa, AnimeTosho, Seadex) have been marked Outdated and unmaintained for months. This pack picks up where they left off with six current, auto-updating sources.
-
-</details>
-
-<details>
-<summary><strong>How do I install extensions in Hayase?</strong></summary>
-
-Open Hayase. Settings, then Extensions, then the Repositories tab. Paste the install URL into the textbox at the top. Click Import Extensions. The sources appear in the Extensions tab where you can toggle each one on or off independently.
-
-</details>
-
-<details>
-<summary><strong>How do I update Hayase extensions?</strong></summary>
-
-Hayase auto-polls every extension's manifest URL on launch. As long as the extension's `update` field points to a maintained URL, new versions flow in automatically when you restart Hayase. For this pack specifically, just relaunch Hayase. All six sources stay current with no action from you.
-
-</details>
-
-<details>
-<summary><strong>Why are my existing Hayase extensions marked "Outdated"?</strong></summary>
-
-The Outdated badge means the upstream manifest published a higher version number than what you have installed. For the official `hayase-app` extensions, this means the maintainers stopped publishing updates. Either delete those and import this pack, or wait for the original maintainers to ship a new version.
-
-</details>
-
-<details>
-<summary><strong>Does this Hayase extension work on Android?</strong></summary>
-
-Yes. The same install URL works in Hayase on Android (8.0 or later). iOS is not supported because Hayase itself is not available on iOS, since Apple bans BitTorrent apps from the App Store.
-
-</details>
-
-<details>
-<summary><strong>Is this Hayase extension safe?</strong></summary>
-
-All source code is in this public repo. It only talks to public APIs (`nyaa.si`, `feed.animetosho.org`, `releases.moe`, `subsplease.org`). No tracking, no analytics, no authentication. Every source file is in the `src/` directory and the bundles in `dist/` are auto-built from those sources by GitHub Actions.
-
-</details>
-
-<details>
-<summary><strong>What sources does this pack include?</strong></summary>
-
-Six: Nyaa (raw firehose), AnimeTosho (anidb-mapped aggregator), Seadex (community-curated best releases), SubsPlease (weekly fansubs), Yameii (English dubs), and ToonsHub (dual-audio and multi-sub group releases). All toggleable.
-
-</details>
-
-## ID mapping
-
-`data/anilist-to-anidb.json` is a compact 170 KB map (~13,000 pairs) extracted from the [manami-project anime-offline-database](https://github.com/manami-project/anime-offline-database). The AnimeTosho extension fetches this file on first call (cached in memory for the session) to convert AniList IDs to AniDB IDs when Hayase doesn't provide them, enabling high-accuracy lookups via AnimeTosho's `?aid=<id>` endpoint.
-
-The mapping is regenerated weekly by `.github/workflows/mappings.yml` running `.github/scripts/build-mappings.js`. Manami publishes "Delta Update" commits multiple times per week and tagged weekly releases, so the chain stays fresh automatically with no manual action.
+These preferences feed into the scorer, which dynamically adjusts weight—avoided groups get penalized, preferred groups get bonus scores, preferred codecs and sources get boosts, etc.
 
 ## Develop
 
@@ -258,11 +95,16 @@ npm run build
 npm test
 ```
 
-`src/lib/shared.js` holds all the matching/query logic shared by every source (single source of truth). Each source in `src/` imports from it and is bundled into a standalone `dist/*.js` by tsup. CI rebuilds `dist/` on every push that touches `src/`, `package.json`, or `tsup.config.js`. `npm test` runs the relevance suite in `test/` against live nyaa.si.
+`src/lib/shared.js` holds all the matching/query logic shared across sources (single source of truth). Each source in `src/` imports from it and is bundled into a standalone `dist/*.js` by tsup. CI rebuilds `dist/` on every push.
 
-## Changelog
+Test suites:
 
-See [CHANGELOG.md](./CHANGELOG.md) for the full version history.
+- `npm test` — live relevance tests against nyaa.si (16 shows, zero off-show contamination gate)
+- `npm run test:all` — 5 offline suites: franchise-leak regression, matching logic, DB-title snapshots, golden harness, invariant lint
+- `npm run test:franchise` — Uma Musume S2 sibling-franchise leak regression
+- `npm run test:matching` — offline 300-show cross-franchise contamination test
+- `npm run test:golden` — golden fixture gate validation suite
+- `npm run test:invariants` — source-specific logic-free lib/ assertions
 
 ## License
 

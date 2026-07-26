@@ -8,7 +8,7 @@ import { configSchema, configDefaults, getInstallUrl } from './lib/config.js'
 const PROFILE = SOURCE_PROFILES.animetosho
 
 const BASE = 'https://feed.animetosho.org/json'
-const MAPPING_URL = 'https://raw.githubusercontent.com/anh9000/anitorrent/main/data/anilist-to-anidb.json'
+const MAPPING_URL = 'https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/master/data/anilist-to-anidb.json'
 
 let mappingCache = null
 let mappingPromise = null

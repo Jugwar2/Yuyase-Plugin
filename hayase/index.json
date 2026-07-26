@@ -2,7 +2,7 @@
   {
     "manifestVersion": 2,
     "name": "Nyaa",
-    "id": "anitorrent.nyaa",
+    "id": "yuyase.nyaa",
     "version": "1.2.0",
     "type": "torrent",
     "accuracy": "medium",
@@ -22,7 +22,7 @@
   {
     "manifestVersion": 2,
     "name": "AnimeTosho",
-    "id": "anitorrent.animetosho",
+    "id": "yuyase.animetosho",
     "version": "1.2.0",
     "type": "torrent",
     "accuracy": "high",
@@ -42,7 +42,7 @@
   {
     "manifestVersion": 2,
     "name": "Seadex",
-    "id": "anitorrent.seadex",
+    "id": "yuyase.seadex",
     "version": "1.2.0",
     "type": "torrent",
     "accuracy": "high",
@@ -62,7 +62,7 @@
   {
     "manifestVersion": 2,
     "name": "SubsPlease",
-    "id": "anitorrent.subsplease",
+    "id": "yuyase.subsplease",
     "version": "1.2.0",
     "type": "torrent",
     "accuracy": "high",
@@ -82,7 +82,7 @@
   {
     "manifestVersion": 2,
     "name": "Yameii (Dubs)",
-    "id": "anitorrent.yameii",
+    "id": "yuyase.yameii",
     "version": "1.2.0",
     "type": "torrent",
     "accuracy": "high",
@@ -102,7 +102,7 @@
   {
     "manifestVersion": 2,
     "name": "ToonsHub",
-    "id": "anitorrent.toonshub",
+    "id": "yuyase.toonshub",
     "version": "1.2.0",
     "type": "torrent",
     "accuracy": "high",

@@ -10,7 +10,7 @@ const BG = '#0a0a0a'
 const FG = '#f6f8fa'
 const ACCENT = '#9ca3af'
 
-const TITLE = 'anitorrent'
+const TITLE = 'yuyase'
 const TITLE_SIZE = 220
 const TITLE_SPACING = 0.93
 

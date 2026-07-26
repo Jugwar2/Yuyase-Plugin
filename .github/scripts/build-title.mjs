@@ -2,7 +2,7 @@ import opentype from 'opentype.js'
 import { writeFile, mkdir } from 'node:fs/promises'
 
 const FONT_URL = 'https://fonts.gstatic.com/s/pixelifysans/v3/CHy2V-3HFUT7aC4iv1TxGDR9DHEserHN25py2TTp0H1Y.ttf'
-const TEXT = 'anitorrent'
+const TEXT = 'yuyase'
 const FONT_SIZE = 96
 const PADDING = 12
 const LETTER_SPACING_FACTOR = 0.93

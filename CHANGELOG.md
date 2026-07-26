@@ -383,22 +383,4 @@ All six sources declare `manifestVersion: 2`, `media: "both"`, `languages: ["ALL
 - Dual-manifest layout: `hayase/index.json` declares `manifestVersion: 2` for Hayase; `shiru/index.json` uses the Shiru manifest format. One shared `dist/nyaa.js` works in both apps.
 - GitHub Actions workflow rebuilds `dist/` automatically on every push that touches `src/`, `package.json`, or `tsup.config.js`.
 
-[1.6.0]: https://github.com/anh9000/anitorrent/releases/tag/v1.6.0
-[1.5.6]: https://github.com/anh9000/anitorrent/releases/tag/v1.5.6
-[1.5.5]: https://github.com/anh9000/anitorrent/releases/tag/v1.5.5
-[1.5.4]: https://github.com/anh9000/anitorrent/releases/tag/v1.5.4
-[1.5.3]: https://github.com/anh9000/anitorrent/releases/tag/v1.5.3
-[1.5.2]: https://github.com/anh9000/anitorrent/releases/tag/v1.5.2
-[1.5.1]: https://github.com/anh9000/anitorrent/releases/tag/v1.5.1
-[1.5.0]: https://github.com/anh9000/anitorrent/releases/tag/v1.5.0
-[1.4.0]: https://github.com/anh9000/anitorrent/releases/tag/v1.4.0
-[1.3.1]: https://github.com/anh9000/anitorrent/releases/tag/v1.3.1
-[1.3.0]: https://github.com/anh9000/anitorrent/releases/tag/v1.3.0
-[1.2.0]: https://github.com/anh9000/anitorrent/releases/tag/v1.2.0
-[1.1.4]: https://github.com/anh9000/anitorrent/releases/tag/v1.1.4
-[1.1.3]: https://github.com/anh9000/anitorrent/releases/tag/v1.1.3
-[1.1.2]: https://github.com/anh9000/anitorrent/releases/tag/v1.1.2
-[1.1.1]: https://github.com/anh9000/anitorrent/releases/tag/v1.1.1
-[1.1.0]: https://github.com/anh9000/anitorrent/releases/tag/v1.1.0
-[1.0.1]: https://github.com/anh9000/anitorrent/compare/a7cef7d...20beb65
-[1.0.0]: https://github.com/anh9000/anitorrent/commit/a7cef7d
+
