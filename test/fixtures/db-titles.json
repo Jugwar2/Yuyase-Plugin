@@ -1,0 +1,5692 @@
+[
+  {
+    "note": "Fate/stay night UBW (TV; sibling Fate/Zero)",
+    "anilistId": 19603,
+    "requestSeason": 3,
+    "media": {
+      "id": 19603,
+      "romaji": "Fate/stay night: Unlimited Blade Works",
+      "english": "Fate/stay night: Unlimited Blade Works",
+      "native": "Fate/stay night [Unlimited Blade Works]",
+      "synonyms": [
+        "フェイト/ステイナイト Unlimited Blade Works",
+        "Fate/UBW",
+        "פייט/סטיי נייט: מלאכת חרבות אינסופית",
+        "Судьба/Ночь схватки: Бесконечный мир клинков"
+      ],
+      "format": "TV",
+      "episodes": 13,
+      "startDate": {
+        "year": 2014,
+        "month": 10,
+        "day": 5
+      }
+    },
+    "canonical": {
+      "anilist": 19603,
+      "titles": [
+        "Fate/stay night: Unlimited Blade Works",
+        "Fate/stay night: Unlimited Blade Works",
+        "Fate/stay night [Unlimited Blade Works]",
+        "フェイト/ステイナイト Unlimited Blade Works",
+        "Fate/UBW",
+        "פייט/סטיי נייט: מלאכת חרבות אינסופית",
+        "Судьба/Ночь схватки: Бесконечный мир клинков"
+      ],
+      "franchiseRoot": "Fate UBW",
+      "branches": [
+        {
+          "anilist": 19603,
+          "idMal": 22297,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 3,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2014,
+            "month": 10,
+            "day": 5
+          },
+          "titles": [
+            "Fate/stay night: Unlimited Blade Works",
+            "Fate/stay night: Unlimited Blade Works",
+            "Fate/stay night [Unlimited Blade Works]",
+            "フェイト/ステイナイト Unlimited Blade Works",
+            "Fate/UBW",
+            "פייט/סטיי נייט: מלאכת חרבות אינסופית",
+            "Судьба/Ночь схватки: Бесконечный мир клинков"
+          ],
+          "franchiseRoot": "Fate UBW",
+          "tokens": [
+            "fate",
+            "stay",
+            "night",
+            "unlimited",
+            "blade",
+            "works",
+            "ubw"
+          ]
+        },
+        {
+          "anilist": 356,
+          "idMal": 356,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 24,
+          "startDate": {
+            "year": 2006,
+            "month": 1,
+            "day": 7
+          },
+          "titles": [
+            "Fate/stay night",
+            "Fate/stay night",
+            "Fate/stay night",
+            "フェイト/ステイナイト",
+            "Судьба/Ночь схватки"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "fate",
+            "stay",
+            "night"
+          ]
+        },
+        {
+          "anilist": 11741,
+          "idMal": 11741,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 12,
+          "startDate": {
+            "year": 2012,
+            "month": 4,
+            "day": 8
+          },
+          "titles": [
+            "Fate/Zero 2nd Season",
+            "Fate/Zero Season 2",
+            "Fate/Zero 2ndシーズン",
+            "フェイト/ゼロ 2ndシーズン",
+            "F/Z",
+            "Судьба/Начало 2"
+          ],
+          "franchiseRoot": "F Z",
+          "tokens": [
+            "fate",
+            "zero",
+            "2nd",
+            "season"
+          ]
+        },
+        {
+          "anilist": 20792,
+          "idMal": 28701,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 4,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2015,
+            "month": 4,
+            "day": 5
+          },
+          "titles": [
+            "Fate/stay night: Unlimited Blade Works 2nd Season",
+            "Fate/stay night: Unlimited Blade Works 2nd Season",
+            "Fate/stay night [Unlimited Blade Works] 2ndシーズン",
+            "フェイト/ステイナイト Unlimited Blade Works 2ndシーズン",
+            "Судьба/Ночь схватки: Бесконечный мир клинков 2"
+          ],
+          "franchiseRoot": "Unlimited Blade Works 2nd",
+          "tokens": [
+            "fate",
+            "stay",
+            "night",
+            "unlimited",
+            "blade",
+            "works",
+            "2nd",
+            "season"
+          ]
+        },
+        {
+          "anilist": 14829,
+          "idMal": 14829,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 10,
+          "startDate": {
+            "year": 2013,
+            "month": 7,
+            "day": 6
+          },
+          "titles": [
+            "Fate/kaleid liner Prisma☆Illya",
+            "Fate/kaleid liner Prisma☆Illya",
+            "Fate/kaleid liner プリズマ☆イリヤ",
+            "Судьба: Девочка-волшебница Иллия"
+          ],
+          "franchiseRoot": "Fate kaleid liner",
+          "tokens": [
+            "fate",
+            "kaleid",
+            "liner",
+            "prisma",
+            "illya"
+          ]
+        },
+        {
+          "anilist": 6922,
+          "idMal": 6922,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2010,
+            "month": 1,
+            "day": 23
+          },
+          "titles": [
+            "Fate/stay night Movie: UNLIMITED BLADE WORKS",
+            "Fate/stay night: Unlimited Blade Works (Movie)",
+            "劇場版 Fate/stay night UNLIMITED BLADE WORKS",
+            "Gekijouban Fate/Stay Night: Unlimited Blade Works",
+            "Fate/stay night UBW",
+            "Судaьба/Ночь схватки: Бесконечный мир клинков"
+          ],
+          "franchiseRoot": "Fate stay night UBW",
+          "tokens": [
+            "fate",
+            "stay",
+            "night",
+            "movie",
+            "unlimited",
+            "blade",
+            "works",
+            "gekijouban",
+            "ubw"
+          ]
+        },
+        {
+          "anilist": 20791,
+          "idMal": 25537,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2017,
+            "month": 10,
+            "day": 14
+          },
+          "titles": [
+            "Fate/stay night [Heaven's Feel] I. presage flower",
+            "Fate/stay night [Heaven's Feel] I. presage flower",
+            "Fate/stay night[Heaven's Feel] Ⅰ.presage flower",
+            "Fate/HF",
+            "Судьба/Ночь схватки: Прикосновение небес"
+          ],
+          "franchiseRoot": "Fate HF",
+          "tokens": [
+            "fate",
+            "stay",
+            "night",
+            "heaven",
+            "feel",
+            "presage",
+            "flower"
+          ]
+        },
+        {
+          "anilist": 10012,
+          "idMal": 10012,
+          "anidb": null,
+          "format": "OVA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 12,
+          "startDate": {
+            "year": 2011,
+            "month": 8,
+            "day": 14
+          },
+          "titles": [
+            "Carnival Phantasm",
+            "カーニバル・ファンタズム",
+            "Карнавальный Фантазм"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "carnival",
+            "phantasm"
+          ]
+        },
+        {
+          "anilist": 98035,
+          "idMal": 34662,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 25,
+          "startDate": {
+            "year": 2017,
+            "month": 7,
+            "day": 2
+          },
+          "titles": [
+            "Fate/Apocrypha",
+            "Fate/Apocrypha",
+            "Fate/Apocrypha",
+            "פייט/אפוקריפה",
+            "Судьба/Апокриф"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "fate",
+            "apocrypha"
+          ]
+        },
+        {
+          "anilist": 21717,
+          "idMal": 33047,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2018,
+            "month": 1,
+            "day": 28
+          },
+          "titles": [
+            "Fate/EXTRA Last Encore",
+            "Fate/EXTRA Last Encore",
+            "Fate/EXTRA Last Encore",
+            "Oblitus Copernican Theory",
+            "Illustrias Geocentric Theory",
+            "פייט/אקסטרה ההדרן האחרון",
+            "Судьба/Дополнение: Последний вызов на бис"
+          ],
+          "franchiseRoot": "Fate EXTRA Last Encore",
+          "tokens": [
+            "fate",
+            "extra",
+            "last",
+            "encore",
+            "oblitus",
+            "copernican",
+            "theory",
+            "illustrias",
+            "geocentric"
+          ]
+        },
+        {
+          "anilist": 12565,
+          "idMal": 12565,
+          "anidb": null,
+          "format": "OVA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2011,
+            "month": 12,
+            "day": 31
+          },
+          "titles": [
+            "Fate/Prototype",
+            "Fate/Prototype",
+            "フェイト/プロトタイプ",
+            "Судьба/Прототип"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "fate",
+            "prototype"
+          ]
+        },
+        {
+          "anilist": 97815,
+          "idMal": 34321,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2016,
+            "month": 12,
+            "day": 31
+          },
+          "titles": [
+            "Fate/Grand Order: First Order",
+            "Fate/Grand Order: First Order",
+            "Fate/Grand Order -First Order-",
+            "פייט/המסדר העליון: הפקודה הראשונה",
+            "Судьба/Великий приказ: Первый приказ"
+          ],
+          "franchiseRoot": "Fate Grand Order",
+          "tokens": [
+            "fate",
+            "grand",
+            "order",
+            "first"
+          ]
+        },
+        {
+          "anilist": 100855,
+          "idMal": 37033,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2018,
+            "month": 1,
+            "day": 25
+          },
+          "titles": [
+            "Emiya-san Chi no Kyou no Gohan",
+            "Today's Menu for the Emiya Family",
+            "衛宮さんちの今日のごはん",
+            "Сегодняшнее меню для Эмии"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "emiya",
+            "san",
+            "chi",
+            "kyou",
+            "gohan",
+            "today",
+            "menu",
+            "for",
+            "the",
+            "family"
+          ]
+        },
+        {
+          "anilist": 159559,
+          "idMal": 54041,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2023,
+            "month": 10,
+            "day": 5
+          },
+          "titles": [
+            "16bit Sensation: ANOTHER LAYER",
+            "16bit Sensation: Another Layer",
+            "16bitセンセーション ANOTHER LAYER",
+            "16-битная чувственность: Новый слой",
+            "16bit 的感動ANOTHER LAYER"
+          ],
+          "franchiseRoot": "16bit ANOTHER LAYER",
+          "tokens": [
+            "16bit",
+            "sensation",
+            "another",
+            "layer"
+          ]
+        },
+        {
+          "anilist": 10087,
+          "idMal": 10087,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2011,
+            "month": 10,
+            "day": 2
+          },
+          "titles": [
+            "Fate/Zero",
+            "Fate/Zero",
+            "Fate/Zero",
+            "フェイト/ゼロ",
+            "F/Z",
+            "القدر/زيرو",
+            "פייט/זירו",
+            "Судьба/Начало"
+          ],
+          "franchiseRoot": "F Z",
+          "tokens": [
+            "fate",
+            "zero"
+          ]
+        },
+        {
+          "anilist": 13263,
+          "idMal": 13263,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 6,
+          "startDate": {
+            "year": 2012,
+            "month": 3,
+            "day": 7
+          },
+          "titles": [
+            "Fate/Zero: Onegai! Einzbern Soudanshitsu",
+            "Fate/Zero: Please! Einzbern Counseling Room",
+            "お願い!アインツベルン相談室",
+            "Fate/Zero Specials",
+            "Please! Einzbern Consultation Room",
+            "Tiger/Zero",
+            "Судьба/Начало: Пожалуйста! Консультация с Айнцберн"
+          ],
+          "franchiseRoot": "Tiger Zero",
+          "tokens": [
+            "fate",
+            "zero",
+            "onegai",
+            "einzbern",
+            "soudanshitsu",
+            "please",
+            "counseling",
+            "room",
+            "specials",
+            "consultation",
+            "tiger"
+          ]
+        },
+        {
+          "anilist": 106918,
+          "idMal": 38959,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2019,
+            "month": 7,
+            "day": 7
+          },
+          "titles": [
+            "Lord El-Melloi II-sei no Jikenbo: \"Rail Zeppelin\" Grace note",
+            "Lord El-Melloi II's Case Files {Rail Zeppelin} Grace note",
+            "ロード・エルメロイⅡ世の事件簿 {魔眼蒐集列車} Grace note",
+            "Досье лорда Эль-Меллоя II"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "lord",
+            "melloi",
+            "sei",
+            "jikenbo",
+            "rail",
+            "zeppelin",
+            "grace",
+            "note",
+            "case",
+            "files"
+          ]
+        },
+        {
+          "anilist": 21318,
+          "idMal": 31389,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2015,
+            "month": 10,
+            "day": 7
+          },
+          "titles": [
+            "Fate/stay night: Unlimited Blade Works 2nd Season - sunny day",
+            "Fate/stay night: Unlimited Blade Works 2nd Season - sunny day",
+            "Fate/stay night [Unlimited Blade Works] 2ndシーズン - sunny day",
+            "フェイト/ステイナイト Unlimited Blade Works 2ndシーズン - sunny day"
+          ],
+          "franchiseRoot": "Unlimited Blade Works 2nd sunny day",
+          "tokens": [
+            "fate",
+            "stay",
+            "night",
+            "unlimited",
+            "blade",
+            "works",
+            "2nd",
+            "season",
+            "sunny",
+            "day"
+          ]
+        },
+        {
+          "anilist": 19109,
+          "idMal": 19109,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 5,
+          "startDate": {
+            "year": 2013,
+            "month": 9,
+            "day": 27
+          },
+          "titles": [
+            "Fate/kaleid liner Prisma☆Illya Short Anime",
+            "Fate/kaleid liner プリズマ☆イリヤ ショートアニメ",
+            "Fate/kaleid liner Prisma☆Illya Specials"
+          ],
+          "franchiseRoot": "Fate kaleid liner",
+          "tokens": [
+            "fate",
+            "kaleid",
+            "liner",
+            "prisma",
+            "illya",
+            "short",
+            "anime",
+            "specials"
+          ]
+        },
+        {
+          "anilist": 18851,
+          "idMal": 18851,
+          "anidb": null,
+          "format": "OVA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2014,
+            "month": 3,
+            "day": 7
+          },
+          "titles": [
+            "Fate/kaleid liner Prisma☆Illya: Undoukai DE Dance!",
+            "Fate/kaleid liner Prisma☆Illya: Dance at the Sports Festival!",
+            "Fate/kaleid liner プリズマ☆イリヤ 運動会 DE ダンス！",
+            "Судьба/Девочка-волшебница Иллия OVA"
+          ],
+          "franchiseRoot": "OVA",
+          "tokens": [
+            "fate",
+            "kaleid",
+            "liner",
+            "prisma",
+            "illya",
+            "undoukai",
+            "dance",
+            "the",
+            "sports",
+            "festival",
+            "ova"
+          ]
+        },
+        {
+          "anilist": 100269,
+          "idMal": 38897,
+          "anidb": null,
+          "format": "OVA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2019,
+            "month": 6,
+            "day": 14
+          },
+          "titles": [
+            "Fate/kaleid liner Prisma☆Illya: Prisma☆Phantasm",
+            "Fate/kaleid liner Prisma☆Illya: Prisma☆Phantasm",
+            "Fate/kaleid liner プリズマ☆イリヤ~プリズマ☆ファンタズム~",
+            "Fate/kaleid liner Prisma☆Illya OVA",
+            "Судьба/Девочка-волшебница Иллия: Призматический фантазм"
+          ],
+          "franchiseRoot": "Fate kaleid liner Prisma Illya OVA",
+          "tokens": [
+            "fate",
+            "kaleid",
+            "liner",
+            "prisma",
+            "illya",
+            "phantasm",
+            "ova"
+          ]
+        },
+        {
+          "anilist": 21718,
+          "idMal": 33049,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2019,
+            "month": 1,
+            "day": 12
+          },
+          "titles": [
+            "Fate/stay night [Heaven's Feel] II. lost butterfly",
+            "Fate/stay night [Heaven's Feel] II. lost butterfly",
+            "Fate/stay night[Heaven's Feel] ⅠⅠ.lost butterfly",
+            "Fate/HF II",
+            "Судьба/Ночь схватки: Прикосновение небес 2"
+          ],
+          "franchiseRoot": "Fate HF",
+          "tokens": [
+            "fate",
+            "stay",
+            "night",
+            "heaven",
+            "feel",
+            "lost",
+            "butterfly"
+          ]
+        },
+        {
+          "anilist": 12187,
+          "idMal": 12187,
+          "anidb": null,
+          "format": "OVA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2011,
+            "month": 11,
+            "day": 26
+          },
+          "titles": [
+            "Carnival Phantasm EX Season",
+            "カーニバル・ファンタズム　EX Season",
+            "Carnival Phantasm OVA",
+            "Карнавальный фантазм: Прошлый сезон"
+          ],
+          "franchiseRoot": "Carnival Phantasm OVA",
+          "tokens": [
+            "carnival",
+            "phantasm",
+            "season",
+            "ova"
+          ]
+        },
+        {
+          "anilist": 15927,
+          "idMal": 15927,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2012,
+            "month": 7,
+            "day": 7
+          },
+          "titles": [
+            "Carnival Phantasm: HibiChika Special",
+            "カーニバル・ファンタズム ひびちかスペシャル",
+            "Carnival Phantasm (2013)",
+            "Carnival Phantasm Special Season",
+            "Карнавальный фантазм: ХибиТика"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "carnival",
+            "phantasm",
+            "hibichika",
+            "special",
+            "2013",
+            "season"
+          ]
+        },
+        {
+          "anilist": 169,
+          "idMal": 169,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 12,
+          "startDate": {
+            "year": 2003,
+            "month": 10,
+            "day": 10
+          },
+          "titles": [
+            "Shingetsutan Tsukihime",
+            "Lunar Legend Tsukihime",
+            "真月譚 月姫",
+            "Tsukihime - Lunar Legend",
+            "Lunar Legend Moon Princess",
+            "Moon Princess",
+            "True Lunar Chronicle Tsukihime",
+            "Повесть о лунной принцессе"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "shingetsutan",
+            "tsukihime",
+            "lunar",
+            "legend",
+            "moon",
+            "princess",
+            "true",
+            "chronicle"
+          ]
+        },
+        {
+          "anilist": 2593,
+          "idMal": 2593,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2007,
+            "month": 12,
+            "day": 1
+          },
+          "titles": [
+            "Kara no Kyoukai: Fukan Fuukei",
+            "the Garden of sinners Chapter 1: Thanatos. (Overlooking View)",
+            "空の境界 俯瞰風景"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "kara",
+            "kyoukai",
+            "fukan",
+            "fuukei",
+            "the",
+            "garden",
+            "sinners",
+            "chapter",
+            "thanatos",
+            "overlooking",
+            "view"
+          ]
+        },
+        {
+          "anilist": 127149,
+          "idMal": 44248,
+          "anidb": null,
+          "format": "OVA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 4,
+          "startDate": {
+            "year": 2021,
+            "month": 6,
+            "day": 2
+          },
+          "titles": [
+            "Fate/Grand Carnival",
+            "Fate/Grand Carnival",
+            "Fate/Grand Carnival",
+            "Судьба/Великий карнавал"
+          ],
+          "franchiseRoot": "Fate Grand Carnival",
+          "tokens": [
+            "fate",
+            "grand",
+            "carnival"
+          ]
+        },
+        {
+          "anilist": 100728,
+          "idMal": 36915,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2017,
+            "month": 12,
+            "day": 31
+          },
+          "titles": [
+            "Fate/Grand Order: MOONLIGHT/LOSTROOM",
+            "Fate/Grand Order -MOONLIGHT/LOSTROOM-",
+            "Fate/Grand Order -MOONLIGHT/LOSTROOM-",
+            "Fate/Grand Order: Moonlight/Lostroom"
+          ],
+          "franchiseRoot": "Fate Grand Order",
+          "tokens": [
+            "fate",
+            "grand",
+            "order",
+            "moonlight",
+            "lostroom"
+          ]
+        },
+        {
+          "anilist": 100729,
+          "idMal": 36914,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2017,
+            "month": 12,
+            "day": 31
+          },
+          "titles": [
+            "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
+            "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
+            "Fate/Grand Order氷室の天地～7人の最強偉人篇～"
+          ],
+          "franchiseRoot": "Fate Grand Order 7",
+          "tokens": [
+            "fate",
+            "grand",
+            "order",
+            "himuro",
+            "tenchi",
+            "nin",
+            "saikyou",
+            "gijin",
+            "hen"
+          ]
+        },
+        {
+          "anilist": 103276,
+          "idMal": 38085,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 5
+          },
+          "titles": [
+            "Fate/Grand Order: Shinsei Entaku Ryouiki Camelot - Wandering; Agateram",
+            "Fate/Grand Order Divine Realm of the Round Table: Camelot - Wandering; Agateram",
+            "劇場版 Fate/Grand Order -神聖円卓領域キャメロット- 前編 Wandering; Agateram",
+            "Судьба/Великий приказ: Камелот — Странствие"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "fate",
+            "grand",
+            "order",
+            "shinsei",
+            "entaku",
+            "ryouiki",
+            "camelot",
+            "wandering",
+            "agateram",
+            "divine",
+            "realm",
+            "the",
+            "round",
+            "table"
+          ]
+        },
+        {
+          "anilist": 106915,
+          "idMal": 38958,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 3,
+          "startDate": {
+            "year": 2018,
+            "month": 12,
+            "day": 31
+          },
+          "titles": [
+            "Manga de Wakaru! Fate/Grand Order",
+            "Learning with Manga! Fate/Grand Order",
+            "マンガでわかる！Fate/Grand Order",
+            "Manga de Wakaru! FGO",
+            "Learning with Manga! FGO"
+          ],
+          "franchiseRoot": "Manga de Wakaru FGO",
+          "tokens": [
+            "manga",
+            "wakaru",
+            "fate",
+            "grand",
+            "order",
+            "learning",
+            "with",
+            "fgo"
+          ]
+        },
+        {
+          "anilist": 101184,
+          "idMal": 36064,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": null,
+          "startDate": {
+            "year": 2014,
+            "month": 12,
+            "day": 27
+          },
+          "titles": [
+            "Fate/Grand Order CMs",
+            "Fate/Grand Order CMs",
+            "Fate/Grand Order CMs"
+          ],
+          "franchiseRoot": "Fate Grand Order CMs",
+          "tokens": [
+            "fate",
+            "grand",
+            "order",
+            "cms"
+          ]
+        },
+        {
+          "anilist": 159569,
+          "idMal": 54042,
+          "anidb": null,
+          "format": "TV_SHORT",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 33,
+          "startDate": {
+            "year": 2023,
+            "month": 2,
+            "day": 4
+          },
+          "titles": [
+            "Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai",
+            "Fate/Grand Order: You've Lost Ritsuka Fujimaru",
+            "Fate/Grand Order 藤丸立香はわからない",
+            "FGO 藤丸立香はわからない"
+          ],
+          "franchiseRoot": "FGO",
+          "tokens": [
+            "fate",
+            "grand",
+            "order",
+            "fujimaru",
+            "ritsuka",
+            "wakaranai",
+            "you",
+            "lost",
+            "fgo"
+          ]
+        }
+      ],
+      "seedAnilist": 19603,
+      "byFormat": {
+        "tv": [
+          {
+            "anilist": 19603,
+            "idMal": 22297,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 3,
+            "episodeCount": 13,
+            "startDate": {
+              "year": 2014,
+              "month": 10,
+              "day": 5
+            },
+            "titles": [
+              "Fate/stay night: Unlimited Blade Works",
+              "Fate/stay night: Unlimited Blade Works",
+              "Fate/stay night [Unlimited Blade Works]",
+              "フェイト/ステイナイト Unlimited Blade Works",
+              "Fate/UBW",
+              "פייט/סטיי נייט: מלאכת חרבות אינסופית",
+              "Судьба/Ночь схватки: Бесконечный мир клинков"
+            ],
+            "franchiseRoot": "Fate UBW",
+            "tokens": [
+              "fate",
+              "stay",
+              "night",
+              "unlimited",
+              "blade",
+              "works",
+              "ubw"
+            ]
+          },
+          {
+            "anilist": 356,
+            "idMal": 356,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 24,
+            "startDate": {
+              "year": 2006,
+              "month": 1,
+              "day": 7
+            },
+            "titles": [
+              "Fate/stay night",
+              "Fate/stay night",
+              "Fate/stay night",
+              "フェイト/ステイナイト",
+              "Судьба/Ночь схватки"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "fate",
+              "stay",
+              "night"
+            ]
+          },
+          {
+            "anilist": 11741,
+            "idMal": 11741,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 12,
+            "startDate": {
+              "year": 2012,
+              "month": 4,
+              "day": 8
+            },
+            "titles": [
+              "Fate/Zero 2nd Season",
+              "Fate/Zero Season 2",
+              "Fate/Zero 2ndシーズン",
+              "フェイト/ゼロ 2ndシーズン",
+              "F/Z",
+              "Судьба/Начало 2"
+            ],
+            "franchiseRoot": "F Z",
+            "tokens": [
+              "fate",
+              "zero",
+              "2nd",
+              "season"
+            ]
+          },
+          {
+            "anilist": 20792,
+            "idMal": 28701,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 4,
+            "episodeCount": 13,
+            "startDate": {
+              "year": 2015,
+              "month": 4,
+              "day": 5
+            },
+            "titles": [
+              "Fate/stay night: Unlimited Blade Works 2nd Season",
+              "Fate/stay night: Unlimited Blade Works 2nd Season",
+              "Fate/stay night [Unlimited Blade Works] 2ndシーズン",
+              "フェイト/ステイナイト Unlimited Blade Works 2ndシーズン",
+              "Судьба/Ночь схватки: Бесконечный мир клинков 2"
+            ],
+            "franchiseRoot": "Unlimited Blade Works 2nd",
+            "tokens": [
+              "fate",
+              "stay",
+              "night",
+              "unlimited",
+              "blade",
+              "works",
+              "2nd",
+              "season"
+            ]
+          },
+          {
+            "anilist": 14829,
+            "idMal": 14829,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 10,
+            "startDate": {
+              "year": 2013,
+              "month": 7,
+              "day": 6
+            },
+            "titles": [
+              "Fate/kaleid liner Prisma☆Illya",
+              "Fate/kaleid liner Prisma☆Illya",
+              "Fate/kaleid liner プリズマ☆イリヤ",
+              "Судьба: Девочка-волшебница Иллия"
+            ],
+            "franchiseRoot": "Fate kaleid liner",
+            "tokens": [
+              "fate",
+              "kaleid",
+              "liner",
+              "prisma",
+              "illya"
+            ]
+          },
+          {
+            "anilist": 98035,
+            "idMal": 34662,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 25,
+            "startDate": {
+              "year": 2017,
+              "month": 7,
+              "day": 2
+            },
+            "titles": [
+              "Fate/Apocrypha",
+              "Fate/Apocrypha",
+              "Fate/Apocrypha",
+              "פייט/אפוקריפה",
+              "Судьба/Апокриф"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "fate",
+              "apocrypha"
+            ]
+          },
+          {
+            "anilist": 21717,
+            "idMal": 33047,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 13,
+            "startDate": {
+              "year": 2018,
+              "month": 1,
+              "day": 28
+            },
+            "titles": [
+              "Fate/EXTRA Last Encore",
+              "Fate/EXTRA Last Encore",
+              "Fate/EXTRA Last Encore",
+              "Oblitus Copernican Theory",
+              "Illustrias Geocentric Theory",
+              "פייט/אקסטרה ההדרן האחרון",
+              "Судьба/Дополнение: Последний вызов на бис"
+            ],
+            "franchiseRoot": "Fate EXTRA Last Encore",
+            "tokens": [
+              "fate",
+              "extra",
+              "last",
+              "encore",
+              "oblitus",
+              "copernican",
+              "theory",
+              "illustrias",
+              "geocentric"
+            ]
+          },
+          {
+            "anilist": 100855,
+            "idMal": 37033,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 13,
+            "startDate": {
+              "year": 2018,
+              "month": 1,
+              "day": 25
+            },
+            "titles": [
+              "Emiya-san Chi no Kyou no Gohan",
+              "Today's Menu for the Emiya Family",
+              "衛宮さんちの今日のごはん",
+              "Сегодняшнее меню для Эмии"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "emiya",
+              "san",
+              "chi",
+              "kyou",
+              "gohan",
+              "today",
+              "menu",
+              "for",
+              "the",
+              "family"
+            ]
+          },
+          {
+            "anilist": 159559,
+            "idMal": 54041,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 13,
+            "startDate": {
+              "year": 2023,
+              "month": 10,
+              "day": 5
+            },
+            "titles": [
+              "16bit Sensation: ANOTHER LAYER",
+              "16bit Sensation: Another Layer",
+              "16bitセンセーション ANOTHER LAYER",
+              "16-битная чувственность: Новый слой",
+              "16bit 的感動ANOTHER LAYER"
+            ],
+            "franchiseRoot": "16bit ANOTHER LAYER",
+            "tokens": [
+              "16bit",
+              "sensation",
+              "another",
+              "layer"
+            ]
+          },
+          {
+            "anilist": 10087,
+            "idMal": 10087,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 13,
+            "startDate": {
+              "year": 2011,
+              "month": 10,
+              "day": 2
+            },
+            "titles": [
+              "Fate/Zero",
+              "Fate/Zero",
+              "Fate/Zero",
+              "フェイト/ゼロ",
+              "F/Z",
+              "القدر/زيرو",
+              "פייט/זירו",
+              "Судьба/Начало"
+            ],
+            "franchiseRoot": "F Z",
+            "tokens": [
+              "fate",
+              "zero"
+            ]
+          },
+          {
+            "anilist": 106918,
+            "idMal": 38959,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 13,
+            "startDate": {
+              "year": 2019,
+              "month": 7,
+              "day": 7
+            },
+            "titles": [
+              "Lord El-Melloi II-sei no Jikenbo: \"Rail Zeppelin\" Grace note",
+              "Lord El-Melloi II's Case Files {Rail Zeppelin} Grace note",
+              "ロード・エルメロイⅡ世の事件簿 {魔眼蒐集列車} Grace note",
+              "Досье лорда Эль-Меллоя II"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "lord",
+              "melloi",
+              "sei",
+              "jikenbo",
+              "rail",
+              "zeppelin",
+              "grace",
+              "note",
+              "case",
+              "files"
+            ]
+          },
+          {
+            "anilist": 169,
+            "idMal": 169,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 12,
+            "startDate": {
+              "year": 2003,
+              "month": 10,
+              "day": 10
+            },
+            "titles": [
+              "Shingetsutan Tsukihime",
+              "Lunar Legend Tsukihime",
+              "真月譚 月姫",
+              "Tsukihime - Lunar Legend",
+              "Lunar Legend Moon Princess",
+              "Moon Princess",
+              "True Lunar Chronicle Tsukihime",
+              "Повесть о лунной принцессе"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "shingetsutan",
+              "tsukihime",
+              "lunar",
+              "legend",
+              "moon",
+              "princess",
+              "true",
+              "chronicle"
+            ]
+          },
+          {
+            "anilist": 159569,
+            "idMal": 54042,
+            "anidb": null,
+            "format": "TV_SHORT",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 33,
+            "startDate": {
+              "year": 2023,
+              "month": 2,
+              "day": 4
+            },
+            "titles": [
+              "Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai",
+              "Fate/Grand Order: You've Lost Ritsuka Fujimaru",
+              "Fate/Grand Order 藤丸立香はわからない",
+              "FGO 藤丸立香はわからない"
+            ],
+            "franchiseRoot": "FGO",
+            "tokens": [
+              "fate",
+              "grand",
+              "order",
+              "fujimaru",
+              "ritsuka",
+              "wakaranai",
+              "you",
+              "lost",
+              "fgo"
+            ]
+          }
+        ],
+        "movie": [
+          {
+            "anilist": 6922,
+            "idMal": 6922,
+            "anidb": null,
+            "format": "MOVIE",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2010,
+              "month": 1,
+              "day": 23
+            },
+            "titles": [
+              "Fate/stay night Movie: UNLIMITED BLADE WORKS",
+              "Fate/stay night: Unlimited Blade Works (Movie)",
+              "劇場版 Fate/stay night UNLIMITED BLADE WORKS",
+              "Gekijouban Fate/Stay Night: Unlimited Blade Works",
+              "Fate/stay night UBW",
+              "Судaьба/Ночь схватки: Бесконечный мир клинков"
+            ],
+            "franchiseRoot": "Fate stay night UBW",
+            "tokens": [
+              "fate",
+              "stay",
+              "night",
+              "movie",
+              "unlimited",
+              "blade",
+              "works",
+              "gekijouban",
+              "ubw"
+            ]
+          },
+          {
+            "anilist": 20791,
+            "idMal": 25537,
+            "anidb": null,
+            "format": "MOVIE",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2017,
+              "month": 10,
+              "day": 14
+            },
+            "titles": [
+              "Fate/stay night [Heaven's Feel] I. presage flower",
+              "Fate/stay night [Heaven's Feel] I. presage flower",
+              "Fate/stay night[Heaven's Feel] Ⅰ.presage flower",
+              "Fate/HF",
+              "Судьба/Ночь схватки: Прикосновение небес"
+            ],
+            "franchiseRoot": "Fate HF",
+            "tokens": [
+              "fate",
+              "stay",
+              "night",
+              "heaven",
+              "feel",
+              "presage",
+              "flower"
+            ]
+          },
+          {
+            "anilist": 21718,
+            "idMal": 33049,
+            "anidb": null,
+            "format": "MOVIE",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2019,
+              "month": 1,
+              "day": 12
+            },
+            "titles": [
+              "Fate/stay night [Heaven's Feel] II. lost butterfly",
+              "Fate/stay night [Heaven's Feel] II. lost butterfly",
+              "Fate/stay night[Heaven's Feel] ⅠⅠ.lost butterfly",
+              "Fate/HF II",
+              "Судьба/Ночь схватки: Прикосновение небес 2"
+            ],
+            "franchiseRoot": "Fate HF",
+            "tokens": [
+              "fate",
+              "stay",
+              "night",
+              "heaven",
+              "feel",
+              "lost",
+              "butterfly"
+            ]
+          },
+          {
+            "anilist": 2593,
+            "idMal": 2593,
+            "anidb": null,
+            "format": "MOVIE",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2007,
+              "month": 12,
+              "day": 1
+            },
+            "titles": [
+              "Kara no Kyoukai: Fukan Fuukei",
+              "the Garden of sinners Chapter 1: Thanatos. (Overlooking View)",
+              "空の境界 俯瞰風景"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "kara",
+              "kyoukai",
+              "fukan",
+              "fuukei",
+              "the",
+              "garden",
+              "sinners",
+              "chapter",
+              "thanatos",
+              "overlooking",
+              "view"
+            ]
+          },
+          {
+            "anilist": 103276,
+            "idMal": 38085,
+            "anidb": null,
+            "format": "MOVIE",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2020,
+              "month": 12,
+              "day": 5
+            },
+            "titles": [
+              "Fate/Grand Order: Shinsei Entaku Ryouiki Camelot - Wandering; Agateram",
+              "Fate/Grand Order Divine Realm of the Round Table: Camelot - Wandering; Agateram",
+              "劇場版 Fate/Grand Order -神聖円卓領域キャメロット- 前編 Wandering; Agateram",
+              "Судьба/Великий приказ: Камелот — Странствие"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "fate",
+              "grand",
+              "order",
+              "shinsei",
+              "entaku",
+              "ryouiki",
+              "camelot",
+              "wandering",
+              "agateram",
+              "divine",
+              "realm",
+              "the",
+              "round",
+              "table"
+            ]
+          }
+        ],
+        "special": [
+          {
+            "anilist": 14829,
+            "idMal": 14829,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 10,
+            "startDate": {
+              "year": 2013,
+              "month": 7,
+              "day": 6
+            },
+            "titles": [
+              "Fate/kaleid liner Prisma☆Illya",
+              "Fate/kaleid liner Prisma☆Illya",
+              "Fate/kaleid liner プリズマ☆イリヤ",
+              "Судьба: Девочка-волшебница Иллия"
+            ],
+            "franchiseRoot": "Fate kaleid liner",
+            "tokens": [
+              "fate",
+              "kaleid",
+              "liner",
+              "prisma",
+              "illya"
+            ]
+          },
+          {
+            "anilist": 10012,
+            "idMal": 10012,
+            "anidb": null,
+            "format": "OVA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 12,
+            "startDate": {
+              "year": 2011,
+              "month": 8,
+              "day": 14
+            },
+            "titles": [
+              "Carnival Phantasm",
+              "カーニバル・ファンタズム",
+              "Карнавальный Фантазм"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "carnival",
+              "phantasm"
+            ]
+          },
+          {
+            "anilist": 12565,
+            "idMal": 12565,
+            "anidb": null,
+            "format": "OVA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2011,
+              "month": 12,
+              "day": 31
+            },
+            "titles": [
+              "Fate/Prototype",
+              "Fate/Prototype",
+              "フェイト/プロトタイプ",
+              "Судьба/Прототип"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "fate",
+              "prototype"
+            ]
+          },
+          {
+            "anilist": 97815,
+            "idMal": 34321,
+            "anidb": null,
+            "format": "SPECIAL",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2016,
+              "month": 12,
+              "day": 31
+            },
+            "titles": [
+              "Fate/Grand Order: First Order",
+              "Fate/Grand Order: First Order",
+              "Fate/Grand Order -First Order-",
+              "פייט/המסדר העליון: הפקודה הראשונה",
+              "Судьба/Великий приказ: Первый приказ"
+            ],
+            "franchiseRoot": "Fate Grand Order",
+            "tokens": [
+              "fate",
+              "grand",
+              "order",
+              "first"
+            ]
+          },
+          {
+            "anilist": 100855,
+            "idMal": 37033,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 13,
+            "startDate": {
+              "year": 2018,
+              "month": 1,
+              "day": 25
+            },
+            "titles": [
+              "Emiya-san Chi no Kyou no Gohan",
+              "Today's Menu for the Emiya Family",
+              "衛宮さんちの今日のごはん",
+              "Сегодняшнее меню для Эмии"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "emiya",
+              "san",
+              "chi",
+              "kyou",
+              "gohan",
+              "today",
+              "menu",
+              "for",
+              "the",
+              "family"
+            ]
+          },
+          {
+            "anilist": 13263,
+            "idMal": 13263,
+            "anidb": null,
+            "format": "SPECIAL",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 6,
+            "startDate": {
+              "year": 2012,
+              "month": 3,
+              "day": 7
+            },
+            "titles": [
+              "Fate/Zero: Onegai! Einzbern Soudanshitsu",
+              "Fate/Zero: Please! Einzbern Counseling Room",
+              "お願い!アインツベルン相談室",
+              "Fate/Zero Specials",
+              "Please! Einzbern Consultation Room",
+              "Tiger/Zero",
+              "Судьба/Начало: Пожалуйста! Консультация с Айнцберн"
+            ],
+            "franchiseRoot": "Tiger Zero",
+            "tokens": [
+              "fate",
+              "zero",
+              "onegai",
+              "einzbern",
+              "soudanshitsu",
+              "please",
+              "counseling",
+              "room",
+              "specials",
+              "consultation",
+              "tiger"
+            ]
+          },
+          {
+            "anilist": 21318,
+            "idMal": 31389,
+            "anidb": null,
+            "format": "SPECIAL",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2015,
+              "month": 10,
+              "day": 7
+            },
+            "titles": [
+              "Fate/stay night: Unlimited Blade Works 2nd Season - sunny day",
+              "Fate/stay night: Unlimited Blade Works 2nd Season - sunny day",
+              "Fate/stay night [Unlimited Blade Works] 2ndシーズン - sunny day",
+              "フェイト/ステイナイト Unlimited Blade Works 2ndシーズン - sunny day"
+            ],
+            "franchiseRoot": "Unlimited Blade Works 2nd sunny day",
+            "tokens": [
+              "fate",
+              "stay",
+              "night",
+              "unlimited",
+              "blade",
+              "works",
+              "2nd",
+              "season",
+              "sunny",
+              "day"
+            ]
+          },
+          {
+            "anilist": 19109,
+            "idMal": 19109,
+            "anidb": null,
+            "format": "SPECIAL",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 5,
+            "startDate": {
+              "year": 2013,
+              "month": 9,
+              "day": 27
+            },
+            "titles": [
+              "Fate/kaleid liner Prisma☆Illya Short Anime",
+              "Fate/kaleid liner プリズマ☆イリヤ ショートアニメ",
+              "Fate/kaleid liner Prisma☆Illya Specials"
+            ],
+            "franchiseRoot": "Fate kaleid liner",
+            "tokens": [
+              "fate",
+              "kaleid",
+              "liner",
+              "prisma",
+              "illya",
+              "short",
+              "anime",
+              "specials"
+            ]
+          },
+          {
+            "anilist": 18851,
+            "idMal": 18851,
+            "anidb": null,
+            "format": "OVA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2014,
+              "month": 3,
+              "day": 7
+            },
+            "titles": [
+              "Fate/kaleid liner Prisma☆Illya: Undoukai DE Dance!",
+              "Fate/kaleid liner Prisma☆Illya: Dance at the Sports Festival!",
+              "Fate/kaleid liner プリズマ☆イリヤ 運動会 DE ダンス！",
+              "Судьба/Девочка-волшебница Иллия OVA"
+            ],
+            "franchiseRoot": "OVA",
+            "tokens": [
+              "fate",
+              "kaleid",
+              "liner",
+              "prisma",
+              "illya",
+              "undoukai",
+              "dance",
+              "the",
+              "sports",
+              "festival",
+              "ova"
+            ]
+          },
+          {
+            "anilist": 100269,
+            "idMal": 38897,
+            "anidb": null,
+            "format": "OVA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2019,
+              "month": 6,
+              "day": 14
+            },
+            "titles": [
+              "Fate/kaleid liner Prisma☆Illya: Prisma☆Phantasm",
+              "Fate/kaleid liner Prisma☆Illya: Prisma☆Phantasm",
+              "Fate/kaleid liner プリズマ☆イリヤ~プリズマ☆ファンタズム~",
+              "Fate/kaleid liner Prisma☆Illya OVA",
+              "Судьба/Девочка-волшебница Иллия: Призматический фантазм"
+            ],
+            "franchiseRoot": "Fate kaleid liner Prisma Illya OVA",
+            "tokens": [
+              "fate",
+              "kaleid",
+              "liner",
+              "prisma",
+              "illya",
+              "phantasm",
+              "ova"
+            ]
+          },
+          {
+            "anilist": 12187,
+            "idMal": 12187,
+            "anidb": null,
+            "format": "OVA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2011,
+              "month": 11,
+              "day": 26
+            },
+            "titles": [
+              "Carnival Phantasm EX Season",
+              "カーニバル・ファンタズム　EX Season",
+              "Carnival Phantasm OVA",
+              "Карнавальный фантазм: Прошлый сезон"
+            ],
+            "franchiseRoot": "Carnival Phantasm OVA",
+            "tokens": [
+              "carnival",
+              "phantasm",
+              "season",
+              "ova"
+            ]
+          },
+          {
+            "anilist": 15927,
+            "idMal": 15927,
+            "anidb": null,
+            "format": "SPECIAL",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2012,
+              "month": 7,
+              "day": 7
+            },
+            "titles": [
+              "Carnival Phantasm: HibiChika Special",
+              "カーニバル・ファンタズム ひびちかスペシャル",
+              "Carnival Phantasm (2013)",
+              "Carnival Phantasm Special Season",
+              "Карнавальный фантазм: ХибиТика"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "carnival",
+              "phantasm",
+              "hibichika",
+              "special",
+              "2013",
+              "season"
+            ]
+          },
+          {
+            "anilist": 127149,
+            "idMal": 44248,
+            "anidb": null,
+            "format": "OVA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 4,
+            "startDate": {
+              "year": 2021,
+              "month": 6,
+              "day": 2
+            },
+            "titles": [
+              "Fate/Grand Carnival",
+              "Fate/Grand Carnival",
+              "Fate/Grand Carnival",
+              "Судьба/Великий карнавал"
+            ],
+            "franchiseRoot": "Fate Grand Carnival",
+            "tokens": [
+              "fate",
+              "grand",
+              "carnival"
+            ]
+          },
+          {
+            "anilist": 100728,
+            "idMal": 36915,
+            "anidb": null,
+            "format": "SPECIAL",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2017,
+              "month": 12,
+              "day": 31
+            },
+            "titles": [
+              "Fate/Grand Order: MOONLIGHT/LOSTROOM",
+              "Fate/Grand Order -MOONLIGHT/LOSTROOM-",
+              "Fate/Grand Order -MOONLIGHT/LOSTROOM-",
+              "Fate/Grand Order: Moonlight/Lostroom"
+            ],
+            "franchiseRoot": "Fate Grand Order",
+            "tokens": [
+              "fate",
+              "grand",
+              "order",
+              "moonlight",
+              "lostroom"
+            ]
+          },
+          {
+            "anilist": 100729,
+            "idMal": 36914,
+            "anidb": null,
+            "format": "SPECIAL",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2017,
+              "month": 12,
+              "day": 31
+            },
+            "titles": [
+              "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
+              "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
+              "Fate/Grand Order氷室の天地～7人の最強偉人篇～"
+            ],
+            "franchiseRoot": "Fate Grand Order 7",
+            "tokens": [
+              "fate",
+              "grand",
+              "order",
+              "himuro",
+              "tenchi",
+              "nin",
+              "saikyou",
+              "gijin",
+              "hen"
+            ]
+          },
+          {
+            "anilist": 106915,
+            "idMal": 38958,
+            "anidb": null,
+            "format": "SPECIAL",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 3,
+            "startDate": {
+              "year": 2018,
+              "month": 12,
+              "day": 31
+            },
+            "titles": [
+              "Manga de Wakaru! Fate/Grand Order",
+              "Learning with Manga! Fate/Grand Order",
+              "マンガでわかる！Fate/Grand Order",
+              "Manga de Wakaru! FGO",
+              "Learning with Manga! FGO"
+            ],
+            "franchiseRoot": "Manga de Wakaru FGO",
+            "tokens": [
+              "manga",
+              "wakaru",
+              "fate",
+              "grand",
+              "order",
+              "learning",
+              "with",
+              "fgo"
+            ]
+          },
+          {
+            "anilist": 101184,
+            "idMal": 36064,
+            "anidb": null,
+            "format": "SPECIAL",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": null,
+            "startDate": {
+              "year": 2014,
+              "month": 12,
+              "day": 27
+            },
+            "titles": [
+              "Fate/Grand Order CMs",
+              "Fate/Grand Order CMs",
+              "Fate/Grand Order CMs"
+            ],
+            "franchiseRoot": "Fate Grand Order CMs",
+            "tokens": [
+              "fate",
+              "grand",
+              "order",
+              "cms"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "note": "Re:Zero S2 (TV)",
+    "anilistId": 108632,
+    "requestSeason": 2,
+    "media": {
+      "id": 108632,
+      "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
+      "english": "Re:ZERO -Starting Life in Another World- Season 2",
+      "native": "Re:ゼロから始める異世界生活 2nd Season",
+      "synonyms": [
+        "Re:Zero kara Hajimeru Isekai Seikatsu (2020)",
+        "Re: 제로부터 시작하는 이세계 생활 2기",
+        "Re:从零开始的异世界生活第二季（上半）",
+        "Re:从零开始的异世界生活 2 上半",
+        "Re:Zero รีเซทชีวิต ฝ่าวิกฤตต่างโลก ภาค 2",
+        "Re:Zero — жизнь с нуля в другом мире. Второй сезон"
+      ],
+      "format": "TV",
+      "episodes": 13,
+      "startDate": {
+        "year": 2020,
+        "month": 7,
+        "day": 8
+      }
+    },
+    "canonical": {
+      "anilist": 108632,
+      "titles": [
+        "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
+        "Re:ZERO -Starting Life in Another World- Season 2",
+        "Re:ゼロから始める異世界生活 2nd Season",
+        "Re:Zero kara Hajimeru Isekai Seikatsu (2020)",
+        "Re: 제로부터 시작하는 이세계 생활 2기",
+        "Re:从零开始的异世界生活第二季（上半）",
+        "Re:从零开始的异世界生活 2 上半",
+        "Re:Zero รีเซทชีวิต ฝ่าวิกฤตต่างโลก ภาค 2",
+        "Re:Zero — жизнь с нуля в другом мире. Второй сезон"
+      ],
+      "franchiseRoot": "Re",
+      "branches": [
+        {
+          "anilist": 108632,
+          "idMal": 39587,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 2,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2020,
+            "month": 7,
+            "day": 8
+          },
+          "titles": [
+            "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
+            "Re:ZERO -Starting Life in Another World- Season 2",
+            "Re:ゼロから始める異世界生活 2nd Season",
+            "Re:Zero kara Hajimeru Isekai Seikatsu (2020)",
+            "Re: 제로부터 시작하는 이세계 생활 2기",
+            "Re:从零开始的异世界生活第二季（上半）",
+            "Re:从零开始的异世界生活 2 上半",
+            "Re:Zero รีเซทชีวิต ฝ่าวิกฤตต่างโลก ภาค 2",
+            "Re:Zero — жизнь с нуля в другом мире. Второй сезон"
+          ],
+          "franchiseRoot": "Re",
+          "tokens": [
+            "zero",
+            "kara",
+            "hajimeru",
+            "isekai",
+            "seikatsu",
+            "2nd",
+            "season",
+            "starting",
+            "life",
+            "another",
+            "world",
+            "2020"
+          ]
+        },
+        {
+          "anilist": 21355,
+          "idMal": 31240,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 25,
+          "startDate": {
+            "year": 2016,
+            "month": 4,
+            "day": 4
+          },
+          "titles": [
+            "Re:Zero kara Hajimeru Isekai Seikatsu",
+            "Re:ZERO -Starting Life in Another World-",
+            "Re:ゼロから始める異世界生活",
+            "Re: Life in a different world from zero",
+            "ReZero",
+            "Re Zero",
+            "Re：从零开始的异世界生活",
+            "Re:Zero รีเซทชีวิต ฝ่าวิกฤตต่างโลก",
+            "Re:Zero — жизнь с нуля в другом мире",
+            "Re:Zero Empezar de cero en un mundo diferente",
+            "Re:Zero – Bắt đầu lại ở thế giới khác"
+          ],
+          "franchiseRoot": "ReZero",
+          "tokens": [
+            "zero",
+            "kara",
+            "hajimeru",
+            "isekai",
+            "seikatsu",
+            "starting",
+            "life",
+            "another",
+            "world",
+            "different",
+            "from",
+            "rezero",
+            "empezar",
+            "cero",
+            "mundo",
+            "diferente"
+          ]
+        },
+        {
+          "anilist": 119661,
+          "idMal": 42203,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 3,
+          "episodeCount": 12,
+          "startDate": {
+            "year": 2021,
+            "month": 1,
+            "day": 6
+          },
+          "titles": [
+            "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2",
+            "Re:ZERO -Starting Life in Another World- Season 2 Part 2",
+            "Re:ゼロから始める異世界生活 2nd Season Part 2",
+            "Re:Zero kara Hajimeru Isekai Seikatsu (2021)",
+            "Re: 제로부터 시작하는 이세계 생활 2기 파트 2",
+            "Re:从零开始的异世界生活第二季（下半）",
+            "Re:从零开始的异世界生活 2 下半",
+            "Re:Zero รีเซทชีวิต ฝ่าวิกฤตต่างโลก ภาค 2 พาร์ท 2",
+            "Re:Zero — жизнь с нуля в другом мире. Второй сезон"
+          ],
+          "franchiseRoot": "Re",
+          "tokens": [
+            "zero",
+            "kara",
+            "hajimeru",
+            "isekai",
+            "seikatsu",
+            "2nd",
+            "season",
+            "part",
+            "starting",
+            "life",
+            "another",
+            "world",
+            "2021"
+          ]
+        },
+        {
+          "anilist": 120700,
+          "idMal": 42364,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2020,
+            "month": 7,
+            "day": 10
+          },
+          "titles": [
+            "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 2nd Season",
+            "Re:ゼロから始める休憩時間(ブレイクタイム) 2nd Season",
+            "Re:ZERO ~Starting Break Time From Zero~ Season 2"
+          ],
+          "franchiseRoot": "Re",
+          "tokens": [
+            "zero",
+            "kara",
+            "hajimeru",
+            "kyuukei",
+            "jikan",
+            "break",
+            "time",
+            "2nd",
+            "season",
+            "starting",
+            "from"
+          ]
+        },
+        {
+          "anilist": 21780,
+          "idMal": 33142,
+          "anidb": null,
+          "format": "TV_SHORT",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 11,
+          "startDate": {
+            "year": 2016,
+            "month": 4,
+            "day": 8
+          },
+          "titles": [
+            "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time)",
+            "Re:ZERO ~Starting Break Time From Zero~",
+            "Re:ゼロから始める休憩時間(ブレイクタイム)"
+          ],
+          "franchiseRoot": "Re",
+          "tokens": [
+            "zero",
+            "kara",
+            "hajimeru",
+            "kyuukei",
+            "jikan",
+            "break",
+            "time",
+            "starting",
+            "from"
+          ]
+        },
+        {
+          "anilist": 21891,
+          "idMal": 33569,
+          "anidb": null,
+          "format": "TV_SHORT",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 14,
+          "startDate": {
+            "year": 2016,
+            "month": 6,
+            "day": 24
+          },
+          "titles": [
+            "Re:Petit kara Hajimeru Isekai Seikatsu",
+            "Re:PETIT ~Re: Starting Life in Another World From PETIT~",
+            "Re:プチから始める異世界生活"
+          ],
+          "franchiseRoot": "Re",
+          "tokens": [
+            "petit",
+            "kara",
+            "hajimeru",
+            "isekai",
+            "seikatsu",
+            "starting",
+            "life",
+            "another",
+            "world",
+            "from"
+          ]
+        },
+        {
+          "anilist": 100049,
+          "idMal": 36286,
+          "anidb": null,
+          "format": "OVA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 2,
+          "startDate": {
+            "year": 2018,
+            "month": 10,
+            "day": 6
+          },
+          "titles": [
+            "Re:Zero kara Hajimeru Isekai Seikatsu OVAs",
+            "Re:ZERO -Starting Life in Another World- OVAs",
+            "Re:ゼロから始める異世界生活 OVAs",
+            "Re:ZERO -Starting Life in Another World- Memory Snow",
+            "Re:ZERO -Starting Life in Another World- The Frozen Bond",
+            "Re:Zero kara Hajimeru Isekai Seikatsu - Memory Snow",
+            "Re:Zero kara Hajimeru Isekai Seikatsu: Hyouketsu no Kizuna",
+            "Re:ゼロから始める異世界生活 Memory Snow",
+            "Re:ゼロから始める異世界生活 氷結の絆",
+            "Re:Zero รีเซทชีวิต ฝ่าวิกฤตต่างโลก Memory Snow",
+            "Re:Zero รีเซทชีวิต ฝ่าวิกฤตต่างโลก The Frozen Bond",
+            "Re:Zero — жизнь с нуля в другом мире OVA. Ледяные узы"
+          ],
+          "franchiseRoot": "Re",
+          "tokens": [
+            "zero",
+            "kara",
+            "hajimeru",
+            "isekai",
+            "seikatsu",
+            "ovas",
+            "starting",
+            "life",
+            "another",
+            "world",
+            "memory",
+            "snow",
+            "the",
+            "frozen",
+            "bond",
+            "hyouketsu",
+            "kizuna",
+            "ova"
+          ]
+        },
+        {
+          "anilist": 104454,
+          "idMal": 38472,
+          "anidb": null,
+          "format": "TV_SHORT",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 12,
+          "startDate": {
+            "year": 2019,
+            "month": 4,
+            "day": 10
+          },
+          "titles": [
+            "Isekai Quartet",
+            "Isekai Quartet",
+            "異世界かるてっと",
+            "Квартет попаданцев"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "isekai",
+            "quartet"
+          ]
+        },
+        {
+          "anilist": 110178,
+          "idMal": 39988,
+          "anidb": null,
+          "format": "TV_SHORT",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 12,
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 15
+          },
+          "titles": [
+            "Isekai Quartet 2",
+            "Isekai Quartet 2",
+            "異世界かるてっと 2",
+            "Квартет попаданцев 2"
+          ],
+          "franchiseRoot": "2",
+          "tokens": [
+            "isekai",
+            "quartet"
+          ]
+        },
+        {
+          "anilist": 117074,
+          "idMal": 41567,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2022,
+            "month": 6,
+            "day": 10
+          },
+          "titles": [
+            "Isekai Quartet: Another World",
+            "Isekai Quartet The Movie: Another World",
+            "異世界かるてっと ～あなざーわーるど～"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "isekai",
+            "quartet",
+            "another",
+            "world",
+            "the",
+            "movie"
+          ]
+        },
+        {
+          "anilist": 166093,
+          "idMal": 55636,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2024,
+            "month": 1,
+            "day": 13
+          },
+          "titles": [
+            "Snack Basue",
+            "Snack Basue",
+            "スナックバス江",
+            "小酒館Basue",
+            "Бар «Снэк Басуэ»"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "snack",
+            "basue"
+          ]
+        },
+        {
+          "anilist": 194447,
+          "idMal": 61851,
+          "anidb": null,
+          "format": "TV_SHORT",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 11,
+          "startDate": {
+            "year": 2025,
+            "month": 10,
+            "day": 13
+          },
+          "titles": [
+            "Isekai Quartet 3",
+            "Isekai Quartet 3",
+            "異世界かるてっと 3",
+            "Квартет попаданцев 3"
+          ],
+          "franchiseRoot": "3",
+          "tokens": [
+            "isekai",
+            "quartet"
+          ]
+        },
+        {
+          "anilist": 128306,
+          "idMal": null,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 12,
+          "startDate": {
+            "year": 2021,
+            "month": 1,
+            "day": 8
+          },
+          "titles": [
+            "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 2nd Season Part 2",
+            "Re:ゼロから始める休憩時間(ブレイクタイム) 2nd Season Part 2",
+            "Re:ZERO ~Starting Break Time From Zero~ Season 2 Part 2"
+          ],
+          "franchiseRoot": "Re",
+          "tokens": [
+            "zero",
+            "kara",
+            "hajimeru",
+            "kyuukei",
+            "jikan",
+            "break",
+            "time",
+            "2nd",
+            "season",
+            "part",
+            "starting",
+            "from"
+          ]
+        },
+        {
+          "anilist": 163134,
+          "idMal": 54857,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 4,
+          "episodeCount": 16,
+          "startDate": {
+            "year": 2024,
+            "month": 10,
+            "day": 2
+          },
+          "titles": [
+            "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
+            "Re:ZERO -Starting Life in Another World- Season 3",
+            "Re:ゼロから始める異世界生活 3rd season",
+            "Re:ZERO – Жизнь с нуля в альтернативном мире 3"
+          ],
+          "franchiseRoot": "Re",
+          "tokens": [
+            "zero",
+            "kara",
+            "hajimeru",
+            "isekai",
+            "seikatsu",
+            "3rd",
+            "season",
+            "starting",
+            "life",
+            "another",
+            "world"
+          ]
+        }
+      ],
+      "seedAnilist": 108632,
+      "byFormat": {
+        "tv": [
+          {
+            "anilist": 108632,
+            "idMal": 39587,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 2,
+            "episodeCount": 13,
+            "startDate": {
+              "year": 2020,
+              "month": 7,
+              "day": 8
+            },
+            "titles": [
+              "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
+              "Re:ZERO -Starting Life in Another World- Season 2",
+              "Re:ゼロから始める異世界生活 2nd Season",
+              "Re:Zero kara Hajimeru Isekai Seikatsu (2020)",
+              "Re: 제로부터 시작하는 이세계 생활 2기",
+              "Re:从零开始的异世界生活第二季（上半）",
+              "Re:从零开始的异世界生活 2 上半",
+              "Re:Zero รีเซทชีวิต ฝ่าวิกฤตต่างโลก ภาค 2",
+              "Re:Zero — жизнь с нуля в другом мире. Второй сезон"
+            ],
+            "franchiseRoot": "Re",
+            "tokens": [
+              "zero",
+              "kara",
+              "hajimeru",
+              "isekai",
+              "seikatsu",
+              "2nd",
+              "season",
+              "starting",
+              "life",
+              "another",
+              "world",
+              "2020"
+            ]
+          },
+          {
+            "anilist": 21355,
+            "idMal": 31240,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 25,
+            "startDate": {
+              "year": 2016,
+              "month": 4,
+              "day": 4
+            },
+            "titles": [
+              "Re:Zero kara Hajimeru Isekai Seikatsu",
+              "Re:ZERO -Starting Life in Another World-",
+              "Re:ゼロから始める異世界生活",
+              "Re: Life in a different world from zero",
+              "ReZero",
+              "Re Zero",
+              "Re：从零开始的异世界生活",
+              "Re:Zero รีเซทชีวิต ฝ่าวิกฤตต่างโลก",
+              "Re:Zero — жизнь с нуля в другом мире",
+              "Re:Zero Empezar de cero en un mundo diferente",
+              "Re:Zero – Bắt đầu lại ở thế giới khác"
+            ],
+            "franchiseRoot": "ReZero",
+            "tokens": [
+              "zero",
+              "kara",
+              "hajimeru",
+              "isekai",
+              "seikatsu",
+              "starting",
+              "life",
+              "another",
+              "world",
+              "different",
+              "from",
+              "rezero",
+              "empezar",
+              "cero",
+              "mundo",
+              "diferente"
+            ]
+          },
+          {
+            "anilist": 119661,
+            "idMal": 42203,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 3,
+            "episodeCount": 12,
+            "startDate": {
+              "year": 2021,
+              "month": 1,
+              "day": 6
+            },
+            "titles": [
+              "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2",
+              "Re:ZERO -Starting Life in Another World- Season 2 Part 2",
+              "Re:ゼロから始める異世界生活 2nd Season Part 2",
+              "Re:Zero kara Hajimeru Isekai Seikatsu (2021)",
+              "Re: 제로부터 시작하는 이세계 생활 2기 파트 2",
+              "Re:从零开始的异世界生活第二季（下半）",
+              "Re:从零开始的异世界生活 2 下半",
+              "Re:Zero รีเซทชีวิต ฝ่าวิกฤตต่างโลก ภาค 2 พาร์ท 2",
+              "Re:Zero — жизнь с нуля в другом мире. Второй сезон"
+            ],
+            "franchiseRoot": "Re",
+            "tokens": [
+              "zero",
+              "kara",
+              "hajimeru",
+              "isekai",
+              "seikatsu",
+              "2nd",
+              "season",
+              "part",
+              "starting",
+              "life",
+              "another",
+              "world",
+              "2021"
+            ]
+          },
+          {
+            "anilist": 120700,
+            "idMal": 42364,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 13,
+            "startDate": {
+              "year": 2020,
+              "month": 7,
+              "day": 10
+            },
+            "titles": [
+              "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 2nd Season",
+              "Re:ゼロから始める休憩時間(ブレイクタイム) 2nd Season",
+              "Re:ZERO ~Starting Break Time From Zero~ Season 2"
+            ],
+            "franchiseRoot": "Re",
+            "tokens": [
+              "zero",
+              "kara",
+              "hajimeru",
+              "kyuukei",
+              "jikan",
+              "break",
+              "time",
+              "2nd",
+              "season",
+              "starting",
+              "from"
+            ]
+          },
+          {
+            "anilist": 21780,
+            "idMal": 33142,
+            "anidb": null,
+            "format": "TV_SHORT",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 11,
+            "startDate": {
+              "year": 2016,
+              "month": 4,
+              "day": 8
+            },
+            "titles": [
+              "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time)",
+              "Re:ZERO ~Starting Break Time From Zero~",
+              "Re:ゼロから始める休憩時間(ブレイクタイム)"
+            ],
+            "franchiseRoot": "Re",
+            "tokens": [
+              "zero",
+              "kara",
+              "hajimeru",
+              "kyuukei",
+              "jikan",
+              "break",
+              "time",
+              "starting",
+              "from"
+            ]
+          },
+          {
+            "anilist": 21891,
+            "idMal": 33569,
+            "anidb": null,
+            "format": "TV_SHORT",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 14,
+            "startDate": {
+              "year": 2016,
+              "month": 6,
+              "day": 24
+            },
+            "titles": [
+              "Re:Petit kara Hajimeru Isekai Seikatsu",
+              "Re:PETIT ~Re: Starting Life in Another World From PETIT~",
+              "Re:プチから始める異世界生活"
+            ],
+            "franchiseRoot": "Re",
+            "tokens": [
+              "petit",
+              "kara",
+              "hajimeru",
+              "isekai",
+              "seikatsu",
+              "starting",
+              "life",
+              "another",
+              "world",
+              "from"
+            ]
+          },
+          {
+            "anilist": 104454,
+            "idMal": 38472,
+            "anidb": null,
+            "format": "TV_SHORT",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 12,
+            "startDate": {
+              "year": 2019,
+              "month": 4,
+              "day": 10
+            },
+            "titles": [
+              "Isekai Quartet",
+              "Isekai Quartet",
+              "異世界かるてっと",
+              "Квартет попаданцев"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "isekai",
+              "quartet"
+            ]
+          },
+          {
+            "anilist": 110178,
+            "idMal": 39988,
+            "anidb": null,
+            "format": "TV_SHORT",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 12,
+            "startDate": {
+              "year": 2020,
+              "month": 1,
+              "day": 15
+            },
+            "titles": [
+              "Isekai Quartet 2",
+              "Isekai Quartet 2",
+              "異世界かるてっと 2",
+              "Квартет попаданцев 2"
+            ],
+            "franchiseRoot": "2",
+            "tokens": [
+              "isekai",
+              "quartet"
+            ]
+          },
+          {
+            "anilist": 166093,
+            "idMal": 55636,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 13,
+            "startDate": {
+              "year": 2024,
+              "month": 1,
+              "day": 13
+            },
+            "titles": [
+              "Snack Basue",
+              "Snack Basue",
+              "スナックバス江",
+              "小酒館Basue",
+              "Бар «Снэк Басуэ»"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "snack",
+              "basue"
+            ]
+          },
+          {
+            "anilist": 194447,
+            "idMal": 61851,
+            "anidb": null,
+            "format": "TV_SHORT",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 11,
+            "startDate": {
+              "year": 2025,
+              "month": 10,
+              "day": 13
+            },
+            "titles": [
+              "Isekai Quartet 3",
+              "Isekai Quartet 3",
+              "異世界かるてっと 3",
+              "Квартет попаданцев 3"
+            ],
+            "franchiseRoot": "3",
+            "tokens": [
+              "isekai",
+              "quartet"
+            ]
+          },
+          {
+            "anilist": 128306,
+            "idMal": null,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 12,
+            "startDate": {
+              "year": 2021,
+              "month": 1,
+              "day": 8
+            },
+            "titles": [
+              "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 2nd Season Part 2",
+              "Re:ゼロから始める休憩時間(ブレイクタイム) 2nd Season Part 2",
+              "Re:ZERO ~Starting Break Time From Zero~ Season 2 Part 2"
+            ],
+            "franchiseRoot": "Re",
+            "tokens": [
+              "zero",
+              "kara",
+              "hajimeru",
+              "kyuukei",
+              "jikan",
+              "break",
+              "time",
+              "2nd",
+              "season",
+              "part",
+              "starting",
+              "from"
+            ]
+          },
+          {
+            "anilist": 163134,
+            "idMal": 54857,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 4,
+            "episodeCount": 16,
+            "startDate": {
+              "year": 2024,
+              "month": 10,
+              "day": 2
+            },
+            "titles": [
+              "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
+              "Re:ZERO -Starting Life in Another World- Season 3",
+              "Re:ゼロから始める異世界生活 3rd season",
+              "Re:ZERO – Жизнь с нуля в альтернативном мире 3"
+            ],
+            "franchiseRoot": "Re",
+            "tokens": [
+              "zero",
+              "kara",
+              "hajimeru",
+              "isekai",
+              "seikatsu",
+              "3rd",
+              "season",
+              "starting",
+              "life",
+              "another",
+              "world"
+            ]
+          }
+        ],
+        "movie": [
+          {
+            "anilist": 117074,
+            "idMal": 41567,
+            "anidb": null,
+            "format": "MOVIE",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2022,
+              "month": 6,
+              "day": 10
+            },
+            "titles": [
+              "Isekai Quartet: Another World",
+              "Isekai Quartet The Movie: Another World",
+              "異世界かるてっと ～あなざーわーるど～"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "isekai",
+              "quartet",
+              "another",
+              "world",
+              "the",
+              "movie"
+            ]
+          }
+        ],
+        "special": [
+          {
+            "anilist": 120700,
+            "idMal": 42364,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 13,
+            "startDate": {
+              "year": 2020,
+              "month": 7,
+              "day": 10
+            },
+            "titles": [
+              "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 2nd Season",
+              "Re:ゼロから始める休憩時間(ブレイクタイム) 2nd Season",
+              "Re:ZERO ~Starting Break Time From Zero~ Season 2"
+            ],
+            "franchiseRoot": "Re",
+            "tokens": [
+              "zero",
+              "kara",
+              "hajimeru",
+              "kyuukei",
+              "jikan",
+              "break",
+              "time",
+              "2nd",
+              "season",
+              "starting",
+              "from"
+            ]
+          },
+          {
+            "anilist": 100049,
+            "idMal": 36286,
+            "anidb": null,
+            "format": "OVA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 2,
+            "startDate": {
+              "year": 2018,
+              "month": 10,
+              "day": 6
+            },
+            "titles": [
+              "Re:Zero kara Hajimeru Isekai Seikatsu OVAs",
+              "Re:ZERO -Starting Life in Another World- OVAs",
+              "Re:ゼロから始める異世界生活 OVAs",
+              "Re:ZERO -Starting Life in Another World- Memory Snow",
+              "Re:ZERO -Starting Life in Another World- The Frozen Bond",
+              "Re:Zero kara Hajimeru Isekai Seikatsu - Memory Snow",
+              "Re:Zero kara Hajimeru Isekai Seikatsu: Hyouketsu no Kizuna",
+              "Re:ゼロから始める異世界生活 Memory Snow",
+              "Re:ゼロから始める異世界生活 氷結の絆",
+              "Re:Zero รีเซทชีวิต ฝ่าวิกฤตต่างโลก Memory Snow",
+              "Re:Zero รีเซทชีวิต ฝ่าวิกฤตต่างโลก The Frozen Bond",
+              "Re:Zero — жизнь с нуля в другом мире OVA. Ледяные узы"
+            ],
+            "franchiseRoot": "Re",
+            "tokens": [
+              "zero",
+              "kara",
+              "hajimeru",
+              "isekai",
+              "seikatsu",
+              "ovas",
+              "starting",
+              "life",
+              "another",
+              "world",
+              "memory",
+              "snow",
+              "the",
+              "frozen",
+              "bond",
+              "hyouketsu",
+              "kizuna",
+              "ova"
+            ]
+          },
+          {
+            "anilist": 128306,
+            "idMal": null,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 12,
+            "startDate": {
+              "year": 2021,
+              "month": 1,
+              "day": 8
+            },
+            "titles": [
+              "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 2nd Season Part 2",
+              "Re:ゼロから始める休憩時間(ブレイクタイム) 2nd Season Part 2",
+              "Re:ZERO ~Starting Break Time From Zero~ Season 2 Part 2"
+            ],
+            "franchiseRoot": "Re",
+            "tokens": [
+              "zero",
+              "kara",
+              "hajimeru",
+              "kyuukei",
+              "jikan",
+              "break",
+              "time",
+              "2nd",
+              "season",
+              "part",
+              "starting",
+              "from"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "note": "Bleach TYBW (TV; sequel of long S1 chain)",
+    "anilistId": 116674,
+    "requestSeason": 2,
+    "media": {
+      "id": 116674,
+      "romaji": "BLEACH: Sennen Kessen-hen",
+      "english": "BLEACH: Thousand-Year Blood War",
+      "native": "BLEACH 千年血戦篇",
+      "synonyms": [
+        "بليتش: حرب الألف سنة الدموية",
+        "Bleach: La guerre sanglante de mille ans",
+        "BLEACH TYBW"
+      ],
+      "format": "TV",
+      "episodes": 13,
+      "startDate": {
+        "year": 2022,
+        "month": 10,
+        "day": 11
+      }
+    },
+    "canonical": {
+      "anilist": 116674,
+      "titles": [
+        "BLEACH: Sennen Kessen-hen",
+        "BLEACH: Thousand-Year Blood War",
+        "BLEACH 千年血戦篇",
+        "بليتش: حرب الألف سنة الدموية",
+        "Bleach: La guerre sanglante de mille ans",
+        "BLEACH TYBW"
+      ],
+      "franchiseRoot": "BLEACH TYBW",
+      "branches": [
+        {
+          "anilist": 116674,
+          "idMal": 41467,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 2,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2022,
+            "month": 10,
+            "day": 11
+          },
+          "titles": [
+            "BLEACH: Sennen Kessen-hen",
+            "BLEACH: Thousand-Year Blood War",
+            "BLEACH 千年血戦篇",
+            "بليتش: حرب الألف سنة الدموية",
+            "Bleach: La guerre sanglante de mille ans",
+            "BLEACH TYBW"
+          ],
+          "franchiseRoot": "BLEACH TYBW",
+          "tokens": [
+            "bleach",
+            "sennen",
+            "kessen",
+            "hen",
+            "thousand",
+            "year",
+            "blood",
+            "war",
+            "guerre",
+            "sanglante",
+            "mille",
+            "ans",
+            "tybw"
+          ]
+        },
+        {
+          "anilist": 269,
+          "idMal": 269,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 366,
+          "startDate": {
+            "year": 2004,
+            "month": 10,
+            "day": 5
+          },
+          "titles": [
+            "BLEACH",
+            "Bleach",
+            "BLEACH",
+            "ブリーチ",
+            "'בליץ",
+            "เทพมรณะ",
+            "بليتش",
+            "Блич"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "bleach"
+          ]
+        },
+        {
+          "anilist": 142033,
+          "idMal": 51060,
+          "anidb": null,
+          "format": "MUSIC",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2021,
+            "month": 11,
+            "day": 23
+          },
+          "titles": [
+            "Rapport",
+            "Rapport",
+            "Rapport"
+          ],
+          "franchiseRoot": "Rapport",
+          "tokens": [
+            "rapport"
+          ]
+        },
+        {
+          "anilist": 159322,
+          "idMal": 53998,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 3,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2023,
+            "month": 7,
+            "day": 8
+          },
+          "titles": [
+            "BLEACH: Sennen Kessen-hen - Ketsubetsu-tan",
+            "BLEACH: Thousand-Year Blood War - The Separation",
+            "BLEACH 千年血戦篇-訣別譚-",
+            "BLEACH: Thousand Year Blood War Part 2",
+            "BLEACH 千年血戦篇 第2クール",
+            "BLEACH TYBW"
+          ],
+          "franchiseRoot": "BLEACH TYBW",
+          "tokens": [
+            "bleach",
+            "sennen",
+            "kessen",
+            "hen",
+            "ketsubetsu",
+            "tan",
+            "thousand",
+            "year",
+            "blood",
+            "war",
+            "the",
+            "separation",
+            "part",
+            "tybw"
+          ]
+        },
+        {
+          "anilist": 834,
+          "idMal": 834,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2006,
+            "month": 3,
+            "day": 23
+          },
+          "titles": [
+            "BLEACH: The Sealed Sword Frenzy",
+            "BLEACH The Sealed Sword Frenzy",
+            "Bleach: Jump Festa 2005"
+          ],
+          "franchiseRoot": "Bleach",
+          "tokens": [
+            "bleach",
+            "the",
+            "sealed",
+            "sword",
+            "frenzy",
+            "jump",
+            "festa",
+            "2005"
+          ]
+        },
+        {
+          "anilist": 1686,
+          "idMal": 1686,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2006,
+            "month": 12,
+            "day": 16
+          },
+          "titles": [
+            "BLEACH: MEMORIES OF NOBODY",
+            "Bleach the Movie: Memories of Nobody",
+            "BLEACH MEMORIES OF NOBODY",
+            "Bleach Movie 1",
+            "بليتش: ذكريات اللا أحد"
+          ],
+          "franchiseRoot": "Bleach Movie 1",
+          "tokens": [
+            "bleach",
+            "memories",
+            "nobody",
+            "the",
+            "movie"
+          ]
+        },
+        {
+          "anilist": 2889,
+          "idMal": 2889,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2007,
+            "month": 12,
+            "day": 22
+          },
+          "titles": [
+            "BLEACH: The DiamondDust Rebellion - Mou Hitotsu no Hyourinmaru",
+            "Bleach the Movie: The DiamondDust Rebellion",
+            "BLEACH The DiamondDust Rebellion もう一つの氷輪丸",
+            "Bleach Movie 2",
+            "Bleach: The Diamond Dust Rebellion - Another Hyourinmaru",
+            "بليتش: تمرد غبار الماس",
+            "Bleach: The Movie 2: The DiamondDust Rebellion "
+          ],
+          "franchiseRoot": "Bleach Movie 2",
+          "tokens": [
+            "bleach",
+            "the",
+            "diamonddust",
+            "rebellion",
+            "mou",
+            "hitotsu",
+            "hyourinmaru",
+            "movie",
+            "diamond",
+            "dust",
+            "another"
+          ]
+        },
+        {
+          "anilist": 4835,
+          "idMal": 4835,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2008,
+            "month": 12,
+            "day": 13
+          },
+          "titles": [
+            "BLEACH: Fade to Black - Kimi no Na wo Yobu",
+            "Bleach the Movie: Fade to Black",
+            "BLEACH Fade to Black 君の名を呼ぶ",
+            "Bleach Movie 3",
+            "Bleach: Fade to Black - I Call Your Name",
+            "بليتش: التلاشي إلى الأسود"
+          ],
+          "franchiseRoot": "Bleach Movie 3",
+          "tokens": [
+            "bleach",
+            "fade",
+            "black",
+            "kimi",
+            "yobu",
+            "the",
+            "movie",
+            "call",
+            "your",
+            "name"
+          ]
+        },
+        {
+          "anilist": 8247,
+          "idMal": 8247,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2010,
+            "month": 12,
+            "day": 4
+          },
+          "titles": [
+            "BLEACH: Jigoku-hen",
+            "Bleach the Movie: Hell Verse",
+            "BLEACH 地獄篇",
+            "Bleach Movie 4",
+            "Bleach: The Hell Chapter",
+            "بليتش: قصيدة الجحيم"
+          ],
+          "franchiseRoot": "BLEACH",
+          "tokens": [
+            "bleach",
+            "jigoku",
+            "hen",
+            "the",
+            "movie",
+            "hell",
+            "verse",
+            "chapter"
+          ]
+        },
+        {
+          "anilist": 100719,
+          "idMal": 35118,
+          "anidb": null,
+          "format": "OVA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2008,
+            "month": 9,
+            "day": 21
+          },
+          "titles": [
+            "BLEACH Colorful!: Gotei Juusan Yatai Daisakusen!",
+            "BLEACH カラブリ！護廷十三屋台大作戦！",
+            "Bleach: Jump Festa 2008",
+            "Bleach KaraBuri!: Gotei Juusan Yatai Daisakusen!"
+          ],
+          "franchiseRoot": "BLEACH",
+          "tokens": [
+            "bleach",
+            "colorful",
+            "gotei",
+            "juusan",
+            "yatai",
+            "daisakusen",
+            "jump",
+            "festa",
+            "2008",
+            "karaburi"
+          ]
+        },
+        {
+          "anilist": 116673,
+          "idMal": 41468,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 3,
+          "startDate": {
+            "year": 2020,
+            "month": 10,
+            "day": 2
+          },
+          "titles": [
+            "BURN THE WITCH",
+            "BURN THE WITCH",
+            "BURN THE WITCH"
+          ],
+          "franchiseRoot": "BURN THE WITCH",
+          "tokens": [
+            "burn",
+            "the",
+            "witch"
+          ]
+        },
+        {
+          "anilist": 154037,
+          "idMal": 762,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2004,
+            "month": 12,
+            "day": 18
+          },
+          "titles": [
+            "BLEACH: memories in the rain",
+            "BLEACH memories in the rain",
+            "Bleach: Jump Festa 2004",
+            "ブリーチ Memories in the Rain"
+          ],
+          "franchiseRoot": "Bleach",
+          "tokens": [
+            "bleach",
+            "memories",
+            "the",
+            "rain",
+            "jump",
+            "festa",
+            "2004"
+          ]
+        },
+        {
+          "anilist": 182561,
+          "idMal": 60048,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2024,
+            "month": 10,
+            "day": 5
+          },
+          "titles": [
+            "BLEACH 20th PV",
+            "BLEACH 20th Anime Anniversary Official Trailer",
+            "BLEACH 20th PV",
+            "BLEACH 𝟐𝟎𝐭𝐡 𝐀𝐧𝐧𝐢𝐯𝐞𝐫𝐬𝐚𝐫𝐲",
+            "BLEACH 20周年 PV",
+            "ブリーチ 20th PV",
+            "BLEACH animation 20th"
+          ],
+          "franchiseRoot": "20th PV",
+          "tokens": [
+            "bleach",
+            "20th",
+            "anime",
+            "anniversary",
+            "official",
+            "trailer",
+            "animation"
+          ]
+        },
+        {
+          "anilist": 169755,
+          "idMal": 56784,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 4,
+          "episodeCount": 14,
+          "startDate": {
+            "year": 2024,
+            "month": 10,
+            "day": 5
+          },
+          "titles": [
+            "BLEACH: Sennen Kessen-hen - Soukoku-tan",
+            "BLEACH: Thousand-Year Blood War - The Conflict",
+            "BLEACH 千年血戦篇-相剋譚-",
+            "BLEACH: Thousand Year Blood War Part 3",
+            "BLEACH 千年血戦篇 第3クール",
+            "BLEACH TYBW"
+          ],
+          "franchiseRoot": "BLEACH TYBW",
+          "tokens": [
+            "bleach",
+            "sennen",
+            "kessen",
+            "hen",
+            "soukoku",
+            "tan",
+            "thousand",
+            "year",
+            "blood",
+            "war",
+            "the",
+            "conflict",
+            "part",
+            "tybw"
+          ]
+        }
+      ],
+      "seedAnilist": 116674,
+      "byFormat": {
+        "tv": [
+          {
+            "anilist": 116674,
+            "idMal": 41467,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 2,
+            "episodeCount": 13,
+            "startDate": {
+              "year": 2022,
+              "month": 10,
+              "day": 11
+            },
+            "titles": [
+              "BLEACH: Sennen Kessen-hen",
+              "BLEACH: Thousand-Year Blood War",
+              "BLEACH 千年血戦篇",
+              "بليتش: حرب الألف سنة الدموية",
+              "Bleach: La guerre sanglante de mille ans",
+              "BLEACH TYBW"
+            ],
+            "franchiseRoot": "BLEACH TYBW",
+            "tokens": [
+              "bleach",
+              "sennen",
+              "kessen",
+              "hen",
+              "thousand",
+              "year",
+              "blood",
+              "war",
+              "guerre",
+              "sanglante",
+              "mille",
+              "ans",
+              "tybw"
+            ]
+          },
+          {
+            "anilist": 269,
+            "idMal": 269,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 366,
+            "startDate": {
+              "year": 2004,
+              "month": 10,
+              "day": 5
+            },
+            "titles": [
+              "BLEACH",
+              "Bleach",
+              "BLEACH",
+              "ブリーチ",
+              "'בליץ",
+              "เทพมรณะ",
+              "بليتش",
+              "Блич"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "bleach"
+            ]
+          },
+          {
+            "anilist": 159322,
+            "idMal": 53998,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 3,
+            "episodeCount": 13,
+            "startDate": {
+              "year": 2023,
+              "month": 7,
+              "day": 8
+            },
+            "titles": [
+              "BLEACH: Sennen Kessen-hen - Ketsubetsu-tan",
+              "BLEACH: Thousand-Year Blood War - The Separation",
+              "BLEACH 千年血戦篇-訣別譚-",
+              "BLEACH: Thousand Year Blood War Part 2",
+              "BLEACH 千年血戦篇 第2クール",
+              "BLEACH TYBW"
+            ],
+            "franchiseRoot": "BLEACH TYBW",
+            "tokens": [
+              "bleach",
+              "sennen",
+              "kessen",
+              "hen",
+              "ketsubetsu",
+              "tan",
+              "thousand",
+              "year",
+              "blood",
+              "war",
+              "the",
+              "separation",
+              "part",
+              "tybw"
+            ]
+          },
+          {
+            "anilist": 116673,
+            "idMal": 41468,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 3,
+            "startDate": {
+              "year": 2020,
+              "month": 10,
+              "day": 2
+            },
+            "titles": [
+              "BURN THE WITCH",
+              "BURN THE WITCH",
+              "BURN THE WITCH"
+            ],
+            "franchiseRoot": "BURN THE WITCH",
+            "tokens": [
+              "burn",
+              "the",
+              "witch"
+            ]
+          },
+          {
+            "anilist": 169755,
+            "idMal": 56784,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 4,
+            "episodeCount": 14,
+            "startDate": {
+              "year": 2024,
+              "month": 10,
+              "day": 5
+            },
+            "titles": [
+              "BLEACH: Sennen Kessen-hen - Soukoku-tan",
+              "BLEACH: Thousand-Year Blood War - The Conflict",
+              "BLEACH 千年血戦篇-相剋譚-",
+              "BLEACH: Thousand Year Blood War Part 3",
+              "BLEACH 千年血戦篇 第3クール",
+              "BLEACH TYBW"
+            ],
+            "franchiseRoot": "BLEACH TYBW",
+            "tokens": [
+              "bleach",
+              "sennen",
+              "kessen",
+              "hen",
+              "soukoku",
+              "tan",
+              "thousand",
+              "year",
+              "blood",
+              "war",
+              "the",
+              "conflict",
+              "part",
+              "tybw"
+            ]
+          }
+        ],
+        "movie": [
+          {
+            "anilist": 1686,
+            "idMal": 1686,
+            "anidb": null,
+            "format": "MOVIE",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2006,
+              "month": 12,
+              "day": 16
+            },
+            "titles": [
+              "BLEACH: MEMORIES OF NOBODY",
+              "Bleach the Movie: Memories of Nobody",
+              "BLEACH MEMORIES OF NOBODY",
+              "Bleach Movie 1",
+              "بليتش: ذكريات اللا أحد"
+            ],
+            "franchiseRoot": "Bleach Movie 1",
+            "tokens": [
+              "bleach",
+              "memories",
+              "nobody",
+              "the",
+              "movie"
+            ]
+          },
+          {
+            "anilist": 2889,
+            "idMal": 2889,
+            "anidb": null,
+            "format": "MOVIE",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2007,
+              "month": 12,
+              "day": 22
+            },
+            "titles": [
+              "BLEACH: The DiamondDust Rebellion - Mou Hitotsu no Hyourinmaru",
+              "Bleach the Movie: The DiamondDust Rebellion",
+              "BLEACH The DiamondDust Rebellion もう一つの氷輪丸",
+              "Bleach Movie 2",
+              "Bleach: The Diamond Dust Rebellion - Another Hyourinmaru",
+              "بليتش: تمرد غبار الماس",
+              "Bleach: The Movie 2: The DiamondDust Rebellion "
+            ],
+            "franchiseRoot": "Bleach Movie 2",
+            "tokens": [
+              "bleach",
+              "the",
+              "diamonddust",
+              "rebellion",
+              "mou",
+              "hitotsu",
+              "hyourinmaru",
+              "movie",
+              "diamond",
+              "dust",
+              "another"
+            ]
+          },
+          {
+            "anilist": 4835,
+            "idMal": 4835,
+            "anidb": null,
+            "format": "MOVIE",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2008,
+              "month": 12,
+              "day": 13
+            },
+            "titles": [
+              "BLEACH: Fade to Black - Kimi no Na wo Yobu",
+              "Bleach the Movie: Fade to Black",
+              "BLEACH Fade to Black 君の名を呼ぶ",
+              "Bleach Movie 3",
+              "Bleach: Fade to Black - I Call Your Name",
+              "بليتش: التلاشي إلى الأسود"
+            ],
+            "franchiseRoot": "Bleach Movie 3",
+            "tokens": [
+              "bleach",
+              "fade",
+              "black",
+              "kimi",
+              "yobu",
+              "the",
+              "movie",
+              "call",
+              "your",
+              "name"
+            ]
+          },
+          {
+            "anilist": 8247,
+            "idMal": 8247,
+            "anidb": null,
+            "format": "MOVIE",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2010,
+              "month": 12,
+              "day": 4
+            },
+            "titles": [
+              "BLEACH: Jigoku-hen",
+              "Bleach the Movie: Hell Verse",
+              "BLEACH 地獄篇",
+              "Bleach Movie 4",
+              "Bleach: The Hell Chapter",
+              "بليتش: قصيدة الجحيم"
+            ],
+            "franchiseRoot": "BLEACH",
+            "tokens": [
+              "bleach",
+              "jigoku",
+              "hen",
+              "the",
+              "movie",
+              "hell",
+              "verse",
+              "chapter"
+            ]
+          }
+        ],
+        "special": [
+          {
+            "anilist": 834,
+            "idMal": 834,
+            "anidb": null,
+            "format": "SPECIAL",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2006,
+              "month": 3,
+              "day": 23
+            },
+            "titles": [
+              "BLEACH: The Sealed Sword Frenzy",
+              "BLEACH The Sealed Sword Frenzy",
+              "Bleach: Jump Festa 2005"
+            ],
+            "franchiseRoot": "Bleach",
+            "tokens": [
+              "bleach",
+              "the",
+              "sealed",
+              "sword",
+              "frenzy",
+              "jump",
+              "festa",
+              "2005"
+            ]
+          },
+          {
+            "anilist": 100719,
+            "idMal": 35118,
+            "anidb": null,
+            "format": "OVA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2008,
+              "month": 9,
+              "day": 21
+            },
+            "titles": [
+              "BLEACH Colorful!: Gotei Juusan Yatai Daisakusen!",
+              "BLEACH カラブリ！護廷十三屋台大作戦！",
+              "Bleach: Jump Festa 2008",
+              "Bleach KaraBuri!: Gotei Juusan Yatai Daisakusen!"
+            ],
+            "franchiseRoot": "BLEACH",
+            "tokens": [
+              "bleach",
+              "colorful",
+              "gotei",
+              "juusan",
+              "yatai",
+              "daisakusen",
+              "jump",
+              "festa",
+              "2008",
+              "karaburi"
+            ]
+          },
+          {
+            "anilist": 116673,
+            "idMal": 41468,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 3,
+            "startDate": {
+              "year": 2020,
+              "month": 10,
+              "day": 2
+            },
+            "titles": [
+              "BURN THE WITCH",
+              "BURN THE WITCH",
+              "BURN THE WITCH"
+            ],
+            "franchiseRoot": "BURN THE WITCH",
+            "tokens": [
+              "burn",
+              "the",
+              "witch"
+            ]
+          },
+          {
+            "anilist": 154037,
+            "idMal": 762,
+            "anidb": null,
+            "format": "SPECIAL",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2004,
+              "month": 12,
+              "day": 18
+            },
+            "titles": [
+              "BLEACH: memories in the rain",
+              "BLEACH memories in the rain",
+              "Bleach: Jump Festa 2004",
+              "ブリーチ Memories in the Rain"
+            ],
+            "franchiseRoot": "Bleach",
+            "tokens": [
+              "bleach",
+              "memories",
+              "the",
+              "rain",
+              "jump",
+              "festa",
+              "2004"
+            ]
+          },
+          {
+            "anilist": 182561,
+            "idMal": 60048,
+            "anidb": null,
+            "format": "SPECIAL",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2024,
+              "month": 10,
+              "day": 5
+            },
+            "titles": [
+              "BLEACH 20th PV",
+              "BLEACH 20th Anime Anniversary Official Trailer",
+              "BLEACH 20th PV",
+              "BLEACH 𝟐𝟎𝐭𝐡 𝐀𝐧𝐧𝐢𝐯𝐞𝐫𝐬𝐚𝐫𝐲",
+              "BLEACH 20周年 PV",
+              "ブリーチ 20th PV",
+              "BLEACH animation 20th"
+            ],
+            "franchiseRoot": "20th PV",
+            "tokens": [
+              "bleach",
+              "20th",
+              "anime",
+              "anniversary",
+              "official",
+              "trailer",
+              "animation"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "note": "Uma Musume S2 (TV; sibling Cinderella Gray)",
+    "anilistId": 124223,
+    "requestSeason": 2,
+    "media": {
+      "id": 124223,
+      "romaji": "Uma Musume: Pretty Derby Season 2",
+      "english": "Umamusume: Pretty Derby Season 2",
+      "native": "ウマ娘 プリティーダービー Season 2",
+      "synonyms": [
+        "สาวม้าโมเอะ ภาค 2"
+      ],
+      "format": "TV",
+      "episodes": 13,
+      "startDate": {
+        "year": 2021,
+        "month": 1,
+        "day": 5
+      }
+    },
+    "canonical": {
+      "anilist": 124223,
+      "titles": [
+        "Uma Musume: Pretty Derby Season 2",
+        "Umamusume: Pretty Derby Season 2",
+        "ウマ娘 プリティーダービー Season 2",
+        "สาวม้าโมเอะ ภาค 2"
+      ],
+      "franchiseRoot": "2",
+      "branches": [
+        {
+          "anilist": 124223,
+          "idMal": 42941,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 2,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2021,
+            "month": 1,
+            "day": 5
+          },
+          "titles": [
+            "Uma Musume: Pretty Derby Season 2",
+            "Umamusume: Pretty Derby Season 2",
+            "ウマ娘 プリティーダービー Season 2",
+            "สาวม้าโมเอะ ภาค 2"
+          ],
+          "franchiseRoot": "2",
+          "tokens": [
+            "uma",
+            "musume",
+            "pretty",
+            "derby",
+            "season",
+            "umamusume"
+          ]
+        },
+        {
+          "anilist": 98514,
+          "idMal": 35249,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2018,
+            "month": 4,
+            "day": 2
+          },
+          "titles": [
+            "Uma Musume: Pretty Derby",
+            "Umamusume: Pretty Derby",
+            "ウマ娘 プリティーダービー",
+            "สาวม้าโมเอะ"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "uma",
+            "musume",
+            "pretty",
+            "derby",
+            "umamusume"
+          ]
+        },
+        {
+          "anilist": 145608,
+          "idMal": 51225,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2022,
+            "month": 2,
+            "day": 22
+          },
+          "titles": [
+            "Uma Musume: Pretty Derby - 1st Anniversary Special Animation",
+            "Umamusume: Pretty Derby - 1st Anniversary Special Animation",
+            "ウマ娘 プリティーダービー 1st Anniversary Special Animation",
+            "Uma Musume: Pretty Derby 1st Anniversary PV"
+          ],
+          "franchiseRoot": "Uma Musume",
+          "tokens": [
+            "uma",
+            "musume",
+            "pretty",
+            "derby",
+            "1st",
+            "anniversary",
+            "special",
+            "animation",
+            "umamusume"
+          ]
+        },
+        {
+          "anilist": 103237,
+          "idMal": 37916,
+          "anidb": null,
+          "format": "OVA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 3,
+          "startDate": {
+            "year": 2018,
+            "month": 12,
+            "day": 19
+          },
+          "titles": [
+            "Uma Musume: BNW no Chikai",
+            "ウマ娘「BNWの誓い」"
+          ],
+          "franchiseRoot": "BNW",
+          "tokens": [
+            "uma",
+            "musume",
+            "bnw",
+            "chikai"
+          ]
+        },
+        {
+          "anilist": 108941,
+          "idMal": 38835,
+          "anidb": null,
+          "format": "TV_SHORT",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 12,
+          "startDate": {
+            "year": 2020,
+            "month": 7,
+            "day": 7
+          },
+          "titles": [
+            "Umayon",
+            "UMAYON",
+            "うまよん"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "umayon"
+          ]
+        },
+        {
+          "anilist": 145433,
+          "idMal": 55392,
+          "anidb": null,
+          "format": "MUSIC",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2021,
+            "month": 12,
+            "day": 17
+          },
+          "titles": [
+            "Follow Your Fantasy",
+            "Follow Your Fantasy",
+            "Follow Your Fantasy"
+          ],
+          "franchiseRoot": "Follow Your Fantasy",
+          "tokens": [
+            "follow",
+            "your",
+            "fantasy"
+          ]
+        },
+        {
+          "anilist": 172420,
+          "idMal": 57647,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2024,
+            "month": 5,
+            "day": 24
+          },
+          "titles": [
+            "Uma Musume: Pretty Derby - Shin Jidai no Tobira",
+            "Umamusume: Pretty Derby - Beginning of a New Era",
+            "ウマ娘 プリティーダービー 新時代の扉",
+            "Uma Musume: Pretty Derby Movie",
+            "劇場版 ウマ娘 プリティーダービー",
+            "ウマ娘 プリティーダービー BEGINNING OF A NEW ERA"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "uma",
+            "musume",
+            "pretty",
+            "derby",
+            "shin",
+            "jidai",
+            "tobira",
+            "umamusume",
+            "beginning",
+            "new",
+            "era",
+            "movie"
+          ]
+        },
+        {
+          "anilist": 180516,
+          "idMal": 59636,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2025,
+            "month": 4,
+            "day": 6
+          },
+          "titles": [
+            "Uma Musume: Cinderella Gray",
+            "Umamusume: Cinderella Gray",
+            "ウマ娘 シンデレラグレイ"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "uma",
+            "musume",
+            "cinderella",
+            "gray",
+            "umamusume"
+          ]
+        },
+        {
+          "anilist": 148370,
+          "idMal": 51761,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 4,
+          "startDate": {
+            "year": 2023,
+            "month": 4,
+            "day": 16
+          },
+          "titles": [
+            "Uma Musume: Pretty Derby - ROAD TO THE TOP",
+            "Umamusume: Pretty Derby - Road to the Top",
+            "ウマ娘 プリティーダービー ROAD TO THE TOP",
+            "Umamusume: Pretty Derby - Road to the Top",
+            "ウマ娘ロードトゥーザトップ",
+            "Uma Musume: Pretty Derby RTTT"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "uma",
+            "musume",
+            "pretty",
+            "derby",
+            "road",
+            "the",
+            "top",
+            "umamusume",
+            "rttt"
+          ]
+        },
+        {
+          "anilist": 148401,
+          "idMal": 51772,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 24,
+          "startDate": {
+            "year": 2022,
+            "month": 10,
+            "day": 16
+          },
+          "titles": [
+            "Umayuru",
+            "Umayuru",
+            "うまゆる"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "umayuru"
+          ]
+        },
+        {
+          "anilist": 207886,
+          "idMal": 62843,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2025,
+            "month": 10,
+            "day": 19
+          },
+          "titles": [
+            "Run Run Lantern",
+            "Run Run Lantern",
+            "P.A. Works 25th Anniversary PV",
+            "P.A.WORKS 25周年記念PV",
+            "P.A.WORKS 25 Shuunen Kinen PV"
+          ],
+          "franchiseRoot": "Run Run Lantern",
+          "tokens": [
+            "run",
+            "lantern",
+            "works",
+            "25th",
+            "anniversary",
+            "shuunen",
+            "kinen"
+          ]
+        },
+        {
+          "anilist": 156632,
+          "idMal": 53526,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2023,
+            "month": 10,
+            "day": 5
+          },
+          "titles": [
+            "Uma Musume: Pretty Derby Season 3",
+            "Umamusume: Pretty Derby Season 3",
+            "ウマ娘 プリティーダービー Season 3",
+            "สาวม้าโมเอะ ภาค 3",
+            "賽馬娘Pretty Derby 第3季"
+          ],
+          "franchiseRoot": "3",
+          "tokens": [
+            "uma",
+            "musume",
+            "pretty",
+            "derby",
+            "season",
+            "umamusume"
+          ]
+        }
+      ],
+      "seedAnilist": 124223,
+      "byFormat": {
+        "tv": [
+          {
+            "anilist": 124223,
+            "idMal": 42941,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 2,
+            "episodeCount": 13,
+            "startDate": {
+              "year": 2021,
+              "month": 1,
+              "day": 5
+            },
+            "titles": [
+              "Uma Musume: Pretty Derby Season 2",
+              "Umamusume: Pretty Derby Season 2",
+              "ウマ娘 プリティーダービー Season 2",
+              "สาวม้าโมเอะ ภาค 2"
+            ],
+            "franchiseRoot": "2",
+            "tokens": [
+              "uma",
+              "musume",
+              "pretty",
+              "derby",
+              "season",
+              "umamusume"
+            ]
+          },
+          {
+            "anilist": 98514,
+            "idMal": 35249,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 13,
+            "startDate": {
+              "year": 2018,
+              "month": 4,
+              "day": 2
+            },
+            "titles": [
+              "Uma Musume: Pretty Derby",
+              "Umamusume: Pretty Derby",
+              "ウマ娘 プリティーダービー",
+              "สาวม้าโมเอะ"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "uma",
+              "musume",
+              "pretty",
+              "derby",
+              "umamusume"
+            ]
+          },
+          {
+            "anilist": 108941,
+            "idMal": 38835,
+            "anidb": null,
+            "format": "TV_SHORT",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 12,
+            "startDate": {
+              "year": 2020,
+              "month": 7,
+              "day": 7
+            },
+            "titles": [
+              "Umayon",
+              "UMAYON",
+              "うまよん"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "umayon"
+            ]
+          },
+          {
+            "anilist": 180516,
+            "idMal": 59636,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 13,
+            "startDate": {
+              "year": 2025,
+              "month": 4,
+              "day": 6
+            },
+            "titles": [
+              "Uma Musume: Cinderella Gray",
+              "Umamusume: Cinderella Gray",
+              "ウマ娘 シンデレラグレイ"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "uma",
+              "musume",
+              "cinderella",
+              "gray",
+              "umamusume"
+            ]
+          },
+          {
+            "anilist": 148370,
+            "idMal": 51761,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 4,
+            "startDate": {
+              "year": 2023,
+              "month": 4,
+              "day": 16
+            },
+            "titles": [
+              "Uma Musume: Pretty Derby - ROAD TO THE TOP",
+              "Umamusume: Pretty Derby - Road to the Top",
+              "ウマ娘 プリティーダービー ROAD TO THE TOP",
+              "Umamusume: Pretty Derby - Road to the Top",
+              "ウマ娘ロードトゥーザトップ",
+              "Uma Musume: Pretty Derby RTTT"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "uma",
+              "musume",
+              "pretty",
+              "derby",
+              "road",
+              "the",
+              "top",
+              "umamusume",
+              "rttt"
+            ]
+          },
+          {
+            "anilist": 148401,
+            "idMal": 51772,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 24,
+            "startDate": {
+              "year": 2022,
+              "month": 10,
+              "day": 16
+            },
+            "titles": [
+              "Umayuru",
+              "Umayuru",
+              "うまゆる"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "umayuru"
+            ]
+          },
+          {
+            "anilist": 156632,
+            "idMal": 53526,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 13,
+            "startDate": {
+              "year": 2023,
+              "month": 10,
+              "day": 5
+            },
+            "titles": [
+              "Uma Musume: Pretty Derby Season 3",
+              "Umamusume: Pretty Derby Season 3",
+              "ウマ娘 プリティーダービー Season 3",
+              "สาวม้าโมเอะ ภาค 3",
+              "賽馬娘Pretty Derby 第3季"
+            ],
+            "franchiseRoot": "3",
+            "tokens": [
+              "uma",
+              "musume",
+              "pretty",
+              "derby",
+              "season",
+              "umamusume"
+            ]
+          }
+        ],
+        "movie": [
+          {
+            "anilist": 172420,
+            "idMal": 57647,
+            "anidb": null,
+            "format": "MOVIE",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2024,
+              "month": 5,
+              "day": 24
+            },
+            "titles": [
+              "Uma Musume: Pretty Derby - Shin Jidai no Tobira",
+              "Umamusume: Pretty Derby - Beginning of a New Era",
+              "ウマ娘 プリティーダービー 新時代の扉",
+              "Uma Musume: Pretty Derby Movie",
+              "劇場版 ウマ娘 プリティーダービー",
+              "ウマ娘 プリティーダービー BEGINNING OF A NEW ERA"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "uma",
+              "musume",
+              "pretty",
+              "derby",
+              "shin",
+              "jidai",
+              "tobira",
+              "umamusume",
+              "beginning",
+              "new",
+              "era",
+              "movie"
+            ]
+          }
+        ],
+        "special": [
+          {
+            "anilist": 145608,
+            "idMal": 51225,
+            "anidb": null,
+            "format": "SPECIAL",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2022,
+              "month": 2,
+              "day": 22
+            },
+            "titles": [
+              "Uma Musume: Pretty Derby - 1st Anniversary Special Animation",
+              "Umamusume: Pretty Derby - 1st Anniversary Special Animation",
+              "ウマ娘 プリティーダービー 1st Anniversary Special Animation",
+              "Uma Musume: Pretty Derby 1st Anniversary PV"
+            ],
+            "franchiseRoot": "Uma Musume",
+            "tokens": [
+              "uma",
+              "musume",
+              "pretty",
+              "derby",
+              "1st",
+              "anniversary",
+              "special",
+              "animation",
+              "umamusume"
+            ]
+          },
+          {
+            "anilist": 103237,
+            "idMal": 37916,
+            "anidb": null,
+            "format": "OVA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 3,
+            "startDate": {
+              "year": 2018,
+              "month": 12,
+              "day": 19
+            },
+            "titles": [
+              "Uma Musume: BNW no Chikai",
+              "ウマ娘「BNWの誓い」"
+            ],
+            "franchiseRoot": "BNW",
+            "tokens": [
+              "uma",
+              "musume",
+              "bnw",
+              "chikai"
+            ]
+          },
+          {
+            "anilist": 148370,
+            "idMal": 51761,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 4,
+            "startDate": {
+              "year": 2023,
+              "month": 4,
+              "day": 16
+            },
+            "titles": [
+              "Uma Musume: Pretty Derby - ROAD TO THE TOP",
+              "Umamusume: Pretty Derby - Road to the Top",
+              "ウマ娘 プリティーダービー ROAD TO THE TOP",
+              "Umamusume: Pretty Derby - Road to the Top",
+              "ウマ娘ロードトゥーザトップ",
+              "Uma Musume: Pretty Derby RTTT"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "uma",
+              "musume",
+              "pretty",
+              "derby",
+              "road",
+              "the",
+              "top",
+              "umamusume",
+              "rttt"
+            ]
+          },
+          {
+            "anilist": 148401,
+            "idMal": 51772,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 24,
+            "startDate": {
+              "year": 2022,
+              "month": 10,
+              "day": 16
+            },
+            "titles": [
+              "Umayuru",
+              "Umayuru",
+              "うまゆる"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "umayuru"
+            ]
+          },
+          {
+            "anilist": 207886,
+            "idMal": 62843,
+            "anidb": null,
+            "format": "SPECIAL",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2025,
+              "month": 10,
+              "day": 19
+            },
+            "titles": [
+              "Run Run Lantern",
+              "Run Run Lantern",
+              "P.A. Works 25th Anniversary PV",
+              "P.A.WORKS 25周年記念PV",
+              "P.A.WORKS 25 Shuunen Kinen PV"
+            ],
+            "franchiseRoot": "Run Run Lantern",
+            "tokens": [
+              "run",
+              "lantern",
+              "works",
+              "25th",
+              "anniversary",
+              "shuunen",
+              "kinen"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "note": "Frieren S1 (TV)",
+    "anilistId": 154587,
+    "requestSeason": 1,
+    "media": {
+      "id": 154587,
+      "romaji": "Sousou no Frieren",
+      "english": "Frieren: Beyond Journey’s End",
+      "native": "葬送のフリーレン",
+      "synonyms": [
+        "Frieren at the Funeral",
+        "장송의 프리렌",
+        "Frieren - Oltre la Fine del Viaggio",
+        "คำอธิษฐานในวันที่จากลา Frieren",
+        "Frieren e a Jornada para o Além",
+        "Frieren – Nach dem Ende der Reise",
+        "葬送的芙莉蓮",
+        "Frieren: Más allá del final del viaje",
+        "Frieren en el funeral",
+        "Sōsō no Furīren",
+        "Frieren. U kresu drogi",
+        "Frieren - Pháp sư tiễn táng",
+        "Фрирен, провожающая в последний путь",
+        "فريرن: ما وراء نهاية الرحلة",
+        "Frieren: Tras finalizar el viaje"
+      ],
+      "format": "TV",
+      "episodes": 28,
+      "startDate": {
+        "year": 2023,
+        "month": 9,
+        "day": 29
+      }
+    },
+    "canonical": {
+      "anilist": 154587,
+      "titles": [
+        "Sousou no Frieren",
+        "Frieren: Beyond Journey’s End",
+        "葬送のフリーレン",
+        "Frieren at the Funeral",
+        "장송의 프리렌",
+        "Frieren - Oltre la Fine del Viaggio",
+        "คำอธิษฐานในวันที่จากลา Frieren",
+        "Frieren e a Jornada para o Além",
+        "Frieren – Nach dem Ende der Reise",
+        "葬送的芙莉蓮",
+        "Frieren: Más allá del final del viaje",
+        "Frieren en el funeral",
+        "Sōsō no Furīren",
+        "Frieren. U kresu drogi",
+        "Frieren - Pháp sư tiễn táng",
+        "Фрирен, провожающая в последний путь",
+        "فريرن: ما وراء نهاية الرحلة",
+        "Frieren: Tras finalizar el viaje"
+      ],
+      "franchiseRoot": "3",
+      "branches": [
+        {
+          "anilist": 154587,
+          "idMal": 52991,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 28,
+          "startDate": {
+            "year": 2023,
+            "month": 9,
+            "day": 29
+          },
+          "titles": [
+            "Sousou no Frieren",
+            "Frieren: Beyond Journey’s End",
+            "葬送のフリーレン",
+            "Frieren at the Funeral",
+            "장송의 프리렌",
+            "Frieren - Oltre la Fine del Viaggio",
+            "คำอธิษฐานในวันที่จากลา Frieren",
+            "Frieren e a Jornada para o Além",
+            "Frieren – Nach dem Ende der Reise",
+            "葬送的芙莉蓮",
+            "Frieren: Más allá del final del viaje",
+            "Frieren en el funeral",
+            "Sōsō no Furīren",
+            "Frieren. U kresu drogi",
+            "Frieren - Pháp sư tiễn táng",
+            "Фрирен, провожающая в последний путь",
+            "فريرن: ما وراء نهاية الرحلة",
+            "Frieren: Tras finalizar el viaje"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "sousou",
+            "frieren",
+            "beyond",
+            "journey",
+            "end",
+            "the",
+            "funeral",
+            "oltre",
+            "fine",
+            "del",
+            "viaggio",
+            "jornada",
+            "para",
+            "nach",
+            "dem",
+            "ende",
+            "der",
+            "reise",
+            "all",
+            "final",
+            "viaje",
+            "fur",
+            "ren",
+            "kresu",
+            "drogi",
+            "tras",
+            "finalizar"
+          ]
+        },
+        {
+          "anilist": 169811,
+          "idMal": 56805,
+          "anidb": null,
+          "format": "MUSIC",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2023,
+            "month": 9,
+            "day": 29
+          },
+          "titles": [
+            "Yuusha",
+            "The Brave",
+            "勇者"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "yuusha",
+            "the",
+            "brave"
+          ]
+        },
+        {
+          "anilist": 170068,
+          "idMal": 56885,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 12,
+          "startDate": {
+            "year": 2023,
+            "month": 10,
+            "day": 11
+          },
+          "titles": [
+            "Sousou no Frieren: ●● no Mahou",
+            "葬送のフリーレン ～●●の魔法～",
+            "Sousou no Frieren Mini Anime",
+            "Frieren: Beyond Journey’s End Mini Anime",
+            "葬送のフリーレン ミニアニメ",
+            "Sousou no Frieren Marumaru no Mahou",
+            "葬送のフリーレン ミニアニメ",
+            "Frieren: Beyond Journey's End: Magic of ??"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "sousou",
+            "frieren",
+            "mahou",
+            "mini",
+            "anime",
+            "beyond",
+            "journey",
+            "end",
+            "marumaru",
+            "magic"
+          ]
+        },
+        {
+          "anilist": 175691,
+          "idMal": 58313,
+          "anidb": null,
+          "format": "MUSIC",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2024,
+            "month": 3,
+            "day": 5
+          },
+          "titles": [
+            "Haru",
+            "Sunny",
+            "晴る"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "haru",
+            "sunny"
+          ]
+        },
+        {
+          "anilist": 182255,
+          "idMal": 59978,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 2,
+          "episodeCount": 10,
+          "startDate": {
+            "year": 2026,
+            "month": 1,
+            "day": 16
+          },
+          "titles": [
+            "Sousou no Frieren 2nd Season",
+            "Frieren: Beyond Journey’s End Season 2",
+            "葬送のフリーレン 第2期",
+            "Провожающая в последний путь Фрирен 2",
+            "장송의 프리렌 2기"
+          ],
+          "franchiseRoot": "2",
+          "tokens": [
+            "sousou",
+            "frieren",
+            "2nd",
+            "season",
+            "beyond",
+            "journey",
+            "end"
+          ]
+        },
+        {
+          "anilist": 189513,
+          "idMal": null,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 6,
+          "startDate": {
+            "year": 2025,
+            "month": 4,
+            "day": 2
+          },
+          "titles": [
+            "Sousou no Frieren: ●● no Mahou Part 2",
+            "葬送のフリーレン ～●●の魔法～ 2クール",
+            "Sousou no Frieren Mini Anime",
+            "Frieren: Beyond Journey’s End Mini Anime",
+            "Sousou no Frieren: Marumaru no Mahou",
+            "葬送のフリーレン ミニアニメ",
+            "Frieren: Beyond Journey's End: Magic of ??"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "sousou",
+            "frieren",
+            "mahou",
+            "part",
+            "mini",
+            "anime",
+            "beyond",
+            "journey",
+            "end",
+            "marumaru",
+            "magic"
+          ]
+        },
+        {
+          "anilist": 186083,
+          "idMal": 60462,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2024,
+            "month": 12,
+            "day": 5
+          },
+          "titles": [
+            "SUI to Utaeba",
+            "翠と唄えば",
+            "サントリージン翠（SUI）WebCM",
+            "SUNTORY GIN SUI WebCM"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "sui",
+            "utaeba",
+            "webcm",
+            "suntory",
+            "gin"
+          ]
+        },
+        {
+          "anilist": 206425,
+          "idMal": null,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": null,
+          "startDate": {
+            "year": 2026,
+            "month": 1,
+            "day": 19
+          },
+          "titles": [
+            "Sousou no Frieren: ●● no Mahou Part 3",
+            "葬送のフリーレン ～●●の魔法～ 3クール",
+            "Sousou no Frieren 2nd Season Mini Anime",
+            "Frieren: Beyond Journey’s End Season 2 Mini Anime",
+            "Sousou no Frieren: Marumaru no Mahou"
+          ],
+          "franchiseRoot": "3",
+          "tokens": [
+            "sousou",
+            "frieren",
+            "mahou",
+            "part",
+            "2nd",
+            "season",
+            "mini",
+            "anime",
+            "beyond",
+            "journey",
+            "end",
+            "marumaru"
+          ]
+        },
+        {
+          "anilist": 209939,
+          "idMal": 63816,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 3,
+          "episodeCount": null,
+          "startDate": {
+            "year": 2027,
+            "month": 10,
+            "day": null
+          },
+          "titles": [
+            "Sousou no Frieren 3rd Season",
+            "葬送のフリーレン 第3期",
+            "Frieren: Beyond Journey’s End Season 3 Golden Land Arc",
+            "葬送のフリーレン 第3期【黄金郷編】",
+            "Sousou no Frieren 3rd Season [Ougonkyou-hen]"
+          ],
+          "franchiseRoot": "3",
+          "tokens": [
+            "sousou",
+            "frieren",
+            "3rd",
+            "season",
+            "beyond",
+            "journey",
+            "end",
+            "golden",
+            "land",
+            "arc",
+            "ougonkyou",
+            "hen"
+          ]
+        }
+      ],
+      "seedAnilist": 154587,
+      "byFormat": {
+        "tv": [
+          {
+            "anilist": 154587,
+            "idMal": 52991,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 28,
+            "startDate": {
+              "year": 2023,
+              "month": 9,
+              "day": 29
+            },
+            "titles": [
+              "Sousou no Frieren",
+              "Frieren: Beyond Journey’s End",
+              "葬送のフリーレン",
+              "Frieren at the Funeral",
+              "장송의 프리렌",
+              "Frieren - Oltre la Fine del Viaggio",
+              "คำอธิษฐานในวันที่จากลา Frieren",
+              "Frieren e a Jornada para o Além",
+              "Frieren – Nach dem Ende der Reise",
+              "葬送的芙莉蓮",
+              "Frieren: Más allá del final del viaje",
+              "Frieren en el funeral",
+              "Sōsō no Furīren",
+              "Frieren. U kresu drogi",
+              "Frieren - Pháp sư tiễn táng",
+              "Фрирен, провожающая в последний путь",
+              "فريرن: ما وراء نهاية الرحلة",
+              "Frieren: Tras finalizar el viaje"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "sousou",
+              "frieren",
+              "beyond",
+              "journey",
+              "end",
+              "the",
+              "funeral",
+              "oltre",
+              "fine",
+              "del",
+              "viaggio",
+              "jornada",
+              "para",
+              "nach",
+              "dem",
+              "ende",
+              "der",
+              "reise",
+              "all",
+              "final",
+              "viaje",
+              "fur",
+              "ren",
+              "kresu",
+              "drogi",
+              "tras",
+              "finalizar"
+            ]
+          },
+          {
+            "anilist": 170068,
+            "idMal": 56885,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 12,
+            "startDate": {
+              "year": 2023,
+              "month": 10,
+              "day": 11
+            },
+            "titles": [
+              "Sousou no Frieren: ●● no Mahou",
+              "葬送のフリーレン ～●●の魔法～",
+              "Sousou no Frieren Mini Anime",
+              "Frieren: Beyond Journey’s End Mini Anime",
+              "葬送のフリーレン ミニアニメ",
+              "Sousou no Frieren Marumaru no Mahou",
+              "葬送のフリーレン ミニアニメ",
+              "Frieren: Beyond Journey's End: Magic of ??"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "sousou",
+              "frieren",
+              "mahou",
+              "mini",
+              "anime",
+              "beyond",
+              "journey",
+              "end",
+              "marumaru",
+              "magic"
+            ]
+          },
+          {
+            "anilist": 182255,
+            "idMal": 59978,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 2,
+            "episodeCount": 10,
+            "startDate": {
+              "year": 2026,
+              "month": 1,
+              "day": 16
+            },
+            "titles": [
+              "Sousou no Frieren 2nd Season",
+              "Frieren: Beyond Journey’s End Season 2",
+              "葬送のフリーレン 第2期",
+              "Провожающая в последний путь Фрирен 2",
+              "장송의 프리렌 2기"
+            ],
+            "franchiseRoot": "2",
+            "tokens": [
+              "sousou",
+              "frieren",
+              "2nd",
+              "season",
+              "beyond",
+              "journey",
+              "end"
+            ]
+          },
+          {
+            "anilist": 189513,
+            "idMal": null,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 6,
+            "startDate": {
+              "year": 2025,
+              "month": 4,
+              "day": 2
+            },
+            "titles": [
+              "Sousou no Frieren: ●● no Mahou Part 2",
+              "葬送のフリーレン ～●●の魔法～ 2クール",
+              "Sousou no Frieren Mini Anime",
+              "Frieren: Beyond Journey’s End Mini Anime",
+              "Sousou no Frieren: Marumaru no Mahou",
+              "葬送のフリーレン ミニアニメ",
+              "Frieren: Beyond Journey's End: Magic of ??"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "sousou",
+              "frieren",
+              "mahou",
+              "part",
+              "mini",
+              "anime",
+              "beyond",
+              "journey",
+              "end",
+              "marumaru",
+              "magic"
+            ]
+          },
+          {
+            "anilist": 186083,
+            "idMal": 60462,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2024,
+              "month": 12,
+              "day": 5
+            },
+            "titles": [
+              "SUI to Utaeba",
+              "翠と唄えば",
+              "サントリージン翠（SUI）WebCM",
+              "SUNTORY GIN SUI WebCM"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "sui",
+              "utaeba",
+              "webcm",
+              "suntory",
+              "gin"
+            ]
+          },
+          {
+            "anilist": 206425,
+            "idMal": null,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": null,
+            "startDate": {
+              "year": 2026,
+              "month": 1,
+              "day": 19
+            },
+            "titles": [
+              "Sousou no Frieren: ●● no Mahou Part 3",
+              "葬送のフリーレン ～●●の魔法～ 3クール",
+              "Sousou no Frieren 2nd Season Mini Anime",
+              "Frieren: Beyond Journey’s End Season 2 Mini Anime",
+              "Sousou no Frieren: Marumaru no Mahou"
+            ],
+            "franchiseRoot": "3",
+            "tokens": [
+              "sousou",
+              "frieren",
+              "mahou",
+              "part",
+              "2nd",
+              "season",
+              "mini",
+              "anime",
+              "beyond",
+              "journey",
+              "end",
+              "marumaru"
+            ]
+          },
+          {
+            "anilist": 209939,
+            "idMal": 63816,
+            "anidb": null,
+            "format": "TV",
+            "type": "ANIME",
+            "seasonInFranchise": 3,
+            "episodeCount": null,
+            "startDate": {
+              "year": 2027,
+              "month": 10,
+              "day": null
+            },
+            "titles": [
+              "Sousou no Frieren 3rd Season",
+              "葬送のフリーレン 第3期",
+              "Frieren: Beyond Journey’s End Season 3 Golden Land Arc",
+              "葬送のフリーレン 第3期【黄金郷編】",
+              "Sousou no Frieren 3rd Season [Ougonkyou-hen]"
+            ],
+            "franchiseRoot": "3",
+            "tokens": [
+              "sousou",
+              "frieren",
+              "3rd",
+              "season",
+              "beyond",
+              "journey",
+              "end",
+              "golden",
+              "land",
+              "arc",
+              "ougonkyou",
+              "hen"
+            ]
+          }
+        ],
+        "movie": [],
+        "special": [
+          {
+            "anilist": 170068,
+            "idMal": 56885,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 12,
+            "startDate": {
+              "year": 2023,
+              "month": 10,
+              "day": 11
+            },
+            "titles": [
+              "Sousou no Frieren: ●● no Mahou",
+              "葬送のフリーレン ～●●の魔法～",
+              "Sousou no Frieren Mini Anime",
+              "Frieren: Beyond Journey’s End Mini Anime",
+              "葬送のフリーレン ミニアニメ",
+              "Sousou no Frieren Marumaru no Mahou",
+              "葬送のフリーレン ミニアニメ",
+              "Frieren: Beyond Journey's End: Magic of ??"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "sousou",
+              "frieren",
+              "mahou",
+              "mini",
+              "anime",
+              "beyond",
+              "journey",
+              "end",
+              "marumaru",
+              "magic"
+            ]
+          },
+          {
+            "anilist": 189513,
+            "idMal": null,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 6,
+            "startDate": {
+              "year": 2025,
+              "month": 4,
+              "day": 2
+            },
+            "titles": [
+              "Sousou no Frieren: ●● no Mahou Part 2",
+              "葬送のフリーレン ～●●の魔法～ 2クール",
+              "Sousou no Frieren Mini Anime",
+              "Frieren: Beyond Journey’s End Mini Anime",
+              "Sousou no Frieren: Marumaru no Mahou",
+              "葬送のフリーレン ミニアニメ",
+              "Frieren: Beyond Journey's End: Magic of ??"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "sousou",
+              "frieren",
+              "mahou",
+              "part",
+              "mini",
+              "anime",
+              "beyond",
+              "journey",
+              "end",
+              "marumaru",
+              "magic"
+            ]
+          },
+          {
+            "anilist": 186083,
+            "idMal": 60462,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": 1,
+            "startDate": {
+              "year": 2024,
+              "month": 12,
+              "day": 5
+            },
+            "titles": [
+              "SUI to Utaeba",
+              "翠と唄えば",
+              "サントリージン翠（SUI）WebCM",
+              "SUNTORY GIN SUI WebCM"
+            ],
+            "franchiseRoot": "",
+            "tokens": [
+              "sui",
+              "utaeba",
+              "webcm",
+              "suntory",
+              "gin"
+            ]
+          },
+          {
+            "anilist": 206425,
+            "idMal": null,
+            "anidb": null,
+            "format": "ONA",
+            "type": "ANIME",
+            "seasonInFranchise": 1,
+            "episodeCount": null,
+            "startDate": {
+              "year": 2026,
+              "month": 1,
+              "day": 19
+            },
+            "titles": [
+              "Sousou no Frieren: ●● no Mahou Part 3",
+              "葬送のフリーレン ～●●の魔法～ 3クール",
+              "Sousou no Frieren 2nd Season Mini Anime",
+              "Frieren: Beyond Journey’s End Season 2 Mini Anime",
+              "Sousou no Frieren: Marumaru no Mahou"
+            ],
+            "franchiseRoot": "3",
+            "tokens": [
+              "sousou",
+              "frieren",
+              "mahou",
+              "part",
+              "2nd",
+              "season",
+              "mini",
+              "anime",
+              "beyond",
+              "journey",
+              "end",
+              "marumaru"
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

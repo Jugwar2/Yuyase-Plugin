@@ -1,0 +1,952 @@
+{
+  "name": "Bleach TYBW (TV; sequel of long S1 chain)",
+  "query": {
+    "anilistId": 116674,
+    "episode": 2,
+    "season": 2,
+    "resolution": "1080"
+  },
+  "canonical": {
+    "anilist": 116674,
+    "titles": [
+      "BLEACH: Sennen Kessen-hen",
+      "BLEACH: Thousand-Year Blood War",
+      "BLEACH 千年血戦篇",
+      "بليتش: حرب الألف سنة الدموية",
+      "Bleach: La guerre sanglante de mille ans",
+      "BLEACH TYBW"
+    ],
+    "franchiseRoot": "BLEACH TYBW",
+    "branches": [
+      {
+        "anilist": 116674,
+        "idMal": 41467,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 2,
+        "episodeCount": 13,
+        "startDate": {
+          "year": 2022,
+          "month": 10,
+          "day": 11
+        },
+        "titles": [
+          "BLEACH: Sennen Kessen-hen",
+          "BLEACH: Thousand-Year Blood War",
+          "BLEACH 千年血戦篇",
+          "بليتش: حرب الألف سنة الدموية",
+          "Bleach: La guerre sanglante de mille ans",
+          "BLEACH TYBW"
+        ],
+        "franchiseRoot": "BLEACH TYBW",
+        "tokens": [
+          "bleach",
+          "sennen",
+          "kessen",
+          "hen",
+          "thousand",
+          "year",
+          "blood",
+          "war",
+          "guerre",
+          "sanglante",
+          "mille",
+          "ans",
+          "tybw"
+        ]
+      },
+      {
+        "anilist": 269,
+        "idMal": 269,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 366,
+        "startDate": {
+          "year": 2004,
+          "month": 10,
+          "day": 5
+        },
+        "titles": [
+          "BLEACH",
+          "Bleach",
+          "BLEACH",
+          "ブリーチ",
+          "'בליץ",
+          "เทพมรณะ",
+          "بليتش",
+          "Блич"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "bleach"
+        ]
+      },
+      {
+        "anilist": 142033,
+        "idMal": 51060,
+        "anidb": null,
+        "format": "MUSIC",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2021,
+          "month": 11,
+          "day": 23
+        },
+        "titles": [
+          "Rapport",
+          "Rapport",
+          "Rapport"
+        ],
+        "franchiseRoot": "Rapport",
+        "tokens": [
+          "rapport"
+        ]
+      },
+      {
+        "anilist": 159322,
+        "idMal": 53998,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 3,
+        "episodeCount": 13,
+        "startDate": {
+          "year": 2023,
+          "month": 7,
+          "day": 8
+        },
+        "titles": [
+          "BLEACH: Sennen Kessen-hen - Ketsubetsu-tan",
+          "BLEACH: Thousand-Year Blood War - The Separation",
+          "BLEACH 千年血戦篇-訣別譚-",
+          "BLEACH: Thousand Year Blood War Part 2",
+          "BLEACH 千年血戦篇 第2クール",
+          "BLEACH TYBW"
+        ],
+        "franchiseRoot": "BLEACH TYBW",
+        "tokens": [
+          "bleach",
+          "sennen",
+          "kessen",
+          "hen",
+          "ketsubetsu",
+          "tan",
+          "thousand",
+          "year",
+          "blood",
+          "war",
+          "the",
+          "separation",
+          "part",
+          "tybw"
+        ]
+      },
+      {
+        "anilist": 834,
+        "idMal": 834,
+        "anidb": null,
+        "format": "SPECIAL",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2006,
+          "month": 3,
+          "day": 23
+        },
+        "titles": [
+          "BLEACH: The Sealed Sword Frenzy",
+          "BLEACH The Sealed Sword Frenzy",
+          "Bleach: Jump Festa 2005"
+        ],
+        "franchiseRoot": "Bleach",
+        "tokens": [
+          "bleach",
+          "the",
+          "sealed",
+          "sword",
+          "frenzy",
+          "jump",
+          "festa",
+          "2005"
+        ]
+      },
+      {
+        "anilist": 1686,
+        "idMal": 1686,
+        "anidb": null,
+        "format": "MOVIE",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2006,
+          "month": 12,
+          "day": 16
+        },
+        "titles": [
+          "BLEACH: MEMORIES OF NOBODY",
+          "Bleach the Movie: Memories of Nobody",
+          "BLEACH MEMORIES OF NOBODY",
+          "Bleach Movie 1",
+          "بليتش: ذكريات اللا أحد"
+        ],
+        "franchiseRoot": "Bleach Movie 1",
+        "tokens": [
+          "bleach",
+          "memories",
+          "nobody",
+          "the",
+          "movie"
+        ]
+      },
+      {
+        "anilist": 2889,
+        "idMal": 2889,
+        "anidb": null,
+        "format": "MOVIE",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2007,
+          "month": 12,
+          "day": 22
+        },
+        "titles": [
+          "BLEACH: The DiamondDust Rebellion - Mou Hitotsu no Hyourinmaru",
+          "Bleach the Movie: The DiamondDust Rebellion",
+          "BLEACH The DiamondDust Rebellion もう一つの氷輪丸",
+          "Bleach Movie 2",
+          "Bleach: The Diamond Dust Rebellion - Another Hyourinmaru",
+          "بليتش: تمرد غبار الماس",
+          "Bleach: The Movie 2: The DiamondDust Rebellion "
+        ],
+        "franchiseRoot": "Bleach Movie 2",
+        "tokens": [
+          "bleach",
+          "the",
+          "diamonddust",
+          "rebellion",
+          "mou",
+          "hitotsu",
+          "hyourinmaru",
+          "movie",
+          "diamond",
+          "dust",
+          "another"
+        ]
+      },
+      {
+        "anilist": 4835,
+        "idMal": 4835,
+        "anidb": null,
+        "format": "MOVIE",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2008,
+          "month": 12,
+          "day": 13
+        },
+        "titles": [
+          "BLEACH: Fade to Black - Kimi no Na wo Yobu",
+          "Bleach the Movie: Fade to Black",
+          "BLEACH Fade to Black 君の名を呼ぶ",
+          "Bleach Movie 3",
+          "Bleach: Fade to Black - I Call Your Name",
+          "بليتش: التلاشي إلى الأسود"
+        ],
+        "franchiseRoot": "Bleach Movie 3",
+        "tokens": [
+          "bleach",
+          "fade",
+          "black",
+          "kimi",
+          "yobu",
+          "the",
+          "movie",
+          "call",
+          "your",
+          "name"
+        ]
+      },
+      {
+        "anilist": 8247,
+        "idMal": 8247,
+        "anidb": null,
+        "format": "MOVIE",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2010,
+          "month": 12,
+          "day": 4
+        },
+        "titles": [
+          "BLEACH: Jigoku-hen",
+          "Bleach the Movie: Hell Verse",
+          "BLEACH 地獄篇",
+          "Bleach Movie 4",
+          "Bleach: The Hell Chapter",
+          "بليتش: قصيدة الجحيم"
+        ],
+        "franchiseRoot": "BLEACH",
+        "tokens": [
+          "bleach",
+          "jigoku",
+          "hen",
+          "the",
+          "movie",
+          "hell",
+          "verse",
+          "chapter"
+        ]
+      },
+      {
+        "anilist": 100719,
+        "idMal": 35118,
+        "anidb": null,
+        "format": "OVA",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2008,
+          "month": 9,
+          "day": 21
+        },
+        "titles": [
+          "BLEACH Colorful!: Gotei Juusan Yatai Daisakusen!",
+          "BLEACH カラブリ！護廷十三屋台大作戦！",
+          "Bleach: Jump Festa 2008",
+          "Bleach KaraBuri!: Gotei Juusan Yatai Daisakusen!"
+        ],
+        "franchiseRoot": "BLEACH",
+        "tokens": [
+          "bleach",
+          "colorful",
+          "gotei",
+          "juusan",
+          "yatai",
+          "daisakusen",
+          "jump",
+          "festa",
+          "2008",
+          "karaburi"
+        ]
+      },
+      {
+        "anilist": 116673,
+        "idMal": 41468,
+        "anidb": null,
+        "format": "ONA",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 3,
+        "startDate": {
+          "year": 2020,
+          "month": 10,
+          "day": 2
+        },
+        "titles": [
+          "BURN THE WITCH",
+          "BURN THE WITCH",
+          "BURN THE WITCH"
+        ],
+        "franchiseRoot": "BURN THE WITCH",
+        "tokens": [
+          "burn",
+          "the",
+          "witch"
+        ]
+      },
+      {
+        "anilist": 154037,
+        "idMal": 762,
+        "anidb": null,
+        "format": "SPECIAL",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2004,
+          "month": 12,
+          "day": 18
+        },
+        "titles": [
+          "BLEACH: memories in the rain",
+          "BLEACH memories in the rain",
+          "Bleach: Jump Festa 2004",
+          "ブリーチ Memories in the Rain"
+        ],
+        "franchiseRoot": "Bleach",
+        "tokens": [
+          "bleach",
+          "memories",
+          "the",
+          "rain",
+          "jump",
+          "festa",
+          "2004"
+        ]
+      },
+      {
+        "anilist": 182561,
+        "idMal": 60048,
+        "anidb": null,
+        "format": "SPECIAL",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2024,
+          "month": 10,
+          "day": 5
+        },
+        "titles": [
+          "BLEACH 20th PV",
+          "BLEACH 20th Anime Anniversary Official Trailer",
+          "BLEACH 20th PV",
+          "BLEACH 𝟐𝟎𝐭𝐡 𝐀𝐧𝐧𝐢𝐯𝐞𝐫𝐬𝐚𝐫𝐲",
+          "BLEACH 20周年 PV",
+          "ブリーチ 20th PV",
+          "BLEACH animation 20th"
+        ],
+        "franchiseRoot": "20th PV",
+        "tokens": [
+          "bleach",
+          "20th",
+          "anime",
+          "anniversary",
+          "official",
+          "trailer",
+          "animation"
+        ]
+      },
+      {
+        "anilist": 169755,
+        "idMal": 56784,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 4,
+        "episodeCount": 14,
+        "startDate": {
+          "year": 2024,
+          "month": 10,
+          "day": 5
+        },
+        "titles": [
+          "BLEACH: Sennen Kessen-hen - Soukoku-tan",
+          "BLEACH: Thousand-Year Blood War - The Conflict",
+          "BLEACH 千年血戦篇-相剋譚-",
+          "BLEACH: Thousand Year Blood War Part 3",
+          "BLEACH 千年血戦篇 第3クール",
+          "BLEACH TYBW"
+        ],
+        "franchiseRoot": "BLEACH TYBW",
+        "tokens": [
+          "bleach",
+          "sennen",
+          "kessen",
+          "hen",
+          "soukoku",
+          "tan",
+          "thousand",
+          "year",
+          "blood",
+          "war",
+          "the",
+          "conflict",
+          "part",
+          "tybw"
+        ]
+      }
+    ],
+    "seedAnilist": 116674,
+    "byFormat": {
+      "tv": [
+        {
+          "anilist": 116674,
+          "idMal": 41467,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 2,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2022,
+            "month": 10,
+            "day": 11
+          },
+          "titles": [
+            "BLEACH: Sennen Kessen-hen",
+            "BLEACH: Thousand-Year Blood War",
+            "BLEACH 千年血戦篇",
+            "بليتش: حرب الألف سنة الدموية",
+            "Bleach: La guerre sanglante de mille ans",
+            "BLEACH TYBW"
+          ],
+          "franchiseRoot": "BLEACH TYBW",
+          "tokens": [
+            "bleach",
+            "sennen",
+            "kessen",
+            "hen",
+            "thousand",
+            "year",
+            "blood",
+            "war",
+            "guerre",
+            "sanglante",
+            "mille",
+            "ans",
+            "tybw"
+          ]
+        },
+        {
+          "anilist": 269,
+          "idMal": 269,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 366,
+          "startDate": {
+            "year": 2004,
+            "month": 10,
+            "day": 5
+          },
+          "titles": [
+            "BLEACH",
+            "Bleach",
+            "BLEACH",
+            "ブリーチ",
+            "'בליץ",
+            "เทพมรณะ",
+            "بليتش",
+            "Блич"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "bleach"
+          ]
+        },
+        {
+          "anilist": 159322,
+          "idMal": 53998,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 3,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2023,
+            "month": 7,
+            "day": 8
+          },
+          "titles": [
+            "BLEACH: Sennen Kessen-hen - Ketsubetsu-tan",
+            "BLEACH: Thousand-Year Blood War - The Separation",
+            "BLEACH 千年血戦篇-訣別譚-",
+            "BLEACH: Thousand Year Blood War Part 2",
+            "BLEACH 千年血戦篇 第2クール",
+            "BLEACH TYBW"
+          ],
+          "franchiseRoot": "BLEACH TYBW",
+          "tokens": [
+            "bleach",
+            "sennen",
+            "kessen",
+            "hen",
+            "ketsubetsu",
+            "tan",
+            "thousand",
+            "year",
+            "blood",
+            "war",
+            "the",
+            "separation",
+            "part",
+            "tybw"
+          ]
+        },
+        {
+          "anilist": 116673,
+          "idMal": 41468,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 3,
+          "startDate": {
+            "year": 2020,
+            "month": 10,
+            "day": 2
+          },
+          "titles": [
+            "BURN THE WITCH",
+            "BURN THE WITCH",
+            "BURN THE WITCH"
+          ],
+          "franchiseRoot": "BURN THE WITCH",
+          "tokens": [
+            "burn",
+            "the",
+            "witch"
+          ]
+        },
+        {
+          "anilist": 169755,
+          "idMal": 56784,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 4,
+          "episodeCount": 14,
+          "startDate": {
+            "year": 2024,
+            "month": 10,
+            "day": 5
+          },
+          "titles": [
+            "BLEACH: Sennen Kessen-hen - Soukoku-tan",
+            "BLEACH: Thousand-Year Blood War - The Conflict",
+            "BLEACH 千年血戦篇-相剋譚-",
+            "BLEACH: Thousand Year Blood War Part 3",
+            "BLEACH 千年血戦篇 第3クール",
+            "BLEACH TYBW"
+          ],
+          "franchiseRoot": "BLEACH TYBW",
+          "tokens": [
+            "bleach",
+            "sennen",
+            "kessen",
+            "hen",
+            "soukoku",
+            "tan",
+            "thousand",
+            "year",
+            "blood",
+            "war",
+            "the",
+            "conflict",
+            "part",
+            "tybw"
+          ]
+        }
+      ],
+      "movie": [
+        {
+          "anilist": 1686,
+          "idMal": 1686,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2006,
+            "month": 12,
+            "day": 16
+          },
+          "titles": [
+            "BLEACH: MEMORIES OF NOBODY",
+            "Bleach the Movie: Memories of Nobody",
+            "BLEACH MEMORIES OF NOBODY",
+            "Bleach Movie 1",
+            "بليتش: ذكريات اللا أحد"
+          ],
+          "franchiseRoot": "Bleach Movie 1",
+          "tokens": [
+            "bleach",
+            "memories",
+            "nobody",
+            "the",
+            "movie"
+          ]
+        },
+        {
+          "anilist": 2889,
+          "idMal": 2889,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2007,
+            "month": 12,
+            "day": 22
+          },
+          "titles": [
+            "BLEACH: The DiamondDust Rebellion - Mou Hitotsu no Hyourinmaru",
+            "Bleach the Movie: The DiamondDust Rebellion",
+            "BLEACH The DiamondDust Rebellion もう一つの氷輪丸",
+            "Bleach Movie 2",
+            "Bleach: The Diamond Dust Rebellion - Another Hyourinmaru",
+            "بليتش: تمرد غبار الماس",
+            "Bleach: The Movie 2: The DiamondDust Rebellion "
+          ],
+          "franchiseRoot": "Bleach Movie 2",
+          "tokens": [
+            "bleach",
+            "the",
+            "diamonddust",
+            "rebellion",
+            "mou",
+            "hitotsu",
+            "hyourinmaru",
+            "movie",
+            "diamond",
+            "dust",
+            "another"
+          ]
+        },
+        {
+          "anilist": 4835,
+          "idMal": 4835,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2008,
+            "month": 12,
+            "day": 13
+          },
+          "titles": [
+            "BLEACH: Fade to Black - Kimi no Na wo Yobu",
+            "Bleach the Movie: Fade to Black",
+            "BLEACH Fade to Black 君の名を呼ぶ",
+            "Bleach Movie 3",
+            "Bleach: Fade to Black - I Call Your Name",
+            "بليتش: التلاشي إلى الأسود"
+          ],
+          "franchiseRoot": "Bleach Movie 3",
+          "tokens": [
+            "bleach",
+            "fade",
+            "black",
+            "kimi",
+            "yobu",
+            "the",
+            "movie",
+            "call",
+            "your",
+            "name"
+          ]
+        },
+        {
+          "anilist": 8247,
+          "idMal": 8247,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2010,
+            "month": 12,
+            "day": 4
+          },
+          "titles": [
+            "BLEACH: Jigoku-hen",
+            "Bleach the Movie: Hell Verse",
+            "BLEACH 地獄篇",
+            "Bleach Movie 4",
+            "Bleach: The Hell Chapter",
+            "بليتش: قصيدة الجحيم"
+          ],
+          "franchiseRoot": "BLEACH",
+          "tokens": [
+            "bleach",
+            "jigoku",
+            "hen",
+            "the",
+            "movie",
+            "hell",
+            "verse",
+            "chapter"
+          ]
+        }
+      ],
+      "special": [
+        {
+          "anilist": 834,
+          "idMal": 834,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2006,
+            "month": 3,
+            "day": 23
+          },
+          "titles": [
+            "BLEACH: The Sealed Sword Frenzy",
+            "BLEACH The Sealed Sword Frenzy",
+            "Bleach: Jump Festa 2005"
+          ],
+          "franchiseRoot": "Bleach",
+          "tokens": [
+            "bleach",
+            "the",
+            "sealed",
+            "sword",
+            "frenzy",
+            "jump",
+            "festa",
+            "2005"
+          ]
+        },
+        {
+          "anilist": 100719,
+          "idMal": 35118,
+          "anidb": null,
+          "format": "OVA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2008,
+            "month": 9,
+            "day": 21
+          },
+          "titles": [
+            "BLEACH Colorful!: Gotei Juusan Yatai Daisakusen!",
+            "BLEACH カラブリ！護廷十三屋台大作戦！",
+            "Bleach: Jump Festa 2008",
+            "Bleach KaraBuri!: Gotei Juusan Yatai Daisakusen!"
+          ],
+          "franchiseRoot": "BLEACH",
+          "tokens": [
+            "bleach",
+            "colorful",
+            "gotei",
+            "juusan",
+            "yatai",
+            "daisakusen",
+            "jump",
+            "festa",
+            "2008",
+            "karaburi"
+          ]
+        },
+        {
+          "anilist": 116673,
+          "idMal": 41468,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 3,
+          "startDate": {
+            "year": 2020,
+            "month": 10,
+            "day": 2
+          },
+          "titles": [
+            "BURN THE WITCH",
+            "BURN THE WITCH",
+            "BURN THE WITCH"
+          ],
+          "franchiseRoot": "BURN THE WITCH",
+          "tokens": [
+            "burn",
+            "the",
+            "witch"
+          ]
+        },
+        {
+          "anilist": 154037,
+          "idMal": 762,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2004,
+            "month": 12,
+            "day": 18
+          },
+          "titles": [
+            "BLEACH: memories in the rain",
+            "BLEACH memories in the rain",
+            "Bleach: Jump Festa 2004",
+            "ブリーチ Memories in the Rain"
+          ],
+          "franchiseRoot": "Bleach",
+          "tokens": [
+            "bleach",
+            "memories",
+            "the",
+            "rain",
+            "jump",
+            "festa",
+            "2004"
+          ]
+        },
+        {
+          "anilist": 182561,
+          "idMal": 60048,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2024,
+            "month": 10,
+            "day": 5
+          },
+          "titles": [
+            "BLEACH 20th PV",
+            "BLEACH 20th Anime Anniversary Official Trailer",
+            "BLEACH 20th PV",
+            "BLEACH 𝟐𝟎𝐭𝐡 𝐀𝐧𝐧𝐢𝐯𝐞𝐫𝐬𝐚𝐫𝐲",
+            "BLEACH 20周年 PV",
+            "ブリーチ 20th PV",
+            "BLEACH animation 20th"
+          ],
+          "franchiseRoot": "20th PV",
+          "tokens": [
+            "bleach",
+            "20th",
+            "anime",
+            "anniversary",
+            "official",
+            "trailer",
+            "animation"
+          ]
+        }
+      ]
+    }
+  },
+  "releases": [
+    {
+      "title": "[SubsPlease] BLEACH: Sennen Kessen-hen - 02 (1080p) [HASH].mkv",
+      "expectCorrect": true
+    },
+    {
+      "title": "[EraRaw] BLEACH: The Thousand-Year Blood War - 02 [1080p]",
+      "expectCorrect": true
+    },
+    {
+      "title": "[SubsPlease] BLEACH: Sennen Kessen-hen - Ketsubetsu-tan - 02 (1080p) [HASH].mkv",
+      "expectCorrect": false
+    }
+  ]
+}

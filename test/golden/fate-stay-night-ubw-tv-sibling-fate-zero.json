@@ -1,0 +1,2128 @@
+{
+  "name": "Fate/stay night UBW (TV; sibling Fate/Zero)",
+  "query": {
+    "anilistId": 19603,
+    "episode": 2,
+    "season": 3,
+    "resolution": "1080"
+  },
+  "canonical": {
+    "anilist": 19603,
+    "titles": [
+      "Fate/stay night: Unlimited Blade Works",
+      "Fate/stay night: Unlimited Blade Works",
+      "Fate/stay night [Unlimited Blade Works]",
+      "フェイト/ステイナイト Unlimited Blade Works",
+      "Fate/UBW",
+      "פייט/סטיי נייט: מלאכת חרבות אינסופית",
+      "Судьба/Ночь схватки: Бесконечный мир клинков"
+    ],
+    "franchiseRoot": "Fate UBW",
+    "branches": [
+      {
+        "anilist": 19603,
+        "idMal": 22297,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 3,
+        "episodeCount": 13,
+        "startDate": {
+          "year": 2014,
+          "month": 10,
+          "day": 5
+        },
+        "titles": [
+          "Fate/stay night: Unlimited Blade Works",
+          "Fate/stay night: Unlimited Blade Works",
+          "Fate/stay night [Unlimited Blade Works]",
+          "フェイト/ステイナイト Unlimited Blade Works",
+          "Fate/UBW",
+          "פייט/סטיי נייט: מלאכת חרבות אינסופית",
+          "Судьба/Ночь схватки: Бесконечный мир клинков"
+        ],
+        "franchiseRoot": "Fate UBW",
+        "tokens": [
+          "fate",
+          "stay",
+          "night",
+          "unlimited",
+          "blade",
+          "works",
+          "ubw"
+        ]
+      },
+      {
+        "anilist": 356,
+        "idMal": 356,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 24,
+        "startDate": {
+          "year": 2006,
+          "month": 1,
+          "day": 7
+        },
+        "titles": [
+          "Fate/stay night",
+          "Fate/stay night",
+          "Fate/stay night",
+          "フェイト/ステイナイト",
+          "Судьба/Ночь схватки"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "fate",
+          "stay",
+          "night"
+        ]
+      },
+      {
+        "anilist": 11741,
+        "idMal": 11741,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 12,
+        "startDate": {
+          "year": 2012,
+          "month": 4,
+          "day": 8
+        },
+        "titles": [
+          "Fate/Zero 2nd Season",
+          "Fate/Zero Season 2",
+          "Fate/Zero 2ndシーズン",
+          "フェイト/ゼロ 2ndシーズン",
+          "F/Z",
+          "Судьба/Начало 2"
+        ],
+        "franchiseRoot": "F Z",
+        "tokens": [
+          "fate",
+          "zero",
+          "2nd",
+          "season"
+        ]
+      },
+      {
+        "anilist": 20792,
+        "idMal": 28701,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 4,
+        "episodeCount": 13,
+        "startDate": {
+          "year": 2015,
+          "month": 4,
+          "day": 5
+        },
+        "titles": [
+          "Fate/stay night: Unlimited Blade Works 2nd Season",
+          "Fate/stay night: Unlimited Blade Works 2nd Season",
+          "Fate/stay night [Unlimited Blade Works] 2ndシーズン",
+          "フェイト/ステイナイト Unlimited Blade Works 2ndシーズン",
+          "Судьба/Ночь схватки: Бесконечный мир клинков 2"
+        ],
+        "franchiseRoot": "Unlimited Blade Works 2nd",
+        "tokens": [
+          "fate",
+          "stay",
+          "night",
+          "unlimited",
+          "blade",
+          "works",
+          "2nd",
+          "season"
+        ]
+      },
+      {
+        "anilist": 14829,
+        "idMal": 14829,
+        "anidb": null,
+        "format": "ONA",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 10,
+        "startDate": {
+          "year": 2013,
+          "month": 7,
+          "day": 6
+        },
+        "titles": [
+          "Fate/kaleid liner Prisma☆Illya",
+          "Fate/kaleid liner Prisma☆Illya",
+          "Fate/kaleid liner プリズマ☆イリヤ",
+          "Судьба: Девочка-волшебница Иллия"
+        ],
+        "franchiseRoot": "Fate kaleid liner",
+        "tokens": [
+          "fate",
+          "kaleid",
+          "liner",
+          "prisma",
+          "illya"
+        ]
+      },
+      {
+        "anilist": 6922,
+        "idMal": 6922,
+        "anidb": null,
+        "format": "MOVIE",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2010,
+          "month": 1,
+          "day": 23
+        },
+        "titles": [
+          "Fate/stay night Movie: UNLIMITED BLADE WORKS",
+          "Fate/stay night: Unlimited Blade Works (Movie)",
+          "劇場版 Fate/stay night UNLIMITED BLADE WORKS",
+          "Gekijouban Fate/Stay Night: Unlimited Blade Works",
+          "Fate/stay night UBW",
+          "Судaьба/Ночь схватки: Бесконечный мир клинков"
+        ],
+        "franchiseRoot": "Fate stay night UBW",
+        "tokens": [
+          "fate",
+          "stay",
+          "night",
+          "movie",
+          "unlimited",
+          "blade",
+          "works",
+          "gekijouban",
+          "ubw"
+        ]
+      },
+      {
+        "anilist": 20791,
+        "idMal": 25537,
+        "anidb": null,
+        "format": "MOVIE",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2017,
+          "month": 10,
+          "day": 14
+        },
+        "titles": [
+          "Fate/stay night [Heaven's Feel] I. presage flower",
+          "Fate/stay night [Heaven's Feel] I. presage flower",
+          "Fate/stay night[Heaven's Feel] Ⅰ.presage flower",
+          "Fate/HF",
+          "Судьба/Ночь схватки: Прикосновение небес"
+        ],
+        "franchiseRoot": "Fate HF",
+        "tokens": [
+          "fate",
+          "stay",
+          "night",
+          "heaven",
+          "feel",
+          "presage",
+          "flower"
+        ]
+      },
+      {
+        "anilist": 10012,
+        "idMal": 10012,
+        "anidb": null,
+        "format": "OVA",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 12,
+        "startDate": {
+          "year": 2011,
+          "month": 8,
+          "day": 14
+        },
+        "titles": [
+          "Carnival Phantasm",
+          "カーニバル・ファンタズム",
+          "Карнавальный Фантазм"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "carnival",
+          "phantasm"
+        ]
+      },
+      {
+        "anilist": 98035,
+        "idMal": 34662,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 25,
+        "startDate": {
+          "year": 2017,
+          "month": 7,
+          "day": 2
+        },
+        "titles": [
+          "Fate/Apocrypha",
+          "Fate/Apocrypha",
+          "Fate/Apocrypha",
+          "פייט/אפוקריפה",
+          "Судьба/Апокриф"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "fate",
+          "apocrypha"
+        ]
+      },
+      {
+        "anilist": 21717,
+        "idMal": 33047,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 13,
+        "startDate": {
+          "year": 2018,
+          "month": 1,
+          "day": 28
+        },
+        "titles": [
+          "Fate/EXTRA Last Encore",
+          "Fate/EXTRA Last Encore",
+          "Fate/EXTRA Last Encore",
+          "Oblitus Copernican Theory",
+          "Illustrias Geocentric Theory",
+          "פייט/אקסטרה ההדרן האחרון",
+          "Судьба/Дополнение: Последний вызов на бис"
+        ],
+        "franchiseRoot": "Fate EXTRA Last Encore",
+        "tokens": [
+          "fate",
+          "extra",
+          "last",
+          "encore",
+          "oblitus",
+          "copernican",
+          "theory",
+          "illustrias",
+          "geocentric"
+        ]
+      },
+      {
+        "anilist": 12565,
+        "idMal": 12565,
+        "anidb": null,
+        "format": "OVA",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2011,
+          "month": 12,
+          "day": 31
+        },
+        "titles": [
+          "Fate/Prototype",
+          "Fate/Prototype",
+          "フェイト/プロトタイプ",
+          "Судьба/Прототип"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "fate",
+          "prototype"
+        ]
+      },
+      {
+        "anilist": 97815,
+        "idMal": 34321,
+        "anidb": null,
+        "format": "SPECIAL",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2016,
+          "month": 12,
+          "day": 31
+        },
+        "titles": [
+          "Fate/Grand Order: First Order",
+          "Fate/Grand Order: First Order",
+          "Fate/Grand Order -First Order-",
+          "פייט/המסדר העליון: הפקודה הראשונה",
+          "Судьба/Великий приказ: Первый приказ"
+        ],
+        "franchiseRoot": "Fate Grand Order",
+        "tokens": [
+          "fate",
+          "grand",
+          "order",
+          "first"
+        ]
+      },
+      {
+        "anilist": 100855,
+        "idMal": 37033,
+        "anidb": null,
+        "format": "ONA",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 13,
+        "startDate": {
+          "year": 2018,
+          "month": 1,
+          "day": 25
+        },
+        "titles": [
+          "Emiya-san Chi no Kyou no Gohan",
+          "Today's Menu for the Emiya Family",
+          "衛宮さんちの今日のごはん",
+          "Сегодняшнее меню для Эмии"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "emiya",
+          "san",
+          "chi",
+          "kyou",
+          "gohan",
+          "today",
+          "menu",
+          "for",
+          "the",
+          "family"
+        ]
+      },
+      {
+        "anilist": 159559,
+        "idMal": 54041,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 13,
+        "startDate": {
+          "year": 2023,
+          "month": 10,
+          "day": 5
+        },
+        "titles": [
+          "16bit Sensation: ANOTHER LAYER",
+          "16bit Sensation: Another Layer",
+          "16bitセンセーション ANOTHER LAYER",
+          "16-битная чувственность: Новый слой",
+          "16bit 的感動ANOTHER LAYER"
+        ],
+        "franchiseRoot": "16bit ANOTHER LAYER",
+        "tokens": [
+          "16bit",
+          "sensation",
+          "another",
+          "layer"
+        ]
+      },
+      {
+        "anilist": 10087,
+        "idMal": 10087,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 13,
+        "startDate": {
+          "year": 2011,
+          "month": 10,
+          "day": 2
+        },
+        "titles": [
+          "Fate/Zero",
+          "Fate/Zero",
+          "Fate/Zero",
+          "フェイト/ゼロ",
+          "F/Z",
+          "القدر/زيرو",
+          "פייט/זירו",
+          "Судьба/Начало"
+        ],
+        "franchiseRoot": "F Z",
+        "tokens": [
+          "fate",
+          "zero"
+        ]
+      },
+      {
+        "anilist": 13263,
+        "idMal": 13263,
+        "anidb": null,
+        "format": "SPECIAL",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 6,
+        "startDate": {
+          "year": 2012,
+          "month": 3,
+          "day": 7
+        },
+        "titles": [
+          "Fate/Zero: Onegai! Einzbern Soudanshitsu",
+          "Fate/Zero: Please! Einzbern Counseling Room",
+          "お願い!アインツベルン相談室",
+          "Fate/Zero Specials",
+          "Please! Einzbern Consultation Room",
+          "Tiger/Zero",
+          "Судьба/Начало: Пожалуйста! Консультация с Айнцберн"
+        ],
+        "franchiseRoot": "Tiger Zero",
+        "tokens": [
+          "fate",
+          "zero",
+          "onegai",
+          "einzbern",
+          "soudanshitsu",
+          "please",
+          "counseling",
+          "room",
+          "specials",
+          "consultation",
+          "tiger"
+        ]
+      },
+      {
+        "anilist": 106918,
+        "idMal": 38959,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 13,
+        "startDate": {
+          "year": 2019,
+          "month": 7,
+          "day": 7
+        },
+        "titles": [
+          "Lord El-Melloi II-sei no Jikenbo: \"Rail Zeppelin\" Grace note",
+          "Lord El-Melloi II's Case Files {Rail Zeppelin} Grace note",
+          "ロード・エルメロイⅡ世の事件簿 {魔眼蒐集列車} Grace note",
+          "Досье лорда Эль-Меллоя II"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "lord",
+          "melloi",
+          "sei",
+          "jikenbo",
+          "rail",
+          "zeppelin",
+          "grace",
+          "note",
+          "case",
+          "files"
+        ]
+      },
+      {
+        "anilist": 21318,
+        "idMal": 31389,
+        "anidb": null,
+        "format": "SPECIAL",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2015,
+          "month": 10,
+          "day": 7
+        },
+        "titles": [
+          "Fate/stay night: Unlimited Blade Works 2nd Season - sunny day",
+          "Fate/stay night: Unlimited Blade Works 2nd Season - sunny day",
+          "Fate/stay night [Unlimited Blade Works] 2ndシーズン - sunny day",
+          "フェイト/ステイナイト Unlimited Blade Works 2ndシーズン - sunny day"
+        ],
+        "franchiseRoot": "Unlimited Blade Works 2nd sunny day",
+        "tokens": [
+          "fate",
+          "stay",
+          "night",
+          "unlimited",
+          "blade",
+          "works",
+          "2nd",
+          "season",
+          "sunny",
+          "day"
+        ]
+      },
+      {
+        "anilist": 19109,
+        "idMal": 19109,
+        "anidb": null,
+        "format": "SPECIAL",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 5,
+        "startDate": {
+          "year": 2013,
+          "month": 9,
+          "day": 27
+        },
+        "titles": [
+          "Fate/kaleid liner Prisma☆Illya Short Anime",
+          "Fate/kaleid liner プリズマ☆イリヤ ショートアニメ",
+          "Fate/kaleid liner Prisma☆Illya Specials"
+        ],
+        "franchiseRoot": "Fate kaleid liner",
+        "tokens": [
+          "fate",
+          "kaleid",
+          "liner",
+          "prisma",
+          "illya",
+          "short",
+          "anime",
+          "specials"
+        ]
+      },
+      {
+        "anilist": 18851,
+        "idMal": 18851,
+        "anidb": null,
+        "format": "OVA",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2014,
+          "month": 3,
+          "day": 7
+        },
+        "titles": [
+          "Fate/kaleid liner Prisma☆Illya: Undoukai DE Dance!",
+          "Fate/kaleid liner Prisma☆Illya: Dance at the Sports Festival!",
+          "Fate/kaleid liner プリズマ☆イリヤ 運動会 DE ダンス！",
+          "Судьба/Девочка-волшебница Иллия OVA"
+        ],
+        "franchiseRoot": "OVA",
+        "tokens": [
+          "fate",
+          "kaleid",
+          "liner",
+          "prisma",
+          "illya",
+          "undoukai",
+          "dance",
+          "the",
+          "sports",
+          "festival",
+          "ova"
+        ]
+      },
+      {
+        "anilist": 100269,
+        "idMal": 38897,
+        "anidb": null,
+        "format": "OVA",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2019,
+          "month": 6,
+          "day": 14
+        },
+        "titles": [
+          "Fate/kaleid liner Prisma☆Illya: Prisma☆Phantasm",
+          "Fate/kaleid liner Prisma☆Illya: Prisma☆Phantasm",
+          "Fate/kaleid liner プリズマ☆イリヤ~プリズマ☆ファンタズム~",
+          "Fate/kaleid liner Prisma☆Illya OVA",
+          "Судьба/Девочка-волшебница Иллия: Призматический фантазм"
+        ],
+        "franchiseRoot": "Fate kaleid liner Prisma Illya OVA",
+        "tokens": [
+          "fate",
+          "kaleid",
+          "liner",
+          "prisma",
+          "illya",
+          "phantasm",
+          "ova"
+        ]
+      },
+      {
+        "anilist": 21718,
+        "idMal": 33049,
+        "anidb": null,
+        "format": "MOVIE",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2019,
+          "month": 1,
+          "day": 12
+        },
+        "titles": [
+          "Fate/stay night [Heaven's Feel] II. lost butterfly",
+          "Fate/stay night [Heaven's Feel] II. lost butterfly",
+          "Fate/stay night[Heaven's Feel] ⅠⅠ.lost butterfly",
+          "Fate/HF II",
+          "Судьба/Ночь схватки: Прикосновение небес 2"
+        ],
+        "franchiseRoot": "Fate HF",
+        "tokens": [
+          "fate",
+          "stay",
+          "night",
+          "heaven",
+          "feel",
+          "lost",
+          "butterfly"
+        ]
+      },
+      {
+        "anilist": 12187,
+        "idMal": 12187,
+        "anidb": null,
+        "format": "OVA",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2011,
+          "month": 11,
+          "day": 26
+        },
+        "titles": [
+          "Carnival Phantasm EX Season",
+          "カーニバル・ファンタズム　EX Season",
+          "Carnival Phantasm OVA",
+          "Карнавальный фантазм: Прошлый сезон"
+        ],
+        "franchiseRoot": "Carnival Phantasm OVA",
+        "tokens": [
+          "carnival",
+          "phantasm",
+          "season",
+          "ova"
+        ]
+      },
+      {
+        "anilist": 15927,
+        "idMal": 15927,
+        "anidb": null,
+        "format": "SPECIAL",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2012,
+          "month": 7,
+          "day": 7
+        },
+        "titles": [
+          "Carnival Phantasm: HibiChika Special",
+          "カーニバル・ファンタズム ひびちかスペシャル",
+          "Carnival Phantasm (2013)",
+          "Carnival Phantasm Special Season",
+          "Карнавальный фантазм: ХибиТика"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "carnival",
+          "phantasm",
+          "hibichika",
+          "special",
+          "2013",
+          "season"
+        ]
+      },
+      {
+        "anilist": 169,
+        "idMal": 169,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 12,
+        "startDate": {
+          "year": 2003,
+          "month": 10,
+          "day": 10
+        },
+        "titles": [
+          "Shingetsutan Tsukihime",
+          "Lunar Legend Tsukihime",
+          "真月譚 月姫",
+          "Tsukihime - Lunar Legend",
+          "Lunar Legend Moon Princess",
+          "Moon Princess",
+          "True Lunar Chronicle Tsukihime",
+          "Повесть о лунной принцессе"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "shingetsutan",
+          "tsukihime",
+          "lunar",
+          "legend",
+          "moon",
+          "princess",
+          "true",
+          "chronicle"
+        ]
+      },
+      {
+        "anilist": 2593,
+        "idMal": 2593,
+        "anidb": null,
+        "format": "MOVIE",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2007,
+          "month": 12,
+          "day": 1
+        },
+        "titles": [
+          "Kara no Kyoukai: Fukan Fuukei",
+          "the Garden of sinners Chapter 1: Thanatos. (Overlooking View)",
+          "空の境界 俯瞰風景"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "kara",
+          "kyoukai",
+          "fukan",
+          "fuukei",
+          "the",
+          "garden",
+          "sinners",
+          "chapter",
+          "thanatos",
+          "overlooking",
+          "view"
+        ]
+      },
+      {
+        "anilist": 127149,
+        "idMal": 44248,
+        "anidb": null,
+        "format": "OVA",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 4,
+        "startDate": {
+          "year": 2021,
+          "month": 6,
+          "day": 2
+        },
+        "titles": [
+          "Fate/Grand Carnival",
+          "Fate/Grand Carnival",
+          "Fate/Grand Carnival",
+          "Судьба/Великий карнавал"
+        ],
+        "franchiseRoot": "Fate Grand Carnival",
+        "tokens": [
+          "fate",
+          "grand",
+          "carnival"
+        ]
+      },
+      {
+        "anilist": 100728,
+        "idMal": 36915,
+        "anidb": null,
+        "format": "SPECIAL",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2017,
+          "month": 12,
+          "day": 31
+        },
+        "titles": [
+          "Fate/Grand Order: MOONLIGHT/LOSTROOM",
+          "Fate/Grand Order -MOONLIGHT/LOSTROOM-",
+          "Fate/Grand Order -MOONLIGHT/LOSTROOM-",
+          "Fate/Grand Order: Moonlight/Lostroom"
+        ],
+        "franchiseRoot": "Fate Grand Order",
+        "tokens": [
+          "fate",
+          "grand",
+          "order",
+          "moonlight",
+          "lostroom"
+        ]
+      },
+      {
+        "anilist": 100729,
+        "idMal": 36914,
+        "anidb": null,
+        "format": "SPECIAL",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2017,
+          "month": 12,
+          "day": 31
+        },
+        "titles": [
+          "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
+          "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
+          "Fate/Grand Order氷室の天地～7人の最強偉人篇～"
+        ],
+        "franchiseRoot": "Fate Grand Order 7",
+        "tokens": [
+          "fate",
+          "grand",
+          "order",
+          "himuro",
+          "tenchi",
+          "nin",
+          "saikyou",
+          "gijin",
+          "hen"
+        ]
+      },
+      {
+        "anilist": 103276,
+        "idMal": 38085,
+        "anidb": null,
+        "format": "MOVIE",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2020,
+          "month": 12,
+          "day": 5
+        },
+        "titles": [
+          "Fate/Grand Order: Shinsei Entaku Ryouiki Camelot - Wandering; Agateram",
+          "Fate/Grand Order Divine Realm of the Round Table: Camelot - Wandering; Agateram",
+          "劇場版 Fate/Grand Order -神聖円卓領域キャメロット- 前編 Wandering; Agateram",
+          "Судьба/Великий приказ: Камелот — Странствие"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "fate",
+          "grand",
+          "order",
+          "shinsei",
+          "entaku",
+          "ryouiki",
+          "camelot",
+          "wandering",
+          "agateram",
+          "divine",
+          "realm",
+          "the",
+          "round",
+          "table"
+        ]
+      },
+      {
+        "anilist": 106915,
+        "idMal": 38958,
+        "anidb": null,
+        "format": "SPECIAL",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 3,
+        "startDate": {
+          "year": 2018,
+          "month": 12,
+          "day": 31
+        },
+        "titles": [
+          "Manga de Wakaru! Fate/Grand Order",
+          "Learning with Manga! Fate/Grand Order",
+          "マンガでわかる！Fate/Grand Order",
+          "Manga de Wakaru! FGO",
+          "Learning with Manga! FGO"
+        ],
+        "franchiseRoot": "Manga de Wakaru FGO",
+        "tokens": [
+          "manga",
+          "wakaru",
+          "fate",
+          "grand",
+          "order",
+          "learning",
+          "with",
+          "fgo"
+        ]
+      },
+      {
+        "anilist": 101184,
+        "idMal": 36064,
+        "anidb": null,
+        "format": "SPECIAL",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": null,
+        "startDate": {
+          "year": 2014,
+          "month": 12,
+          "day": 27
+        },
+        "titles": [
+          "Fate/Grand Order CMs",
+          "Fate/Grand Order CMs",
+          "Fate/Grand Order CMs"
+        ],
+        "franchiseRoot": "Fate Grand Order CMs",
+        "tokens": [
+          "fate",
+          "grand",
+          "order",
+          "cms"
+        ]
+      },
+      {
+        "anilist": 159569,
+        "idMal": 54042,
+        "anidb": null,
+        "format": "TV_SHORT",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 33,
+        "startDate": {
+          "year": 2023,
+          "month": 2,
+          "day": 4
+        },
+        "titles": [
+          "Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai",
+          "Fate/Grand Order: You've Lost Ritsuka Fujimaru",
+          "Fate/Grand Order 藤丸立香はわからない",
+          "FGO 藤丸立香はわからない"
+        ],
+        "franchiseRoot": "FGO",
+        "tokens": [
+          "fate",
+          "grand",
+          "order",
+          "fujimaru",
+          "ritsuka",
+          "wakaranai",
+          "you",
+          "lost",
+          "fgo"
+        ]
+      }
+    ],
+    "seedAnilist": 19603,
+    "byFormat": {
+      "tv": [
+        {
+          "anilist": 19603,
+          "idMal": 22297,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 3,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2014,
+            "month": 10,
+            "day": 5
+          },
+          "titles": [
+            "Fate/stay night: Unlimited Blade Works",
+            "Fate/stay night: Unlimited Blade Works",
+            "Fate/stay night [Unlimited Blade Works]",
+            "フェイト/ステイナイト Unlimited Blade Works",
+            "Fate/UBW",
+            "פייט/סטיי נייט: מלאכת חרבות אינסופית",
+            "Судьба/Ночь схватки: Бесконечный мир клинков"
+          ],
+          "franchiseRoot": "Fate UBW",
+          "tokens": [
+            "fate",
+            "stay",
+            "night",
+            "unlimited",
+            "blade",
+            "works",
+            "ubw"
+          ]
+        },
+        {
+          "anilist": 356,
+          "idMal": 356,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 24,
+          "startDate": {
+            "year": 2006,
+            "month": 1,
+            "day": 7
+          },
+          "titles": [
+            "Fate/stay night",
+            "Fate/stay night",
+            "Fate/stay night",
+            "フェイト/ステイナイト",
+            "Судьба/Ночь схватки"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "fate",
+            "stay",
+            "night"
+          ]
+        },
+        {
+          "anilist": 11741,
+          "idMal": 11741,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 12,
+          "startDate": {
+            "year": 2012,
+            "month": 4,
+            "day": 8
+          },
+          "titles": [
+            "Fate/Zero 2nd Season",
+            "Fate/Zero Season 2",
+            "Fate/Zero 2ndシーズン",
+            "フェイト/ゼロ 2ndシーズン",
+            "F/Z",
+            "Судьба/Начало 2"
+          ],
+          "franchiseRoot": "F Z",
+          "tokens": [
+            "fate",
+            "zero",
+            "2nd",
+            "season"
+          ]
+        },
+        {
+          "anilist": 20792,
+          "idMal": 28701,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 4,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2015,
+            "month": 4,
+            "day": 5
+          },
+          "titles": [
+            "Fate/stay night: Unlimited Blade Works 2nd Season",
+            "Fate/stay night: Unlimited Blade Works 2nd Season",
+            "Fate/stay night [Unlimited Blade Works] 2ndシーズン",
+            "フェイト/ステイナイト Unlimited Blade Works 2ndシーズン",
+            "Судьба/Ночь схватки: Бесконечный мир клинков 2"
+          ],
+          "franchiseRoot": "Unlimited Blade Works 2nd",
+          "tokens": [
+            "fate",
+            "stay",
+            "night",
+            "unlimited",
+            "blade",
+            "works",
+            "2nd",
+            "season"
+          ]
+        },
+        {
+          "anilist": 14829,
+          "idMal": 14829,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 10,
+          "startDate": {
+            "year": 2013,
+            "month": 7,
+            "day": 6
+          },
+          "titles": [
+            "Fate/kaleid liner Prisma☆Illya",
+            "Fate/kaleid liner Prisma☆Illya",
+            "Fate/kaleid liner プリズマ☆イリヤ",
+            "Судьба: Девочка-волшебница Иллия"
+          ],
+          "franchiseRoot": "Fate kaleid liner",
+          "tokens": [
+            "fate",
+            "kaleid",
+            "liner",
+            "prisma",
+            "illya"
+          ]
+        },
+        {
+          "anilist": 98035,
+          "idMal": 34662,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 25,
+          "startDate": {
+            "year": 2017,
+            "month": 7,
+            "day": 2
+          },
+          "titles": [
+            "Fate/Apocrypha",
+            "Fate/Apocrypha",
+            "Fate/Apocrypha",
+            "פייט/אפוקריפה",
+            "Судьба/Апокриф"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "fate",
+            "apocrypha"
+          ]
+        },
+        {
+          "anilist": 21717,
+          "idMal": 33047,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2018,
+            "month": 1,
+            "day": 28
+          },
+          "titles": [
+            "Fate/EXTRA Last Encore",
+            "Fate/EXTRA Last Encore",
+            "Fate/EXTRA Last Encore",
+            "Oblitus Copernican Theory",
+            "Illustrias Geocentric Theory",
+            "פייט/אקסטרה ההדרן האחרון",
+            "Судьба/Дополнение: Последний вызов на бис"
+          ],
+          "franchiseRoot": "Fate EXTRA Last Encore",
+          "tokens": [
+            "fate",
+            "extra",
+            "last",
+            "encore",
+            "oblitus",
+            "copernican",
+            "theory",
+            "illustrias",
+            "geocentric"
+          ]
+        },
+        {
+          "anilist": 100855,
+          "idMal": 37033,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2018,
+            "month": 1,
+            "day": 25
+          },
+          "titles": [
+            "Emiya-san Chi no Kyou no Gohan",
+            "Today's Menu for the Emiya Family",
+            "衛宮さんちの今日のごはん",
+            "Сегодняшнее меню для Эмии"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "emiya",
+            "san",
+            "chi",
+            "kyou",
+            "gohan",
+            "today",
+            "menu",
+            "for",
+            "the",
+            "family"
+          ]
+        },
+        {
+          "anilist": 159559,
+          "idMal": 54041,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2023,
+            "month": 10,
+            "day": 5
+          },
+          "titles": [
+            "16bit Sensation: ANOTHER LAYER",
+            "16bit Sensation: Another Layer",
+            "16bitセンセーション ANOTHER LAYER",
+            "16-битная чувственность: Новый слой",
+            "16bit 的感動ANOTHER LAYER"
+          ],
+          "franchiseRoot": "16bit ANOTHER LAYER",
+          "tokens": [
+            "16bit",
+            "sensation",
+            "another",
+            "layer"
+          ]
+        },
+        {
+          "anilist": 10087,
+          "idMal": 10087,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2011,
+            "month": 10,
+            "day": 2
+          },
+          "titles": [
+            "Fate/Zero",
+            "Fate/Zero",
+            "Fate/Zero",
+            "フェイト/ゼロ",
+            "F/Z",
+            "القدر/زيرو",
+            "פייט/זירו",
+            "Судьба/Начало"
+          ],
+          "franchiseRoot": "F Z",
+          "tokens": [
+            "fate",
+            "zero"
+          ]
+        },
+        {
+          "anilist": 106918,
+          "idMal": 38959,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2019,
+            "month": 7,
+            "day": 7
+          },
+          "titles": [
+            "Lord El-Melloi II-sei no Jikenbo: \"Rail Zeppelin\" Grace note",
+            "Lord El-Melloi II's Case Files {Rail Zeppelin} Grace note",
+            "ロード・エルメロイⅡ世の事件簿 {魔眼蒐集列車} Grace note",
+            "Досье лорда Эль-Меллоя II"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "lord",
+            "melloi",
+            "sei",
+            "jikenbo",
+            "rail",
+            "zeppelin",
+            "grace",
+            "note",
+            "case",
+            "files"
+          ]
+        },
+        {
+          "anilist": 169,
+          "idMal": 169,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 12,
+          "startDate": {
+            "year": 2003,
+            "month": 10,
+            "day": 10
+          },
+          "titles": [
+            "Shingetsutan Tsukihime",
+            "Lunar Legend Tsukihime",
+            "真月譚 月姫",
+            "Tsukihime - Lunar Legend",
+            "Lunar Legend Moon Princess",
+            "Moon Princess",
+            "True Lunar Chronicle Tsukihime",
+            "Повесть о лунной принцессе"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "shingetsutan",
+            "tsukihime",
+            "lunar",
+            "legend",
+            "moon",
+            "princess",
+            "true",
+            "chronicle"
+          ]
+        },
+        {
+          "anilist": 159569,
+          "idMal": 54042,
+          "anidb": null,
+          "format": "TV_SHORT",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 33,
+          "startDate": {
+            "year": 2023,
+            "month": 2,
+            "day": 4
+          },
+          "titles": [
+            "Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai",
+            "Fate/Grand Order: You've Lost Ritsuka Fujimaru",
+            "Fate/Grand Order 藤丸立香はわからない",
+            "FGO 藤丸立香はわからない"
+          ],
+          "franchiseRoot": "FGO",
+          "tokens": [
+            "fate",
+            "grand",
+            "order",
+            "fujimaru",
+            "ritsuka",
+            "wakaranai",
+            "you",
+            "lost",
+            "fgo"
+          ]
+        }
+      ],
+      "movie": [
+        {
+          "anilist": 6922,
+          "idMal": 6922,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2010,
+            "month": 1,
+            "day": 23
+          },
+          "titles": [
+            "Fate/stay night Movie: UNLIMITED BLADE WORKS",
+            "Fate/stay night: Unlimited Blade Works (Movie)",
+            "劇場版 Fate/stay night UNLIMITED BLADE WORKS",
+            "Gekijouban Fate/Stay Night: Unlimited Blade Works",
+            "Fate/stay night UBW",
+            "Судaьба/Ночь схватки: Бесконечный мир клинков"
+          ],
+          "franchiseRoot": "Fate stay night UBW",
+          "tokens": [
+            "fate",
+            "stay",
+            "night",
+            "movie",
+            "unlimited",
+            "blade",
+            "works",
+            "gekijouban",
+            "ubw"
+          ]
+        },
+        {
+          "anilist": 20791,
+          "idMal": 25537,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2017,
+            "month": 10,
+            "day": 14
+          },
+          "titles": [
+            "Fate/stay night [Heaven's Feel] I. presage flower",
+            "Fate/stay night [Heaven's Feel] I. presage flower",
+            "Fate/stay night[Heaven's Feel] Ⅰ.presage flower",
+            "Fate/HF",
+            "Судьба/Ночь схватки: Прикосновение небес"
+          ],
+          "franchiseRoot": "Fate HF",
+          "tokens": [
+            "fate",
+            "stay",
+            "night",
+            "heaven",
+            "feel",
+            "presage",
+            "flower"
+          ]
+        },
+        {
+          "anilist": 21718,
+          "idMal": 33049,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2019,
+            "month": 1,
+            "day": 12
+          },
+          "titles": [
+            "Fate/stay night [Heaven's Feel] II. lost butterfly",
+            "Fate/stay night [Heaven's Feel] II. lost butterfly",
+            "Fate/stay night[Heaven's Feel] ⅠⅠ.lost butterfly",
+            "Fate/HF II",
+            "Судьба/Ночь схватки: Прикосновение небес 2"
+          ],
+          "franchiseRoot": "Fate HF",
+          "tokens": [
+            "fate",
+            "stay",
+            "night",
+            "heaven",
+            "feel",
+            "lost",
+            "butterfly"
+          ]
+        },
+        {
+          "anilist": 2593,
+          "idMal": 2593,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2007,
+            "month": 12,
+            "day": 1
+          },
+          "titles": [
+            "Kara no Kyoukai: Fukan Fuukei",
+            "the Garden of sinners Chapter 1: Thanatos. (Overlooking View)",
+            "空の境界 俯瞰風景"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "kara",
+            "kyoukai",
+            "fukan",
+            "fuukei",
+            "the",
+            "garden",
+            "sinners",
+            "chapter",
+            "thanatos",
+            "overlooking",
+            "view"
+          ]
+        },
+        {
+          "anilist": 103276,
+          "idMal": 38085,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 5
+          },
+          "titles": [
+            "Fate/Grand Order: Shinsei Entaku Ryouiki Camelot - Wandering; Agateram",
+            "Fate/Grand Order Divine Realm of the Round Table: Camelot - Wandering; Agateram",
+            "劇場版 Fate/Grand Order -神聖円卓領域キャメロット- 前編 Wandering; Agateram",
+            "Судьба/Великий приказ: Камелот — Странствие"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "fate",
+            "grand",
+            "order",
+            "shinsei",
+            "entaku",
+            "ryouiki",
+            "camelot",
+            "wandering",
+            "agateram",
+            "divine",
+            "realm",
+            "the",
+            "round",
+            "table"
+          ]
+        }
+      ],
+      "special": [
+        {
+          "anilist": 14829,
+          "idMal": 14829,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 10,
+          "startDate": {
+            "year": 2013,
+            "month": 7,
+            "day": 6
+          },
+          "titles": [
+            "Fate/kaleid liner Prisma☆Illya",
+            "Fate/kaleid liner Prisma☆Illya",
+            "Fate/kaleid liner プリズマ☆イリヤ",
+            "Судьба: Девочка-волшебница Иллия"
+          ],
+          "franchiseRoot": "Fate kaleid liner",
+          "tokens": [
+            "fate",
+            "kaleid",
+            "liner",
+            "prisma",
+            "illya"
+          ]
+        },
+        {
+          "anilist": 10012,
+          "idMal": 10012,
+          "anidb": null,
+          "format": "OVA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 12,
+          "startDate": {
+            "year": 2011,
+            "month": 8,
+            "day": 14
+          },
+          "titles": [
+            "Carnival Phantasm",
+            "カーニバル・ファンタズム",
+            "Карнавальный Фантазм"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "carnival",
+            "phantasm"
+          ]
+        },
+        {
+          "anilist": 12565,
+          "idMal": 12565,
+          "anidb": null,
+          "format": "OVA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2011,
+            "month": 12,
+            "day": 31
+          },
+          "titles": [
+            "Fate/Prototype",
+            "Fate/Prototype",
+            "フェイト/プロトタイプ",
+            "Судьба/Прототип"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "fate",
+            "prototype"
+          ]
+        },
+        {
+          "anilist": 97815,
+          "idMal": 34321,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2016,
+            "month": 12,
+            "day": 31
+          },
+          "titles": [
+            "Fate/Grand Order: First Order",
+            "Fate/Grand Order: First Order",
+            "Fate/Grand Order -First Order-",
+            "פייט/המסדר העליון: הפקודה הראשונה",
+            "Судьба/Великий приказ: Первый приказ"
+          ],
+          "franchiseRoot": "Fate Grand Order",
+          "tokens": [
+            "fate",
+            "grand",
+            "order",
+            "first"
+          ]
+        },
+        {
+          "anilist": 100855,
+          "idMal": 37033,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2018,
+            "month": 1,
+            "day": 25
+          },
+          "titles": [
+            "Emiya-san Chi no Kyou no Gohan",
+            "Today's Menu for the Emiya Family",
+            "衛宮さんちの今日のごはん",
+            "Сегодняшнее меню для Эмии"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "emiya",
+            "san",
+            "chi",
+            "kyou",
+            "gohan",
+            "today",
+            "menu",
+            "for",
+            "the",
+            "family"
+          ]
+        },
+        {
+          "anilist": 13263,
+          "idMal": 13263,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 6,
+          "startDate": {
+            "year": 2012,
+            "month": 3,
+            "day": 7
+          },
+          "titles": [
+            "Fate/Zero: Onegai! Einzbern Soudanshitsu",
+            "Fate/Zero: Please! Einzbern Counseling Room",
+            "お願い!アインツベルン相談室",
+            "Fate/Zero Specials",
+            "Please! Einzbern Consultation Room",
+            "Tiger/Zero",
+            "Судьба/Начало: Пожалуйста! Консультация с Айнцберн"
+          ],
+          "franchiseRoot": "Tiger Zero",
+          "tokens": [
+            "fate",
+            "zero",
+            "onegai",
+            "einzbern",
+            "soudanshitsu",
+            "please",
+            "counseling",
+            "room",
+            "specials",
+            "consultation",
+            "tiger"
+          ]
+        },
+        {
+          "anilist": 21318,
+          "idMal": 31389,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2015,
+            "month": 10,
+            "day": 7
+          },
+          "titles": [
+            "Fate/stay night: Unlimited Blade Works 2nd Season - sunny day",
+            "Fate/stay night: Unlimited Blade Works 2nd Season - sunny day",
+            "Fate/stay night [Unlimited Blade Works] 2ndシーズン - sunny day",
+            "フェイト/ステイナイト Unlimited Blade Works 2ndシーズン - sunny day"
+          ],
+          "franchiseRoot": "Unlimited Blade Works 2nd sunny day",
+          "tokens": [
+            "fate",
+            "stay",
+            "night",
+            "unlimited",
+            "blade",
+            "works",
+            "2nd",
+            "season",
+            "sunny",
+            "day"
+          ]
+        },
+        {
+          "anilist": 19109,
+          "idMal": 19109,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 5,
+          "startDate": {
+            "year": 2013,
+            "month": 9,
+            "day": 27
+          },
+          "titles": [
+            "Fate/kaleid liner Prisma☆Illya Short Anime",
+            "Fate/kaleid liner プリズマ☆イリヤ ショートアニメ",
+            "Fate/kaleid liner Prisma☆Illya Specials"
+          ],
+          "franchiseRoot": "Fate kaleid liner",
+          "tokens": [
+            "fate",
+            "kaleid",
+            "liner",
+            "prisma",
+            "illya",
+            "short",
+            "anime",
+            "specials"
+          ]
+        },
+        {
+          "anilist": 18851,
+          "idMal": 18851,
+          "anidb": null,
+          "format": "OVA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2014,
+            "month": 3,
+            "day": 7
+          },
+          "titles": [
+            "Fate/kaleid liner Prisma☆Illya: Undoukai DE Dance!",
+            "Fate/kaleid liner Prisma☆Illya: Dance at the Sports Festival!",
+            "Fate/kaleid liner プリズマ☆イリヤ 運動会 DE ダンス！",
+            "Судьба/Девочка-волшебница Иллия OVA"
+          ],
+          "franchiseRoot": "OVA",
+          "tokens": [
+            "fate",
+            "kaleid",
+            "liner",
+            "prisma",
+            "illya",
+            "undoukai",
+            "dance",
+            "the",
+            "sports",
+            "festival",
+            "ova"
+          ]
+        },
+        {
+          "anilist": 100269,
+          "idMal": 38897,
+          "anidb": null,
+          "format": "OVA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2019,
+            "month": 6,
+            "day": 14
+          },
+          "titles": [
+            "Fate/kaleid liner Prisma☆Illya: Prisma☆Phantasm",
+            "Fate/kaleid liner Prisma☆Illya: Prisma☆Phantasm",
+            "Fate/kaleid liner プリズマ☆イリヤ~プリズマ☆ファンタズム~",
+            "Fate/kaleid liner Prisma☆Illya OVA",
+            "Судьба/Девочка-волшебница Иллия: Призматический фантазм"
+          ],
+          "franchiseRoot": "Fate kaleid liner Prisma Illya OVA",
+          "tokens": [
+            "fate",
+            "kaleid",
+            "liner",
+            "prisma",
+            "illya",
+            "phantasm",
+            "ova"
+          ]
+        },
+        {
+          "anilist": 12187,
+          "idMal": 12187,
+          "anidb": null,
+          "format": "OVA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2011,
+            "month": 11,
+            "day": 26
+          },
+          "titles": [
+            "Carnival Phantasm EX Season",
+            "カーニバル・ファンタズム　EX Season",
+            "Carnival Phantasm OVA",
+            "Карнавальный фантазм: Прошлый сезон"
+          ],
+          "franchiseRoot": "Carnival Phantasm OVA",
+          "tokens": [
+            "carnival",
+            "phantasm",
+            "season",
+            "ova"
+          ]
+        },
+        {
+          "anilist": 15927,
+          "idMal": 15927,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2012,
+            "month": 7,
+            "day": 7
+          },
+          "titles": [
+            "Carnival Phantasm: HibiChika Special",
+            "カーニバル・ファンタズム ひびちかスペシャル",
+            "Carnival Phantasm (2013)",
+            "Carnival Phantasm Special Season",
+            "Карнавальный фантазм: ХибиТика"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "carnival",
+            "phantasm",
+            "hibichika",
+            "special",
+            "2013",
+            "season"
+          ]
+        },
+        {
+          "anilist": 127149,
+          "idMal": 44248,
+          "anidb": null,
+          "format": "OVA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 4,
+          "startDate": {
+            "year": 2021,
+            "month": 6,
+            "day": 2
+          },
+          "titles": [
+            "Fate/Grand Carnival",
+            "Fate/Grand Carnival",
+            "Fate/Grand Carnival",
+            "Судьба/Великий карнавал"
+          ],
+          "franchiseRoot": "Fate Grand Carnival",
+          "tokens": [
+            "fate",
+            "grand",
+            "carnival"
+          ]
+        },
+        {
+          "anilist": 100728,
+          "idMal": 36915,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2017,
+            "month": 12,
+            "day": 31
+          },
+          "titles": [
+            "Fate/Grand Order: MOONLIGHT/LOSTROOM",
+            "Fate/Grand Order -MOONLIGHT/LOSTROOM-",
+            "Fate/Grand Order -MOONLIGHT/LOSTROOM-",
+            "Fate/Grand Order: Moonlight/Lostroom"
+          ],
+          "franchiseRoot": "Fate Grand Order",
+          "tokens": [
+            "fate",
+            "grand",
+            "order",
+            "moonlight",
+            "lostroom"
+          ]
+        },
+        {
+          "anilist": 100729,
+          "idMal": 36914,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2017,
+            "month": 12,
+            "day": 31
+          },
+          "titles": [
+            "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
+            "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
+            "Fate/Grand Order氷室の天地～7人の最強偉人篇～"
+          ],
+          "franchiseRoot": "Fate Grand Order 7",
+          "tokens": [
+            "fate",
+            "grand",
+            "order",
+            "himuro",
+            "tenchi",
+            "nin",
+            "saikyou",
+            "gijin",
+            "hen"
+          ]
+        },
+        {
+          "anilist": 106915,
+          "idMal": 38958,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 3,
+          "startDate": {
+            "year": 2018,
+            "month": 12,
+            "day": 31
+          },
+          "titles": [
+            "Manga de Wakaru! Fate/Grand Order",
+            "Learning with Manga! Fate/Grand Order",
+            "マンガでわかる！Fate/Grand Order",
+            "Manga de Wakaru! FGO",
+            "Learning with Manga! FGO"
+          ],
+          "franchiseRoot": "Manga de Wakaru FGO",
+          "tokens": [
+            "manga",
+            "wakaru",
+            "fate",
+            "grand",
+            "order",
+            "learning",
+            "with",
+            "fgo"
+          ]
+        },
+        {
+          "anilist": 101184,
+          "idMal": 36064,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": null,
+          "startDate": {
+            "year": 2014,
+            "month": 12,
+            "day": 27
+          },
+          "titles": [
+            "Fate/Grand Order CMs",
+            "Fate/Grand Order CMs",
+            "Fate/Grand Order CMs"
+          ],
+          "franchiseRoot": "Fate Grand Order CMs",
+          "tokens": [
+            "fate",
+            "grand",
+            "order",
+            "cms"
+          ]
+        }
+      ]
+    }
+  },
+  "releases": [
+    {
+      "title": "[SubsPlease] Fate/stay night: Unlimited Blade Works - 02 (1080p) [HASH].mkv",
+      "expectCorrect": true
+    },
+    {
+      "title": "[EraRaw] Fate/stay night: Unlimited Blade Works S3 - 02 [1080p]",
+      "expectCorrect": true
+    },
+    {
+      "title": "[SubsPlease] Fate/Zero - 02 (1080p) [HASH].mkv",
+      "expectCorrect": false
+    },
+    {
+      "title": "[SubsPlease] Fate/stay night: Heaven's Feel I. presage flower - MOVIE [1080p].mkv",
+      "expectCorrect": false
+    }
+  ]
+}

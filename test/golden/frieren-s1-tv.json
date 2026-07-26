@@ -1,0 +1,782 @@
+{
+  "name": "Frieren S1 (TV)",
+  "query": {
+    "anilistId": 154587,
+    "episode": 2,
+    "season": 1,
+    "resolution": "1080"
+  },
+  "canonical": {
+    "anilist": 154587,
+    "titles": [
+      "Sousou no Frieren",
+      "Frieren: Beyond Journey’s End",
+      "葬送のフリーレン",
+      "Frieren at the Funeral",
+      "장송의 프리렌",
+      "Frieren - Oltre la Fine del Viaggio",
+      "คำอธิษฐานในวันที่จากลา Frieren",
+      "Frieren e a Jornada para o Além",
+      "Frieren – Nach dem Ende der Reise",
+      "葬送的芙莉蓮",
+      "Frieren: Más allá del final del viaje",
+      "Frieren en el funeral",
+      "Sōsō no Furīren",
+      "Frieren. U kresu drogi",
+      "Frieren - Pháp sư tiễn táng",
+      "Фрирен, провожающая в последний путь",
+      "فريرن: ما وراء نهاية الرحلة",
+      "Frieren: Tras finalizar el viaje"
+    ],
+    "franchiseRoot": "3",
+    "branches": [
+      {
+        "anilist": 154587,
+        "idMal": 52991,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 28,
+        "startDate": {
+          "year": 2023,
+          "month": 9,
+          "day": 29
+        },
+        "titles": [
+          "Sousou no Frieren",
+          "Frieren: Beyond Journey’s End",
+          "葬送のフリーレン",
+          "Frieren at the Funeral",
+          "장송의 프리렌",
+          "Frieren - Oltre la Fine del Viaggio",
+          "คำอธิษฐานในวันที่จากลา Frieren",
+          "Frieren e a Jornada para o Além",
+          "Frieren – Nach dem Ende der Reise",
+          "葬送的芙莉蓮",
+          "Frieren: Más allá del final del viaje",
+          "Frieren en el funeral",
+          "Sōsō no Furīren",
+          "Frieren. U kresu drogi",
+          "Frieren - Pháp sư tiễn táng",
+          "Фрирен, провожающая в последний путь",
+          "فريرن: ما وراء نهاية الرحلة",
+          "Frieren: Tras finalizar el viaje"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "sousou",
+          "frieren",
+          "beyond",
+          "journey",
+          "end",
+          "the",
+          "funeral",
+          "oltre",
+          "fine",
+          "del",
+          "viaggio",
+          "jornada",
+          "para",
+          "nach",
+          "dem",
+          "ende",
+          "der",
+          "reise",
+          "all",
+          "final",
+          "viaje",
+          "fur",
+          "ren",
+          "kresu",
+          "drogi",
+          "tras",
+          "finalizar"
+        ]
+      },
+      {
+        "anilist": 169811,
+        "idMal": 56805,
+        "anidb": null,
+        "format": "MUSIC",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2023,
+          "month": 9,
+          "day": 29
+        },
+        "titles": [
+          "Yuusha",
+          "The Brave",
+          "勇者"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "yuusha",
+          "the",
+          "brave"
+        ]
+      },
+      {
+        "anilist": 170068,
+        "idMal": 56885,
+        "anidb": null,
+        "format": "ONA",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 12,
+        "startDate": {
+          "year": 2023,
+          "month": 10,
+          "day": 11
+        },
+        "titles": [
+          "Sousou no Frieren: ●● no Mahou",
+          "葬送のフリーレン ～●●の魔法～",
+          "Sousou no Frieren Mini Anime",
+          "Frieren: Beyond Journey’s End Mini Anime",
+          "葬送のフリーレン ミニアニメ",
+          "Sousou no Frieren Marumaru no Mahou",
+          "葬送のフリーレン ミニアニメ",
+          "Frieren: Beyond Journey's End: Magic of ??"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "sousou",
+          "frieren",
+          "mahou",
+          "mini",
+          "anime",
+          "beyond",
+          "journey",
+          "end",
+          "marumaru",
+          "magic"
+        ]
+      },
+      {
+        "anilist": 175691,
+        "idMal": 58313,
+        "anidb": null,
+        "format": "MUSIC",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2024,
+          "month": 3,
+          "day": 5
+        },
+        "titles": [
+          "Haru",
+          "Sunny",
+          "晴る"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "haru",
+          "sunny"
+        ]
+      },
+      {
+        "anilist": 182255,
+        "idMal": 59978,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 2,
+        "episodeCount": 10,
+        "startDate": {
+          "year": 2026,
+          "month": 1,
+          "day": 16
+        },
+        "titles": [
+          "Sousou no Frieren 2nd Season",
+          "Frieren: Beyond Journey’s End Season 2",
+          "葬送のフリーレン 第2期",
+          "Провожающая в последний путь Фрирен 2",
+          "장송의 프리렌 2기"
+        ],
+        "franchiseRoot": "2",
+        "tokens": [
+          "sousou",
+          "frieren",
+          "2nd",
+          "season",
+          "beyond",
+          "journey",
+          "end"
+        ]
+      },
+      {
+        "anilist": 189513,
+        "idMal": null,
+        "anidb": null,
+        "format": "ONA",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 6,
+        "startDate": {
+          "year": 2025,
+          "month": 4,
+          "day": 2
+        },
+        "titles": [
+          "Sousou no Frieren: ●● no Mahou Part 2",
+          "葬送のフリーレン ～●●の魔法～ 2クール",
+          "Sousou no Frieren Mini Anime",
+          "Frieren: Beyond Journey’s End Mini Anime",
+          "Sousou no Frieren: Marumaru no Mahou",
+          "葬送のフリーレン ミニアニメ",
+          "Frieren: Beyond Journey's End: Magic of ??"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "sousou",
+          "frieren",
+          "mahou",
+          "part",
+          "mini",
+          "anime",
+          "beyond",
+          "journey",
+          "end",
+          "marumaru",
+          "magic"
+        ]
+      },
+      {
+        "anilist": 186083,
+        "idMal": 60462,
+        "anidb": null,
+        "format": "ONA",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2024,
+          "month": 12,
+          "day": 5
+        },
+        "titles": [
+          "SUI to Utaeba",
+          "翠と唄えば",
+          "サントリージン翠（SUI）WebCM",
+          "SUNTORY GIN SUI WebCM"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "sui",
+          "utaeba",
+          "webcm",
+          "suntory",
+          "gin"
+        ]
+      },
+      {
+        "anilist": 206425,
+        "idMal": null,
+        "anidb": null,
+        "format": "ONA",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": null,
+        "startDate": {
+          "year": 2026,
+          "month": 1,
+          "day": 19
+        },
+        "titles": [
+          "Sousou no Frieren: ●● no Mahou Part 3",
+          "葬送のフリーレン ～●●の魔法～ 3クール",
+          "Sousou no Frieren 2nd Season Mini Anime",
+          "Frieren: Beyond Journey’s End Season 2 Mini Anime",
+          "Sousou no Frieren: Marumaru no Mahou"
+        ],
+        "franchiseRoot": "3",
+        "tokens": [
+          "sousou",
+          "frieren",
+          "mahou",
+          "part",
+          "2nd",
+          "season",
+          "mini",
+          "anime",
+          "beyond",
+          "journey",
+          "end",
+          "marumaru"
+        ]
+      },
+      {
+        "anilist": 209939,
+        "idMal": 63816,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 3,
+        "episodeCount": null,
+        "startDate": {
+          "year": 2027,
+          "month": 10,
+          "day": null
+        },
+        "titles": [
+          "Sousou no Frieren 3rd Season",
+          "葬送のフリーレン 第3期",
+          "Frieren: Beyond Journey’s End Season 3 Golden Land Arc",
+          "葬送のフリーレン 第3期【黄金郷編】",
+          "Sousou no Frieren 3rd Season [Ougonkyou-hen]"
+        ],
+        "franchiseRoot": "3",
+        "tokens": [
+          "sousou",
+          "frieren",
+          "3rd",
+          "season",
+          "beyond",
+          "journey",
+          "end",
+          "golden",
+          "land",
+          "arc",
+          "ougonkyou",
+          "hen"
+        ]
+      }
+    ],
+    "seedAnilist": 154587,
+    "byFormat": {
+      "tv": [
+        {
+          "anilist": 154587,
+          "idMal": 52991,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 28,
+          "startDate": {
+            "year": 2023,
+            "month": 9,
+            "day": 29
+          },
+          "titles": [
+            "Sousou no Frieren",
+            "Frieren: Beyond Journey’s End",
+            "葬送のフリーレン",
+            "Frieren at the Funeral",
+            "장송의 프리렌",
+            "Frieren - Oltre la Fine del Viaggio",
+            "คำอธิษฐานในวันที่จากลา Frieren",
+            "Frieren e a Jornada para o Além",
+            "Frieren – Nach dem Ende der Reise",
+            "葬送的芙莉蓮",
+            "Frieren: Más allá del final del viaje",
+            "Frieren en el funeral",
+            "Sōsō no Furīren",
+            "Frieren. U kresu drogi",
+            "Frieren - Pháp sư tiễn táng",
+            "Фрирен, провожающая в последний путь",
+            "فريرن: ما وراء نهاية الرحلة",
+            "Frieren: Tras finalizar el viaje"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "sousou",
+            "frieren",
+            "beyond",
+            "journey",
+            "end",
+            "the",
+            "funeral",
+            "oltre",
+            "fine",
+            "del",
+            "viaggio",
+            "jornada",
+            "para",
+            "nach",
+            "dem",
+            "ende",
+            "der",
+            "reise",
+            "all",
+            "final",
+            "viaje",
+            "fur",
+            "ren",
+            "kresu",
+            "drogi",
+            "tras",
+            "finalizar"
+          ]
+        },
+        {
+          "anilist": 170068,
+          "idMal": 56885,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 12,
+          "startDate": {
+            "year": 2023,
+            "month": 10,
+            "day": 11
+          },
+          "titles": [
+            "Sousou no Frieren: ●● no Mahou",
+            "葬送のフリーレン ～●●の魔法～",
+            "Sousou no Frieren Mini Anime",
+            "Frieren: Beyond Journey’s End Mini Anime",
+            "葬送のフリーレン ミニアニメ",
+            "Sousou no Frieren Marumaru no Mahou",
+            "葬送のフリーレン ミニアニメ",
+            "Frieren: Beyond Journey's End: Magic of ??"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "sousou",
+            "frieren",
+            "mahou",
+            "mini",
+            "anime",
+            "beyond",
+            "journey",
+            "end",
+            "marumaru",
+            "magic"
+          ]
+        },
+        {
+          "anilist": 182255,
+          "idMal": 59978,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 2,
+          "episodeCount": 10,
+          "startDate": {
+            "year": 2026,
+            "month": 1,
+            "day": 16
+          },
+          "titles": [
+            "Sousou no Frieren 2nd Season",
+            "Frieren: Beyond Journey’s End Season 2",
+            "葬送のフリーレン 第2期",
+            "Провожающая в последний путь Фрирен 2",
+            "장송의 프리렌 2기"
+          ],
+          "franchiseRoot": "2",
+          "tokens": [
+            "sousou",
+            "frieren",
+            "2nd",
+            "season",
+            "beyond",
+            "journey",
+            "end"
+          ]
+        },
+        {
+          "anilist": 189513,
+          "idMal": null,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 6,
+          "startDate": {
+            "year": 2025,
+            "month": 4,
+            "day": 2
+          },
+          "titles": [
+            "Sousou no Frieren: ●● no Mahou Part 2",
+            "葬送のフリーレン ～●●の魔法～ 2クール",
+            "Sousou no Frieren Mini Anime",
+            "Frieren: Beyond Journey’s End Mini Anime",
+            "Sousou no Frieren: Marumaru no Mahou",
+            "葬送のフリーレン ミニアニメ",
+            "Frieren: Beyond Journey's End: Magic of ??"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "sousou",
+            "frieren",
+            "mahou",
+            "part",
+            "mini",
+            "anime",
+            "beyond",
+            "journey",
+            "end",
+            "marumaru",
+            "magic"
+          ]
+        },
+        {
+          "anilist": 186083,
+          "idMal": 60462,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2024,
+            "month": 12,
+            "day": 5
+          },
+          "titles": [
+            "SUI to Utaeba",
+            "翠と唄えば",
+            "サントリージン翠（SUI）WebCM",
+            "SUNTORY GIN SUI WebCM"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "sui",
+            "utaeba",
+            "webcm",
+            "suntory",
+            "gin"
+          ]
+        },
+        {
+          "anilist": 206425,
+          "idMal": null,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": null,
+          "startDate": {
+            "year": 2026,
+            "month": 1,
+            "day": 19
+          },
+          "titles": [
+            "Sousou no Frieren: ●● no Mahou Part 3",
+            "葬送のフリーレン ～●●の魔法～ 3クール",
+            "Sousou no Frieren 2nd Season Mini Anime",
+            "Frieren: Beyond Journey’s End Season 2 Mini Anime",
+            "Sousou no Frieren: Marumaru no Mahou"
+          ],
+          "franchiseRoot": "3",
+          "tokens": [
+            "sousou",
+            "frieren",
+            "mahou",
+            "part",
+            "2nd",
+            "season",
+            "mini",
+            "anime",
+            "beyond",
+            "journey",
+            "end",
+            "marumaru"
+          ]
+        },
+        {
+          "anilist": 209939,
+          "idMal": 63816,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 3,
+          "episodeCount": null,
+          "startDate": {
+            "year": 2027,
+            "month": 10,
+            "day": null
+          },
+          "titles": [
+            "Sousou no Frieren 3rd Season",
+            "葬送のフリーレン 第3期",
+            "Frieren: Beyond Journey’s End Season 3 Golden Land Arc",
+            "葬送のフリーレン 第3期【黄金郷編】",
+            "Sousou no Frieren 3rd Season [Ougonkyou-hen]"
+          ],
+          "franchiseRoot": "3",
+          "tokens": [
+            "sousou",
+            "frieren",
+            "3rd",
+            "season",
+            "beyond",
+            "journey",
+            "end",
+            "golden",
+            "land",
+            "arc",
+            "ougonkyou",
+            "hen"
+          ]
+        }
+      ],
+      "movie": [],
+      "special": [
+        {
+          "anilist": 170068,
+          "idMal": 56885,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 12,
+          "startDate": {
+            "year": 2023,
+            "month": 10,
+            "day": 11
+          },
+          "titles": [
+            "Sousou no Frieren: ●● no Mahou",
+            "葬送のフリーレン ～●●の魔法～",
+            "Sousou no Frieren Mini Anime",
+            "Frieren: Beyond Journey’s End Mini Anime",
+            "葬送のフリーレン ミニアニメ",
+            "Sousou no Frieren Marumaru no Mahou",
+            "葬送のフリーレン ミニアニメ",
+            "Frieren: Beyond Journey's End: Magic of ??"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "sousou",
+            "frieren",
+            "mahou",
+            "mini",
+            "anime",
+            "beyond",
+            "journey",
+            "end",
+            "marumaru",
+            "magic"
+          ]
+        },
+        {
+          "anilist": 189513,
+          "idMal": null,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 6,
+          "startDate": {
+            "year": 2025,
+            "month": 4,
+            "day": 2
+          },
+          "titles": [
+            "Sousou no Frieren: ●● no Mahou Part 2",
+            "葬送のフリーレン ～●●の魔法～ 2クール",
+            "Sousou no Frieren Mini Anime",
+            "Frieren: Beyond Journey’s End Mini Anime",
+            "Sousou no Frieren: Marumaru no Mahou",
+            "葬送のフリーレン ミニアニメ",
+            "Frieren: Beyond Journey's End: Magic of ??"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "sousou",
+            "frieren",
+            "mahou",
+            "part",
+            "mini",
+            "anime",
+            "beyond",
+            "journey",
+            "end",
+            "marumaru",
+            "magic"
+          ]
+        },
+        {
+          "anilist": 186083,
+          "idMal": 60462,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2024,
+            "month": 12,
+            "day": 5
+          },
+          "titles": [
+            "SUI to Utaeba",
+            "翠と唄えば",
+            "サントリージン翠（SUI）WebCM",
+            "SUNTORY GIN SUI WebCM"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "sui",
+            "utaeba",
+            "webcm",
+            "suntory",
+            "gin"
+          ]
+        },
+        {
+          "anilist": 206425,
+          "idMal": null,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": null,
+          "startDate": {
+            "year": 2026,
+            "month": 1,
+            "day": 19
+          },
+          "titles": [
+            "Sousou no Frieren: ●● no Mahou Part 3",
+            "葬送のフリーレン ～●●の魔法～ 3クール",
+            "Sousou no Frieren 2nd Season Mini Anime",
+            "Frieren: Beyond Journey’s End Season 2 Mini Anime",
+            "Sousou no Frieren: Marumaru no Mahou"
+          ],
+          "franchiseRoot": "3",
+          "tokens": [
+            "sousou",
+            "frieren",
+            "mahou",
+            "part",
+            "2nd",
+            "season",
+            "mini",
+            "anime",
+            "beyond",
+            "journey",
+            "end",
+            "marumaru"
+          ]
+        }
+      ]
+    }
+  },
+  "releases": [
+    {
+      "title": "[SubsPlease] Sousou no Frieren - 02 (1080p) [HASH].mkv",
+      "expectCorrect": true
+    },
+    {
+      "title": "[EraRaw] Frieren: Beyond Journey's End - 02 [1080p]",
+      "expectCorrect": true
+    },
+    {
+      "title": "[SubsPlease] Sousou no Frieren 2nd Season - 02 (1080p) [HASH].mkv",
+      "expectCorrect": false
+    }
+  ]
+}

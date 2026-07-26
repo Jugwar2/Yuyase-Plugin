@@ -1,0 +1,780 @@
+{
+  "name": "Uma Musume S2 (TV; sibling Cinderella Gray)",
+  "query": {
+    "anilistId": 124223,
+    "episode": 2,
+    "season": 2,
+    "resolution": "1080"
+  },
+  "canonical": {
+    "anilist": 124223,
+    "titles": [
+      "Uma Musume: Pretty Derby Season 2",
+      "Umamusume: Pretty Derby Season 2",
+      "ウマ娘 プリティーダービー Season 2",
+      "สาวม้าโมเอะ ภาค 2"
+    ],
+    "franchiseRoot": "2",
+    "branches": [
+      {
+        "anilist": 124223,
+        "idMal": 42941,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 2,
+        "episodeCount": 13,
+        "startDate": {
+          "year": 2021,
+          "month": 1,
+          "day": 5
+        },
+        "titles": [
+          "Uma Musume: Pretty Derby Season 2",
+          "Umamusume: Pretty Derby Season 2",
+          "ウマ娘 プリティーダービー Season 2",
+          "สาวม้าโมเอะ ภาค 2"
+        ],
+        "franchiseRoot": "2",
+        "tokens": [
+          "uma",
+          "musume",
+          "pretty",
+          "derby",
+          "season",
+          "umamusume"
+        ]
+      },
+      {
+        "anilist": 98514,
+        "idMal": 35249,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 13,
+        "startDate": {
+          "year": 2018,
+          "month": 4,
+          "day": 2
+        },
+        "titles": [
+          "Uma Musume: Pretty Derby",
+          "Umamusume: Pretty Derby",
+          "ウマ娘 プリティーダービー",
+          "สาวม้าโมเอะ"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "uma",
+          "musume",
+          "pretty",
+          "derby",
+          "umamusume"
+        ]
+      },
+      {
+        "anilist": 145608,
+        "idMal": 51225,
+        "anidb": null,
+        "format": "SPECIAL",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2022,
+          "month": 2,
+          "day": 22
+        },
+        "titles": [
+          "Uma Musume: Pretty Derby - 1st Anniversary Special Animation",
+          "Umamusume: Pretty Derby - 1st Anniversary Special Animation",
+          "ウマ娘 プリティーダービー 1st Anniversary Special Animation",
+          "Uma Musume: Pretty Derby 1st Anniversary PV"
+        ],
+        "franchiseRoot": "Uma Musume",
+        "tokens": [
+          "uma",
+          "musume",
+          "pretty",
+          "derby",
+          "1st",
+          "anniversary",
+          "special",
+          "animation",
+          "umamusume"
+        ]
+      },
+      {
+        "anilist": 103237,
+        "idMal": 37916,
+        "anidb": null,
+        "format": "OVA",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 3,
+        "startDate": {
+          "year": 2018,
+          "month": 12,
+          "day": 19
+        },
+        "titles": [
+          "Uma Musume: BNW no Chikai",
+          "ウマ娘「BNWの誓い」"
+        ],
+        "franchiseRoot": "BNW",
+        "tokens": [
+          "uma",
+          "musume",
+          "bnw",
+          "chikai"
+        ]
+      },
+      {
+        "anilist": 108941,
+        "idMal": 38835,
+        "anidb": null,
+        "format": "TV_SHORT",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 12,
+        "startDate": {
+          "year": 2020,
+          "month": 7,
+          "day": 7
+        },
+        "titles": [
+          "Umayon",
+          "UMAYON",
+          "うまよん"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "umayon"
+        ]
+      },
+      {
+        "anilist": 145433,
+        "idMal": 55392,
+        "anidb": null,
+        "format": "MUSIC",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2021,
+          "month": 12,
+          "day": 17
+        },
+        "titles": [
+          "Follow Your Fantasy",
+          "Follow Your Fantasy",
+          "Follow Your Fantasy"
+        ],
+        "franchiseRoot": "Follow Your Fantasy",
+        "tokens": [
+          "follow",
+          "your",
+          "fantasy"
+        ]
+      },
+      {
+        "anilist": 172420,
+        "idMal": 57647,
+        "anidb": null,
+        "format": "MOVIE",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2024,
+          "month": 5,
+          "day": 24
+        },
+        "titles": [
+          "Uma Musume: Pretty Derby - Shin Jidai no Tobira",
+          "Umamusume: Pretty Derby - Beginning of a New Era",
+          "ウマ娘 プリティーダービー 新時代の扉",
+          "Uma Musume: Pretty Derby Movie",
+          "劇場版 ウマ娘 プリティーダービー",
+          "ウマ娘 プリティーダービー BEGINNING OF A NEW ERA"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "uma",
+          "musume",
+          "pretty",
+          "derby",
+          "shin",
+          "jidai",
+          "tobira",
+          "umamusume",
+          "beginning",
+          "new",
+          "era",
+          "movie"
+        ]
+      },
+      {
+        "anilist": 180516,
+        "idMal": 59636,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 13,
+        "startDate": {
+          "year": 2025,
+          "month": 4,
+          "day": 6
+        },
+        "titles": [
+          "Uma Musume: Cinderella Gray",
+          "Umamusume: Cinderella Gray",
+          "ウマ娘 シンデレラグレイ"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "uma",
+          "musume",
+          "cinderella",
+          "gray",
+          "umamusume"
+        ]
+      },
+      {
+        "anilist": 148370,
+        "idMal": 51761,
+        "anidb": null,
+        "format": "ONA",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 4,
+        "startDate": {
+          "year": 2023,
+          "month": 4,
+          "day": 16
+        },
+        "titles": [
+          "Uma Musume: Pretty Derby - ROAD TO THE TOP",
+          "Umamusume: Pretty Derby - Road to the Top",
+          "ウマ娘 プリティーダービー ROAD TO THE TOP",
+          "Umamusume: Pretty Derby - Road to the Top",
+          "ウマ娘ロードトゥーザトップ",
+          "Uma Musume: Pretty Derby RTTT"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "uma",
+          "musume",
+          "pretty",
+          "derby",
+          "road",
+          "the",
+          "top",
+          "umamusume",
+          "rttt"
+        ]
+      },
+      {
+        "anilist": 148401,
+        "idMal": 51772,
+        "anidb": null,
+        "format": "ONA",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 24,
+        "startDate": {
+          "year": 2022,
+          "month": 10,
+          "day": 16
+        },
+        "titles": [
+          "Umayuru",
+          "Umayuru",
+          "うまゆる"
+        ],
+        "franchiseRoot": "",
+        "tokens": [
+          "umayuru"
+        ]
+      },
+      {
+        "anilist": 207886,
+        "idMal": 62843,
+        "anidb": null,
+        "format": "SPECIAL",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 1,
+        "startDate": {
+          "year": 2025,
+          "month": 10,
+          "day": 19
+        },
+        "titles": [
+          "Run Run Lantern",
+          "Run Run Lantern",
+          "P.A. Works 25th Anniversary PV",
+          "P.A.WORKS 25周年記念PV",
+          "P.A.WORKS 25 Shuunen Kinen PV"
+        ],
+        "franchiseRoot": "Run Run Lantern",
+        "tokens": [
+          "run",
+          "lantern",
+          "works",
+          "25th",
+          "anniversary",
+          "shuunen",
+          "kinen"
+        ]
+      },
+      {
+        "anilist": 156632,
+        "idMal": 53526,
+        "anidb": null,
+        "format": "TV",
+        "type": "ANIME",
+        "seasonInFranchise": 1,
+        "episodeCount": 13,
+        "startDate": {
+          "year": 2023,
+          "month": 10,
+          "day": 5
+        },
+        "titles": [
+          "Uma Musume: Pretty Derby Season 3",
+          "Umamusume: Pretty Derby Season 3",
+          "ウマ娘 プリティーダービー Season 3",
+          "สาวม้าโมเอะ ภาค 3",
+          "賽馬娘Pretty Derby 第3季"
+        ],
+        "franchiseRoot": "3",
+        "tokens": [
+          "uma",
+          "musume",
+          "pretty",
+          "derby",
+          "season",
+          "umamusume"
+        ]
+      }
+    ],
+    "seedAnilist": 124223,
+    "byFormat": {
+      "tv": [
+        {
+          "anilist": 124223,
+          "idMal": 42941,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 2,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2021,
+            "month": 1,
+            "day": 5
+          },
+          "titles": [
+            "Uma Musume: Pretty Derby Season 2",
+            "Umamusume: Pretty Derby Season 2",
+            "ウマ娘 プリティーダービー Season 2",
+            "สาวม้าโมเอะ ภาค 2"
+          ],
+          "franchiseRoot": "2",
+          "tokens": [
+            "uma",
+            "musume",
+            "pretty",
+            "derby",
+            "season",
+            "umamusume"
+          ]
+        },
+        {
+          "anilist": 98514,
+          "idMal": 35249,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2018,
+            "month": 4,
+            "day": 2
+          },
+          "titles": [
+            "Uma Musume: Pretty Derby",
+            "Umamusume: Pretty Derby",
+            "ウマ娘 プリティーダービー",
+            "สาวม้าโมเอะ"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "uma",
+            "musume",
+            "pretty",
+            "derby",
+            "umamusume"
+          ]
+        },
+        {
+          "anilist": 108941,
+          "idMal": 38835,
+          "anidb": null,
+          "format": "TV_SHORT",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 12,
+          "startDate": {
+            "year": 2020,
+            "month": 7,
+            "day": 7
+          },
+          "titles": [
+            "Umayon",
+            "UMAYON",
+            "うまよん"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "umayon"
+          ]
+        },
+        {
+          "anilist": 180516,
+          "idMal": 59636,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2025,
+            "month": 4,
+            "day": 6
+          },
+          "titles": [
+            "Uma Musume: Cinderella Gray",
+            "Umamusume: Cinderella Gray",
+            "ウマ娘 シンデレラグレイ"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "uma",
+            "musume",
+            "cinderella",
+            "gray",
+            "umamusume"
+          ]
+        },
+        {
+          "anilist": 148370,
+          "idMal": 51761,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 4,
+          "startDate": {
+            "year": 2023,
+            "month": 4,
+            "day": 16
+          },
+          "titles": [
+            "Uma Musume: Pretty Derby - ROAD TO THE TOP",
+            "Umamusume: Pretty Derby - Road to the Top",
+            "ウマ娘 プリティーダービー ROAD TO THE TOP",
+            "Umamusume: Pretty Derby - Road to the Top",
+            "ウマ娘ロードトゥーザトップ",
+            "Uma Musume: Pretty Derby RTTT"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "uma",
+            "musume",
+            "pretty",
+            "derby",
+            "road",
+            "the",
+            "top",
+            "umamusume",
+            "rttt"
+          ]
+        },
+        {
+          "anilist": 148401,
+          "idMal": 51772,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 24,
+          "startDate": {
+            "year": 2022,
+            "month": 10,
+            "day": 16
+          },
+          "titles": [
+            "Umayuru",
+            "Umayuru",
+            "うまゆる"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "umayuru"
+          ]
+        },
+        {
+          "anilist": 156632,
+          "idMal": 53526,
+          "anidb": null,
+          "format": "TV",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 13,
+          "startDate": {
+            "year": 2023,
+            "month": 10,
+            "day": 5
+          },
+          "titles": [
+            "Uma Musume: Pretty Derby Season 3",
+            "Umamusume: Pretty Derby Season 3",
+            "ウマ娘 プリティーダービー Season 3",
+            "สาวม้าโมเอะ ภาค 3",
+            "賽馬娘Pretty Derby 第3季"
+          ],
+          "franchiseRoot": "3",
+          "tokens": [
+            "uma",
+            "musume",
+            "pretty",
+            "derby",
+            "season",
+            "umamusume"
+          ]
+        }
+      ],
+      "movie": [
+        {
+          "anilist": 172420,
+          "idMal": 57647,
+          "anidb": null,
+          "format": "MOVIE",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2024,
+            "month": 5,
+            "day": 24
+          },
+          "titles": [
+            "Uma Musume: Pretty Derby - Shin Jidai no Tobira",
+            "Umamusume: Pretty Derby - Beginning of a New Era",
+            "ウマ娘 プリティーダービー 新時代の扉",
+            "Uma Musume: Pretty Derby Movie",
+            "劇場版 ウマ娘 プリティーダービー",
+            "ウマ娘 プリティーダービー BEGINNING OF A NEW ERA"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "uma",
+            "musume",
+            "pretty",
+            "derby",
+            "shin",
+            "jidai",
+            "tobira",
+            "umamusume",
+            "beginning",
+            "new",
+            "era",
+            "movie"
+          ]
+        }
+      ],
+      "special": [
+        {
+          "anilist": 145608,
+          "idMal": 51225,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2022,
+            "month": 2,
+            "day": 22
+          },
+          "titles": [
+            "Uma Musume: Pretty Derby - 1st Anniversary Special Animation",
+            "Umamusume: Pretty Derby - 1st Anniversary Special Animation",
+            "ウマ娘 プリティーダービー 1st Anniversary Special Animation",
+            "Uma Musume: Pretty Derby 1st Anniversary PV"
+          ],
+          "franchiseRoot": "Uma Musume",
+          "tokens": [
+            "uma",
+            "musume",
+            "pretty",
+            "derby",
+            "1st",
+            "anniversary",
+            "special",
+            "animation",
+            "umamusume"
+          ]
+        },
+        {
+          "anilist": 103237,
+          "idMal": 37916,
+          "anidb": null,
+          "format": "OVA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 3,
+          "startDate": {
+            "year": 2018,
+            "month": 12,
+            "day": 19
+          },
+          "titles": [
+            "Uma Musume: BNW no Chikai",
+            "ウマ娘「BNWの誓い」"
+          ],
+          "franchiseRoot": "BNW",
+          "tokens": [
+            "uma",
+            "musume",
+            "bnw",
+            "chikai"
+          ]
+        },
+        {
+          "anilist": 148370,
+          "idMal": 51761,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 4,
+          "startDate": {
+            "year": 2023,
+            "month": 4,
+            "day": 16
+          },
+          "titles": [
+            "Uma Musume: Pretty Derby - ROAD TO THE TOP",
+            "Umamusume: Pretty Derby - Road to the Top",
+            "ウマ娘 プリティーダービー ROAD TO THE TOP",
+            "Umamusume: Pretty Derby - Road to the Top",
+            "ウマ娘ロードトゥーザトップ",
+            "Uma Musume: Pretty Derby RTTT"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "uma",
+            "musume",
+            "pretty",
+            "derby",
+            "road",
+            "the",
+            "top",
+            "umamusume",
+            "rttt"
+          ]
+        },
+        {
+          "anilist": 148401,
+          "idMal": 51772,
+          "anidb": null,
+          "format": "ONA",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 24,
+          "startDate": {
+            "year": 2022,
+            "month": 10,
+            "day": 16
+          },
+          "titles": [
+            "Umayuru",
+            "Umayuru",
+            "うまゆる"
+          ],
+          "franchiseRoot": "",
+          "tokens": [
+            "umayuru"
+          ]
+        },
+        {
+          "anilist": 207886,
+          "idMal": 62843,
+          "anidb": null,
+          "format": "SPECIAL",
+          "type": "ANIME",
+          "seasonInFranchise": 1,
+          "episodeCount": 1,
+          "startDate": {
+            "year": 2025,
+            "month": 10,
+            "day": 19
+          },
+          "titles": [
+            "Run Run Lantern",
+            "Run Run Lantern",
+            "P.A. Works 25th Anniversary PV",
+            "P.A.WORKS 25周年記念PV",
+            "P.A.WORKS 25 Shuunen Kinen PV"
+          ],
+          "franchiseRoot": "Run Run Lantern",
+          "tokens": [
+            "run",
+            "lantern",
+            "works",
+            "25th",
+            "anniversary",
+            "shuunen",
+            "kinen"
+          ]
+        }
+      ]
+    }
+  },
+  "releases": [
+    {
+      "title": "[SubsPlease] Uma Musume: Pretty Derby Season 2 - 02 (1080p) [HASH].mkv",
+      "expectCorrect": true
+    },
+    {
+      "title": "[SuPReqE] Uma Musume: Pretty Derby Season 2 - 02 (720p) [AVC].mkv",
+      "expectCorrect": true
+    },
+    {
+      "title": "[Erai-raws] Umamusume: Pretty Derby S2 - 02 [1080p][MultiSub]",
+      "expectCorrect": true
+    },
+    {
+      "title": "[EraRaw] Uma Musume: Cinderella Gray - 02 [1080p]",
+      "expectCorrect": false
+    },
+    {
+      "title": "[SubsPlease] Uma Musume: Pretty Derby Season 1 - 02 (1080p) [HASH].mkv",
+      "expectCorrect": false
+    },
+    {
+      "title": "Uma Musume: Pretty Derby ROAD TO THE TOP - 02 (2023) [HEVC].mkv",
+      "expectCorrect": false
+    },
+    {
+      "title": "[MovieSource] Uma Musume: Pretty Derby - Shin Jidai no Tobira (2024) [HEVC].mkv",
+      "expectCorrect": false
+    }
+  ]
+}
