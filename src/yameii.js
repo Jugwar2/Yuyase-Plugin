@@ -4,6 +4,7 @@ import {
   withEpisodeCandidates
 } from './lib/shared.js'
 import { formatResult, SOURCE_PROFILES } from './lib/formatter.js'
+import { configSchema, configDefaults, getInstallUrl } from './lib/config.js'
 
 const PROFILE = SOURCE_PROFILES.yameii
 
@@ -106,7 +107,7 @@ async function runSearch (query, opts) {
     if (shaped.filter(r => r._tier === 'A').length >= 10) break
   }
 
-  return finalize(shaped, ctx.resolution)
+  return finalize(shaped, ctx.resolution, 30, ctx._prefs)
 }
 
 export default new class Yameii {
@@ -129,4 +130,8 @@ export default new class Yameii {
   async test () {
     return checkNyaaFeed(NYAA_BASE + '/?u=' + encodeURIComponent(UPLOADER) + '&page=rss&c=' + ANIME_CATEGORY)
   }
+
+  config () { return configSchema() }
+  defaults () { return configDefaults() }
+  installUrl (baseUrl, prefs) { return getInstallUrl(baseUrl, prefs) }
 }()

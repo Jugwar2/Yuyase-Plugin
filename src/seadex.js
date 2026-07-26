@@ -1,5 +1,6 @@
 import { buildMagnet } from './lib/shared.js'
 import { formatResult, SOURCE_PROFILES } from './lib/formatter.js'
+import { configSchema, configDefaults, getInstallUrl } from './lib/config.js'
 
 const PROFILE = SOURCE_PROFILES.seadex
 
@@ -123,4 +124,7 @@ export default new class Seadex {
     }
     return true
   }
+  config () { return configSchema() }
+  defaults () { return configDefaults() }
+  installUrl (baseUrl, prefs) { return getInstallUrl(baseUrl, prefs) }
 }()

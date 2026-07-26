@@ -964,7 +964,8 @@ function searchContext(query, mode) {
     episode: query.episode,
     episodeCandidates: query.episodeCandidates || null,
     exclusions: query.exclusions || [],
-    resolution: query.resolution || ""
+    resolution: query.resolution || "",
+    _prefs: query._prefs || {}
   };
 }
 function shapeResult(r, ctx, sourceDefault) {
@@ -1116,9 +1117,10 @@ function sortResults(results, resolution) {
     return (b.seeders || 0) - (a.seeders || 0);
   });
 }
-function finalize(results, resolution, limit = 30) {
+function finalize(results, resolution, limit = 30, prefs = {}) {
   const kept = results.some((r) => r._tier === "A") ? results.filter((r) => r._tier !== "C") : results;
-  return sortResults(kept, resolution).slice(0, limit).map(({ _tier, _score, _normalized, ...rest }) => rest);
+  const cap = prefs && prefs.maxResults && Number.isInteger(prefs.maxResults) && prefs.maxResults > 0 ? Math.min(prefs.maxResults, limit) : limit;
+  return sortResults(kept, resolution).slice(0, cap).map(({ _tier, _score, _normalized, ...rest }) => rest);
 }
 async function withEpisodeCandidates(query) {
   try {
@@ -1234,6 +1236,59 @@ function buildMagnet(hash, name) {
   const trackers = TRACKERS.map((t) => "tr=" + encodeURIComponent(t)).join("&");
   const dn = name ? "&dn=" + encodeURIComponent(name) : "";
   return "magnet:?xt=urn:btih:" + String(hash).toLowerCase() + dn + "&" + trackers;
+}
+
+// src/lib/prefs.js
+var DEFAULTS = {
+  preferredResolution: [],
+  preferredCodec: [],
+  preferredGroups: [],
+  avoidGroups: [],
+  preferredAudio: [],
+  preferredSubtitles: [],
+  preferDualAudio: false,
+  preferDub: false,
+  allowRaw: true,
+  preferBatch: false,
+  fallbackToBatch: true,
+  preferredSource: [],
+  maxResults: 0,
+  exclusions: [],
+  maxFileSizeMB: 0
+};
+function resolve(user = {}) {
+  return { ...DEFAULTS, ...user };
+}
+var CONFIG_SCHEMA = {
+  preferredResolution: { label: "Preferred Resolution", type: "multi", options: ["2160", "1080", "720", "480"], default: [] },
+  preferredCodec: { label: "Preferred Codec", type: "multi", options: ["hevc", "av1", "vp9", "avc", "x264", "x265"], default: [] },
+  preferredGroups: { label: "Preferred Groups", type: "text", placeholder: "SubsPlease, Erai-raws, Judas", default: [] },
+  avoidGroups: { label: "Avoid Groups", type: "text", placeholder: "SSA, Mini", default: [] },
+  preferredAudio: { label: "Audio languages", type: "multi", options: ["ja", "en", "pt-BR", "es-419", "fr", "de", "it", "ru", "ko", "zh", "ar"], default: [] },
+  preferredSubtitles: { label: "Subtitle languages", type: "multi", options: ["en", "es", "pt-BR", "fr", "de", "it", "ru", "ar", "ja", "ko", "zh"], default: [] },
+  preferDualAudio: { label: "Prefer Dual Audio", type: "boolean", default: false },
+  preferDub: { label: "Prefer English Dubs", type: "boolean", default: false },
+  allowRaw: { label: "Allow raw (no subs)", type: "boolean", default: true },
+  preferBatch: { label: "Prefer batches", type: "boolean", default: false },
+  fallbackToBatch: { label: "Fallback to batch", type: "boolean", default: true },
+  preferredSource: { label: "Preferred source", type: "multi", options: ["bd", "remux", "web-dl", "web", "bluray", "hdtv"], default: [] },
+  maxResults: { label: "Max results", type: "integer", default: 0, hint: "0 = unlimited" },
+  exclusions: { label: "Exclude keywords", type: "text", placeholder: "pulp, shit, bad", default: [] },
+  maxFileSizeMB: { label: "Max file size (MB)", type: "integer", default: 0, hint: "0 = no limit" }
+};
+
+// src/lib/config.js
+function configSchema() {
+  return CONFIG_SCHEMA;
+}
+function configDefaults() {
+  return DEFAULTS;
+}
+function getInstallUrl(baseInstallUrl, prefs) {
+  const merged = resolve(prefs);
+  const encoded = btoa(JSON.stringify(merged));
+  const sep = baseInstallUrl.includes("?") ? "&" : "?";
+  return baseInstallUrl + sep + "config=" + encoded;
 }
 
 // src/animetosho.js
@@ -1378,7 +1433,7 @@ async function search(query, mode) {
       results.push(r);
     }
   }
-  return finalize(results, ctx.resolution);
+  return finalize(results, ctx.resolution, 30, ctx._prefs);
 }
 var animetosho_default = new class AnimeTosho {
   async single(query) {
@@ -1402,6 +1457,15 @@ var animetosho_default = new class AnimeTosho {
       throw new Error("AnimeTosho returned HTTP " + res.status + ". The site may be down.");
     }
     return true;
+  }
+  config() {
+    return configSchema();
+  }
+  defaults() {
+    return configDefaults();
+  }
+  installUrl(baseUrl, prefs) {
+    return getInstallUrl(baseUrl, prefs);
   }
 }();
 export {

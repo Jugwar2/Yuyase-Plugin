@@ -355,10 +355,6 @@ export async function resolveEpisodeCandidates (query) {
 
 export function searchContext (query, mode) {
   const titles = query.titles || []
-  // Threshold comes from the canonical title alone. Taking it from the union of
-  // every synonym let foreign ones inflate the count: "One Piece" gained tokens
-  // from its Vietnamese and Italian names, demanding two hits from a title that
-  // only ever contains one, so no real release could match.
   const primary = rankTitlesForQuery(titles)[0]
   const primaryTokens = primary ? buildTitleTokens([primary]) : new Set()
   return {
@@ -370,7 +366,8 @@ export function searchContext (query, mode) {
     episode: query.episode,
     episodeCandidates: query.episodeCandidates || null,
     exclusions: query.exclusions || [],
-    resolution: query.resolution || ''
+    resolution: query.resolution || '',
+    _prefs: query._prefs || {}
   }
 }
 
@@ -588,11 +585,14 @@ export function sortResults (results, resolution) {
 // other episodes of the same show, which is noise when a specific one was
 // asked for. They are kept only when nothing matched, where an approximate
 // list still beats an empty picker.
-export function finalize (results, resolution, limit = 30) {
+export function finalize (results, resolution, limit = 30, prefs = {}) {
   const kept = results.some(r => r._tier === 'A')
     ? results.filter(r => r._tier !== 'C')
     : results
-  return sortResults(kept, resolution).slice(0, limit).map(({ _tier, _score, _normalized, ...rest }) => rest)
+  const cap = prefs && prefs.maxResults && Number.isInteger(prefs.maxResults) && prefs.maxResults > 0
+    ? Math.min(prefs.maxResults, limit)
+    : limit
+  return sortResults(kept, resolution).slice(0, cap).map(({ _tier, _score, _normalized, ...rest }) => rest)
 }
 
 // Attach absolute-numbering candidates so per-cour entries match the filenames

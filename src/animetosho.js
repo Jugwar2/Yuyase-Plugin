@@ -3,6 +3,7 @@ import {
   shapeAny, finalize, withEpisodeCandidates
 } from './lib/shared.js'
 import { formatResult, SOURCE_PROFILES } from './lib/formatter.js'
+import { configSchema, configDefaults, getInstallUrl } from './lib/config.js'
 
 const PROFILE = SOURCE_PROFILES.animetosho
 
@@ -156,7 +157,7 @@ async function search (query, mode) {
     }
   }
 
-  return finalize(results, ctx.resolution)
+  return finalize(results, ctx.resolution, 30, ctx._prefs)
 }
 
 export default new class AnimeTosho {
@@ -179,4 +180,7 @@ export default new class AnimeTosho {
     }
     return true
   }
+  config () { return configSchema() }
+  defaults () { return configDefaults() }
+  installUrl (baseUrl, prefs) { return getInstallUrl(baseUrl, prefs) }
 }()

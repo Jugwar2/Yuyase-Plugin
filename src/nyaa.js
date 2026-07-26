@@ -4,6 +4,7 @@ import {
   withEpisodeCandidates
 } from './lib/shared.js'
 import { formatResult, SOURCE_PROFILES } from './lib/formatter.js'
+import { configSchema, configDefaults, getInstallUrl } from './lib/config.js'
 
 const PROFILE = SOURCE_PROFILES.nyaa
 
@@ -102,15 +103,11 @@ async function runSearch (query, opts) {
     if (shaped.filter(r => r._tier === 'A').length >= 20) break
   }
 
-  return finalize(shaped, ctx.resolution)
+  return finalize(shaped, ctx.resolution, 30, ctx._prefs)
 }
 
 export default new class Nyaa {
   async single (query) {
-    // 1-episode entries on AniList are movies or single-episode OVAs. Release
-    // group filenames for these almost never carry an episode marker like "- 01"
-    // or "S01E01", so applying titleHasEpisode() would filter out every real
-    // release. Treat single() on a 1-episode entry as movie mode.
     if (query.episodeCount === 1) return runSearch(query, { movie: true })
     return runSearch(await withEpisodeCandidates(query), { episode: query.episode })
   }
@@ -129,4 +126,8 @@ export default new class Nyaa {
   async test () {
     return checkNyaaFeed(NYAA_BASE + '/?page=rss&q=one+piece&c=' + ANIME_CATEGORY)
   }
+
+  config () { return configSchema() }
+  defaults () { return configDefaults() }
+  installUrl (baseUrl, prefs) { return getInstallUrl(baseUrl, prefs) }
 }()
