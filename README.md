@@ -9,7 +9,7 @@ Works on Windows, macOS, Linux, and Hayase on Android. One install URL, no manua
 Settings -> Extensions -> Repositories -> paste -> Import Extensions:
 
 ```
-https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/master/hayase/index.json
+https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/hayase/index.json
 ```
 
 One-time action. Hayase auto-polls the manifest on every launch, so future releases flow in automatically.
@@ -17,7 +17,7 @@ One-time action. Hayase auto-polls the manifest on every launch, so future relea
 ### Shiru install URL (experimental)
 
 ```
-https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/master/shiru/index.json
+https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/shiru/index.json
 ```
 
 ## Sources
@@ -77,7 +77,7 @@ Every source exports a `config()` endpoint that Hayase's settings UI can render 
 
 **Quick configure — no manual editing needed:**
 
-1. Open **[configure.html](https://github.com/Jugwar2/Yuyase-Plugin/blob/master/configure.html)** in your browser
+1. Open **[configure.html](https://github.com/Jugwar2/Yuyase-Plugin/blob/main/configure.html)** in your browser
 2. Select a source tab, set your preferences (resolution, codec, groups, languages, etc.)
 3. **Copy** the generated install link
 4. Paste it in Hayase → Settings → Extensions → Add Extension → From URL

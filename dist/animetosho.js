@@ -1294,7 +1294,7 @@ function getInstallUrl(baseUrl, prefs) {
 // src/animetosho.js
 var PROFILE = SOURCE_PROFILES.animetosho;
 var BASE = "https://feed.animetosho.org/json";
-var MAPPING_URL = "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/master/data/anilist-to-anidb.json";
+var MAPPING_URL = "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/data/anilist-to-anidb.json";
 var mappingCache = null;
 var mappingPromise = null;
 function validId(v) {
