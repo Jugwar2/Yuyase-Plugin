@@ -12,7 +12,12 @@ Settings -> Extensions -> Repositories -> paste -> Import Extensions:
 https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/hayase/index.json
 ```
 
-One-time action. Hayase auto-polls the manifest on every launch, so future releases flow in automatically.
+> **If you previously had anitorrent installed,** remove the anitorrent repo first
+> (Settings -> Extensions -> Repositories -> delete the anh9000/anitorrent URL).
+> Yuyase uses different extension IDs (`yuyase.*`) and won't conflict, but you
+> don't want both packs active at once.
+
+One-time action. Hayase auto-polls the manifest on every launch.
 
 ### Shiru install URL (experimental)
 
