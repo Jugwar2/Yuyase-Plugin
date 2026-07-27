@@ -73,7 +73,18 @@ When the query carries an AniList ID, sources route results through the **canoni
 
 ### Preferences / Configuration
 
-Every source exports a `config()` endpoint that Hayase's settings UI can render as a toggles form. Supported preferences:
+Every source exports a `config()` endpoint that Hayase's settings UI can render as a toggles form.
+
+**Quick configure — no manual editing needed:**
+
+1. Open **[configure.html](https://github.com/Jugwar2/Yuyase-Plugin/blob/master/configure.html)** in your browser
+2. Select a source tab, set your preferences (resolution, codec, groups, languages, etc.)
+3. **Copy** the generated install link
+4. Paste it in Hayase → Settings → Extensions → Add Extension → From URL
+
+Every setting change regenerates a **unique install link** with your config encoded directly in the URL (`?c=<base64>`). No login, no account, no editing the manifest manually.
+
+Supported preferences:
 
 - **Resolution** — 2160p, 1080p, 720p, 480p
 - **Codec** — HEVC, AV1, VP9, AVC

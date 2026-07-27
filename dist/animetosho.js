@@ -1284,11 +1284,11 @@ function configSchema() {
 function configDefaults() {
   return DEFAULTS;
 }
-function getInstallUrl(baseInstallUrl, prefs) {
+function getInstallUrl(baseUrl, prefs) {
   const merged = resolve(prefs);
   const encoded = btoa(JSON.stringify(merged));
-  const sep = baseInstallUrl.includes("?") ? "&" : "?";
-  return baseInstallUrl + sep + "config=" + encoded;
+  const sep = baseUrl.includes("?") ? "&" : "?";
+  return baseUrl + sep + "c=" + encoded;
 }
 
 // src/animetosho.js
