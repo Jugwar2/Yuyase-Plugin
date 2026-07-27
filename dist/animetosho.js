@@ -257,14 +257,27 @@ function extractLanguages(title) {
   const subs = /* @__PURE__ */ new Set();
   const codeRe = /\[([A-Z]{2,3}(?:-[A-Z]{2,3})?)\]/g;
   let m;
+  const bracketLangs = /* @__PURE__ */ new Set();
   while ((m = codeRe.exec(title)) !== null) {
     const key = m[1].toUpperCase().replace("-", "");
     const iso = LANG_CODES[key] || LANG_CODES[m[1].toUpperCase()];
-    if (iso) spoken.add(iso);
+    if (iso) bracketLangs.add(iso);
   }
-  if (DUAL_AUDIO.test(title)) spoken.add("dual");
-  if (DUB_TAGS.test(title)) spoken.add("en");
-  if (SUBBED_TAGS.test(title) || /Multi[-\s]?Sub/i.test(title)) subs.add("multi");
+  const hasDubMarker = DUB_TAGS.test(title);
+  const hasDualMarker = DUAL_AUDIO.test(title);
+  const hasSubMarker = SUBBED_TAGS.test(title) || /Multi[-\s]?Sub/i.test(title);
+  if (hasDualMarker || hasDubMarker) {
+    for (const iso of bracketLangs) spoken.add(iso);
+  }
+  if (hasSubMarker || /eng\s*sub/i.test(title)) {
+    for (const iso of bracketLangs) subs.add(iso);
+    if (!hasDualMarker && !hasDubMarker) {
+      for (const iso of bracketLangs) spoken.delete(iso);
+    }
+  }
+  if (hasDualMarker) spoken.add("dual");
+  if (hasDubMarker) spoken.add("en");
+  if (hasSubMarker) subs.add("multi");
   if (/eng\s*sub/i.test(title)) subs.add("en");
   return {
     spoken: [...spoken],
@@ -315,7 +328,7 @@ function parseTitle(title) {
     spokenLanguages: langs.spoken,
     subtitleLanguages: langs.subs,
     isDub: langs.spoken.includes("en") && !langs.spoken.includes("ja"),
-    isDualAudio: langs.spoken.includes("dual") || DUAL_AUDIO.test(title),
+    isDualAudio: langs.spoken.includes("dual") || DUAL_AUDIO.test(title) || langs.spoken.includes("en") && langs.spoken.includes("ja"),
     isSubbed: SUBBED_TAGS.test(title) || langs.subs.length > 0,
     sourceTag: (title.match(/\b(BD|BluRay|Blu-Ray|Bluray|BDRip|DVDRip|DVD|WEB|WebRip|Web-DL|HDTV|TV|Netflix|Crunchyroll|CR|Remux|AMZN|ATSC|ATVP|NHK|AT-X|WOWOW)\b/i) || [])[1]?.toLowerCase(),
     confidence: ep.confidence
@@ -553,7 +566,7 @@ function groupBonus(norm, prefs) {
 function resolutionBonus(norm, prefs) {
   const res = norm.resolution;
   if (!res) return WEIGHTS.resolutionOther;
-  if (prefs && prefs.requestedResolutions && prefs.requestedResolutions.has(String(res))) return WEIGHTS.resolutionPref;
+  if (prefs && prefs.preferredResolutions && prefs.preferredResolutions.has(String(res))) return WEIGHTS.resolutionPref;
   return WEIGHTS.resolutionNotWanted;
 }
 function sourceBonus(norm, prefs) {
@@ -698,6 +711,69 @@ var SOURCE_PROFILES = {
   subsplease: { name: "SubsPlease", accuracy: "high", parserConfidence: 0.99, earlyExit: 200 },
   yameii: { name: "Yameii", accuracy: "high", parserConfidence: 0.85, earlyExit: 10 },
   toonshub: { name: "ToonsHub", accuracy: "high", parserConfidence: 0.85, earlyExit: 10 }
+};
+
+// src/lib/prefs.js
+var DEFAULTS = {
+  preferredResolution: ["1080"],
+  preferredCodec: [],
+  preferredGroups: [],
+  avoidGroups: [],
+  preferredAudio: [],
+  preferredSubtitles: ["en"],
+  preferDualAudio: false,
+  preferDub: true,
+  allowRaw: false,
+  preferBatch: false,
+  fallbackToBatch: true,
+  preferredSource: [],
+  avoidBluRay: true,
+  maxResults: 9,
+  exclusions: [],
+  maxFileSizeMB: 0
+};
+function resolve(user = {}) {
+  return { ...DEFAULTS, ...user };
+}
+function scorerEnv(prefs, queryResolution) {
+  const norm = resolve(prefs || {});
+  return {
+    resolution: queryResolution || null,
+    preferredResolutions: new Set(norm.preferredResolution.map(String)),
+    preferredCodecs: new Set(norm.preferredCodec.map((s) => s.toLowerCase())),
+    knownGroups: new Set(norm.preferredGroups.map((s) => s.toLowerCase().trim())),
+    avoidGroups: new Set(norm.avoidGroups.map((s) => s.toLowerCase().trim())),
+    preferredAudio: new Set(norm.preferredAudio),
+    preferredSubtitles: new Set(norm.preferredSubtitles),
+    preferDualAudio: !!norm.preferDualAudio,
+    preferDub: !!norm.preferDub,
+    allowRaw: !!norm.allowRaw,
+    avoidBluRay: !!norm.avoidBluRay,
+    defaultBatch: !!norm.preferBatch,
+    fallbackToBatch: !!norm.fallbackToBatch,
+    preferredSource: new Set(norm.preferredSource.map((s) => s.toLowerCase())),
+    maxResults: norm.maxResults && Number.isInteger(norm.maxResults) ? norm.maxResults : 0,
+    exclusions: (norm.exclusions || []).slice(0, 20),
+    maxFileSize: norm.maxFileSizeMB ? Number(norm.maxFileSizeMB) * 1e6 : 0
+  };
+}
+var CONFIG_SCHEMA = {
+  preferredResolution: { label: "Preferred Resolution", type: "multi", options: ["2160", "1080", "720", "480"], default: ["1080"] },
+  preferredCodec: { label: "Preferred Codec", type: "multi", options: ["hevc", "av1", "vp9", "avc", "x264", "x265"], default: [] },
+  preferredGroups: { label: "Preferred Groups", type: "text", placeholder: "SubsPlease, Erai-raws, Judas", default: [] },
+  avoidGroups: { label: "Avoid Groups", type: "text", placeholder: "SSA, Mini", default: [] },
+  preferredAudio: { label: "Audio languages", type: "multi", options: ["ja", "en", "pt-BR", "es-419", "fr", "de", "it", "ru", "ko", "zh", "ar"], default: [] },
+  preferredSubtitles: { label: "Subtitle languages", type: "multi", options: ["en", "es", "pt-BR", "fr", "de", "it", "ru", "ar", "ja", "ko", "zh"], default: ["en"] },
+  preferDualAudio: { label: "Prefer Dual Audio", type: "boolean", default: false },
+  preferDub: { label: "Prioritise English Dubs", type: "boolean", default: true },
+  allowRaw: { label: "Allow raw (no subs)", type: "boolean", default: false },
+  avoidBluRay: { label: "Avoid Blu-ray / Remux (large files)", type: "boolean", default: true },
+  preferBatch: { label: "Prefer batches", type: "boolean", default: false },
+  fallbackToBatch: { label: "Fallback to batch", type: "boolean", default: true },
+  preferredSource: { label: "Preferred source", type: "multi", options: ["bd", "remux", "web-dl", "web", "bluray", "hdtv"], default: [] },
+  maxResults: { label: "Max results", type: "integer", default: 9, hint: "max shown (0 = unlimited)" },
+  exclusions: { label: "Exclude keywords", type: "text", placeholder: "pulp, shit, bad", default: [] },
+  maxFileSizeMB: { label: "Max file size (MB)", type: "integer", default: 0, hint: "0 = no limit" }
 };
 
 // src/lib/shared.js
@@ -1017,7 +1093,7 @@ function pipelineEnv(ctx, canonical) {
     requestEpisode: ctx.episode != null ? Number(ctx.episode) : null,
     requestFormat: ctx.mode === "movie" ? "MOVIE" : "TV",
     mode: ctx.mode,
-    prefs: ctx._prefs || { resolution: ctx.resolution || "" }
+    prefs: scorerEnv(ctx._prefs, ctx.resolution)
   };
 }
 function normToResult(norm, score, sourceDefault) {
@@ -1245,47 +1321,6 @@ function buildMagnet(hash, name) {
   const dn = name ? "&dn=" + encodeURIComponent(name) : "";
   return "magnet:?xt=urn:btih:" + String(hash).toLowerCase() + dn + "&" + trackers;
 }
-
-// src/lib/prefs.js
-var DEFAULTS = {
-  preferredResolution: ["1080"],
-  preferredCodec: [],
-  preferredGroups: [],
-  avoidGroups: [],
-  preferredAudio: [],
-  preferredSubtitles: ["en"],
-  preferDualAudio: false,
-  preferDub: true,
-  allowRaw: false,
-  preferBatch: false,
-  fallbackToBatch: true,
-  preferredSource: [],
-  avoidBluRay: true,
-  maxResults: 9,
-  exclusions: [],
-  maxFileSizeMB: 0
-};
-function resolve(user = {}) {
-  return { ...DEFAULTS, ...user };
-}
-var CONFIG_SCHEMA = {
-  preferredResolution: { label: "Preferred Resolution", type: "multi", options: ["2160", "1080", "720", "480"], default: ["1080"] },
-  preferredCodec: { label: "Preferred Codec", type: "multi", options: ["hevc", "av1", "vp9", "avc", "x264", "x265"], default: [] },
-  preferredGroups: { label: "Preferred Groups", type: "text", placeholder: "SubsPlease, Erai-raws, Judas", default: [] },
-  avoidGroups: { label: "Avoid Groups", type: "text", placeholder: "SSA, Mini", default: [] },
-  preferredAudio: { label: "Audio languages", type: "multi", options: ["ja", "en", "pt-BR", "es-419", "fr", "de", "it", "ru", "ko", "zh", "ar"], default: [] },
-  preferredSubtitles: { label: "Subtitle languages", type: "multi", options: ["en", "es", "pt-BR", "fr", "de", "it", "ru", "ar", "ja", "ko", "zh"], default: ["en etc"] },
-  preferOnAudio: { label: "Prefer Dual Audio", type: "boolean", default: true },
-  preferDub: { label: "Prioritise English Dubs", type: "boolean", default: true },
-  allowRaw: { label: "Allow raw (no subs)", type: "boolean", default: true },
-  avoidBluRay: { label: "Avoid Blu-ray / Remux (large files)", type: "boolean", default: true },
-  preferBatch: { label: "Prefer batches", type: "boolean", default: false },
-  fallbackToBatch: { label: "Fallback to batch", type: "boolean", default: true },
-  preferredSource: { label: "Preferred source", type: "multi", options: ["bd", "remux", "web-dl", "web", "bluray", "hdtv"], default: [] },
-  maxResults: { label: "Max results", type: "integer", default: 9, hint: "max shown (0 = unlimited)" },
-  exclusions: { label: "Exclude keywords", type: "text", placeholder: "pulp, shit, bad", default: [] },
-  maxFileSizeMB: { label: "Max file size (MB)", type: "integer", default: 0, hint: "0 = no limit" }
-};
 
 // src/lib/config.js
 function configSchema() {

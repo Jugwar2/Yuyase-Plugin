@@ -102,7 +102,7 @@ function groupBonus (norm, prefs) {
 function resolutionBonus (norm, prefs) {
   const res = norm.resolution
   if (!res) return WEIGHTS.resolutionOther
-  if (prefs && prefs.requestedResolutions && prefs.requestedResolutions.has(String(res))) return WEIGHTS.resolutionPref
+  if (prefs && prefs.preferredResolutions && prefs.preferredResolutions.has(String(res))) return WEIGHTS.resolutionPref
   return WEIGHTS.resolutionNotWanted
 }
 

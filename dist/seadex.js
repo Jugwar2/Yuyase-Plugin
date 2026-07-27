@@ -44,22 +44,6 @@ var SOURCE_PROFILES = {
   toonshub: { name: "ToonsHub", accuracy: "high", parserConfidence: 0.85, earlyExit: 10 }
 };
 
-// src/lib/shared.js
-var TRACKERS = [
-  "udp://tracker.opentrackr.org:1337/announce",
-  "udp://open.stealth.si:80/announce",
-  "udp://tracker.torrent.eu.org:451/announce",
-  "udp://exodus.desync.com:6969/announce",
-  "udp://tracker.coppersurfer.tk:6969/announce",
-  "udp://tracker.openbittorrent.com:6969/announce",
-  "http://nyaa.tracker.wf:7777/announce"
-];
-function buildMagnet(hash, name) {
-  const trackers = TRACKERS.map((t) => "tr=" + encodeURIComponent(t)).join("&");
-  const dn = name ? "&dn=" + encodeURIComponent(name) : "";
-  return "magnet:?xt=urn:btih:" + String(hash).toLowerCase() + dn + "&" + trackers;
-}
-
 // src/lib/prefs.js
 var DEFAULTS = {
   preferredResolution: ["1080"],
@@ -88,10 +72,10 @@ var CONFIG_SCHEMA = {
   preferredGroups: { label: "Preferred Groups", type: "text", placeholder: "SubsPlease, Erai-raws, Judas", default: [] },
   avoidGroups: { label: "Avoid Groups", type: "text", placeholder: "SSA, Mini", default: [] },
   preferredAudio: { label: "Audio languages", type: "multi", options: ["ja", "en", "pt-BR", "es-419", "fr", "de", "it", "ru", "ko", "zh", "ar"], default: [] },
-  preferredSubtitles: { label: "Subtitle languages", type: "multi", options: ["en", "es", "pt-BR", "fr", "de", "it", "ru", "ar", "ja", "ko", "zh"], default: ["en etc"] },
-  preferOnAudio: { label: "Prefer Dual Audio", type: "boolean", default: true },
+  preferredSubtitles: { label: "Subtitle languages", type: "multi", options: ["en", "es", "pt-BR", "fr", "de", "it", "ru", "ar", "ja", "ko", "zh"], default: ["en"] },
+  preferDualAudio: { label: "Prefer Dual Audio", type: "boolean", default: false },
   preferDub: { label: "Prioritise English Dubs", type: "boolean", default: true },
-  allowRaw: { label: "Allow raw (no subs)", type: "boolean", default: true },
+  allowRaw: { label: "Allow raw (no subs)", type: "boolean", default: false },
   avoidBluRay: { label: "Avoid Blu-ray / Remux (large files)", type: "boolean", default: true },
   preferBatch: { label: "Prefer batches", type: "boolean", default: false },
   fallbackToBatch: { label: "Fallback to batch", type: "boolean", default: true },
@@ -100,6 +84,22 @@ var CONFIG_SCHEMA = {
   exclusions: { label: "Exclude keywords", type: "text", placeholder: "pulp, shit, bad", default: [] },
   maxFileSizeMB: { label: "Max file size (MB)", type: "integer", default: 0, hint: "0 = no limit" }
 };
+
+// src/lib/shared.js
+var TRACKERS = [
+  "udp://tracker.opentrackr.org:1337/announce",
+  "udp://open.stealth.si:80/announce",
+  "udp://tracker.torrent.eu.org:451/announce",
+  "udp://exodus.desync.com:6969/announce",
+  "udp://tracker.coppersurfer.tk:6969/announce",
+  "udp://tracker.openbittorrent.com:6969/announce",
+  "http://nyaa.tracker.wf:7777/announce"
+];
+function buildMagnet(hash, name) {
+  const trackers = TRACKERS.map((t) => "tr=" + encodeURIComponent(t)).join("&");
+  const dn = name ? "&dn=" + encodeURIComponent(name) : "";
+  return "magnet:?xt=urn:btih:" + String(hash).toLowerCase() + dn + "&" + trackers;
+}
 
 // src/lib/config.js
 function configSchema() {

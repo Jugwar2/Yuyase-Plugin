@@ -80,18 +80,30 @@ function extractLanguages (title) {
   // Bracketed language codes — [ENG][POR-BR] etc.
   const codeRe = /\[([A-Z]{2,3}(?:-[A-Z]{2,3})?)\]/g
   let m
+  const bracketLangs = new Set()
   while ((m = codeRe.exec(title)) !== null) {
     const key = m[1].toUpperCase().replace('-', '')
     const iso = LANG_CODES[key] || LANG_CODES[m[1].toUpperCase()]
-    // Heuristic: language codes near a "Sub" indicator are subtitle langs;
-    // otherwise spoken. We can't tell cleanly from a bracket alone, so assume
-    // spoken (Erai Multi-Audio convention) and let the SUBBED_TAGS match
-    // promote everything to subs when no dub/dual-audio marker exists.
-    if (iso) spoken.add(iso)
+    if (iso) bracketLangs.add(iso)
   }
-  if (DUAL_AUDIO.test(title)) spoken.add('dual')
-  if (DUB_TAGS.test(title)) spoken.add('en')
-  if (SUBBED_TAGS.test(title) || /Multi[-\s]?Sub/i.test(title)) subs.add('multi')
+  const hasDubMarker = DUB_TAGS.test(title)
+  const hasDualMarker = DUAL_AUDIO.test(title)
+  const hasSubMarker = SUBBED_TAGS.test(title) || /Multi[-\s]?Sub/i.test(title)
+  if (hasDualMarker || hasDubMarker) {
+    for (const iso of bracketLangs) spoken.add(iso)
+  }
+  if (hasSubMarker || /eng\s*sub/i.test(title)) {
+    for (const iso of bracketLangs) subs.add(iso)
+    if (!hasDualMarker && !hasDubMarker) {
+      // No explicit audio marker — assume brackets are sub languages
+      for (const iso of bracketLangs) spoken.delete(iso)
+    }
+  }
+
+  // Hard markers override bracket heuristics
+  if (hasDualMarker) spoken.add('dual')
+  if (hasDubMarker) spoken.add('en')
+  if (hasSubMarker) subs.add('multi')
   if (/eng\s*sub/i.test(title)) subs.add('en')
   return {
     spoken: [...spoken],
@@ -168,7 +180,7 @@ function parseTitle (title) {
     spokenLanguages: langs.spoken,
     subtitleLanguages: langs.subs,
     isDub: langs.spoken.includes('en') && !langs.spoken.includes('ja'),
-    isDualAudio: langs.spoken.includes('dual') || DUAL_AUDIO.test(title),
+    isDualAudio: langs.spoken.includes('dual') || DUAL_AUDIO.test(title) || (langs.spoken.includes('en') && langs.spoken.includes('ja')),
     isSubbed: SUBBED_TAGS.test(title) || langs.subs.length > 0,
     sourceTag: (title.match(/\b(BD|BluRay|Blu-Ray|Bluray|BDRip|DVDRip|DVD|WEB|WebRip|Web-DL|HDTV|TV|Netflix|Crunchyroll|CR|Remux|AMZN|ATSC|ATVP|NHK|AT-X|WOWOW)\b/i) || [])[1]?.toLowerCase(),
     confidence: ep.confidence

@@ -1,4 +1,4 @@
-// Shared matching, query, and torrent helpers used by every source.
+﻿// Shared matching, query, and torrent helpers used by every source.
 // Single source of truth: fix matching logic here once, all sources inherit it.
 
 // nyaa.si sits behind ddos-guard, which serves a challenge page (not RSS) to
@@ -434,6 +434,7 @@ import { normalizeTorrent } from './normalize.js'
 import { validate, pickRequestedBranch } from './filters.js'
 import { rankCandidates } from './scorer.js'
 import { formatResult, effectiveAccuracy } from './formatter.js'
+import { scorerEnv } from './prefs.js'
 
 // Build the env object the gates and scorer share.
 function pipelineEnv (ctx, canonical) {
@@ -443,7 +444,7 @@ function pipelineEnv (ctx, canonical) {
     requestEpisode: ctx.episode != null ? Number(ctx.episode) : null,
     requestFormat: ctx.mode === 'movie' ? 'MOVIE' : 'TV',
     mode: ctx.mode,
-    prefs: ctx._prefs || { resolution: ctx.resolution || '' }
+    prefs: scorerEnv(ctx._prefs, ctx.resolution)
   }
 }
 
