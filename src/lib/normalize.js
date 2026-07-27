@@ -78,32 +78,16 @@ function extractLanguages (title) {
   const spoken = new Set()
   const subs = new Set()
   // Bracketed language codes — [ENG][POR-BR] etc.
-  const codeRe = /\[([A-Z]{2,3}(?:-[A-Z]{2,3})?)\]/g
+  const codeRE = /\[([A-Z]{2,3}(?:-[A-Z]{2,3})?)\]/g
   let m
-  const bracketLangs = new Set()
-  while ((m = codeRe.exec(title)) !== null) {
+  while ((m = codeRE.exec(title)) !== null) {
     const key = m[1].toUpperCase().replace('-', '')
     const iso = LANG_CODES[key] || LANG_CODES[m[1].toUpperCase()]
-    if (iso) bracketLangs.add(iso)
+    if (iso) spoken.add(iso)
   }
-  const hasDubMarker = DUB_TAGS.test(title)
-  const hasDualMarker = DUAL_AUDIO.test(title)
-  const hasSubMarker = SUBBED_TAGS.test(title) || /Multi[-\s]?Sub/i.test(title)
-  if (hasDualMarker || hasDubMarker) {
-    for (const iso of bracketLangs) spoken.add(iso)
-  }
-  if (hasSubMarker || /eng\s*sub/i.test(title)) {
-    for (const iso of bracketLangs) subs.add(iso)
-    if (!hasDualMarker && !hasDubMarker) {
-      // No explicit audio marker — assume brackets are sub languages
-      for (const iso of bracketLangs) spoken.delete(iso)
-    }
-  }
-
-  // Hard markers override bracket heuristics
-  if (hasDualMarker) spoken.add('dual')
-  if (hasDubMarker) spoken.add('en')
-  if (hasSubMarker) subs.add('multi')
+  if (DUAL_AUDIO.test(title)) spoken.add('dual')
+  if (DUB_TAGS.test(title)) spoken.add('en')
+  if (SUBBED_TAGS.test(title) || /Multi[-\s]?Sub/i.test(title)) subs.add('multi')
   if (/eng\s*sub/i.test(title)) subs.add('en')
   return {
     spoken: [...spoken],

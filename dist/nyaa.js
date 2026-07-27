@@ -255,29 +255,16 @@ var LANG_CODES = {
 function extractLanguages(title) {
   const spoken = /* @__PURE__ */ new Set();
   const subs = /* @__PURE__ */ new Set();
-  const codeRe = /\[([A-Z]{2,3}(?:-[A-Z]{2,3})?)\]/g;
+  const codeRE = /\[([A-Z]{2,3}(?:-[A-Z]{2,3})?)\]/g;
   let m;
-  const bracketLangs = /* @__PURE__ */ new Set();
-  while ((m = codeRe.exec(title)) !== null) {
+  while ((m = codeRE.exec(title)) !== null) {
     const key = m[1].toUpperCase().replace("-", "");
     const iso = LANG_CODES[key] || LANG_CODES[m[1].toUpperCase()];
-    if (iso) bracketLangs.add(iso);
+    if (iso) spoken.add(iso);
   }
-  const hasDubMarker = DUB_TAGS.test(title);
-  const hasDualMarker = DUAL_AUDIO.test(title);
-  const hasSubMarker = SUBBED_TAGS.test(title) || /Multi[-\s]?Sub/i.test(title);
-  if (hasDualMarker || hasDubMarker) {
-    for (const iso of bracketLangs) spoken.add(iso);
-  }
-  if (hasSubMarker || /eng\s*sub/i.test(title)) {
-    for (const iso of bracketLangs) subs.add(iso);
-    if (!hasDualMarker && !hasDubMarker) {
-      for (const iso of bracketLangs) spoken.delete(iso);
-    }
-  }
-  if (hasDualMarker) spoken.add("dual");
-  if (hasDubMarker) spoken.add("en");
-  if (hasSubMarker) subs.add("multi");
+  if (DUAL_AUDIO.test(title)) spoken.add("dual");
+  if (DUB_TAGS.test(title)) spoken.add("en");
+  if (SUBBED_TAGS.test(title) || /Multi[-\s]?Sub/i.test(title)) subs.add("multi");
   if (/eng\s*sub/i.test(title)) subs.add("en");
   return {
     spoken: [...spoken],
