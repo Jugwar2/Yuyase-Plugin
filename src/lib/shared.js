@@ -563,9 +563,8 @@ export async function shapeAny (items, ctx, sourceDefault, query) {
   return shapeAll(items, ctx, sourceDefault)
 }
 
-// Newest first. Exact-episode matches lead only when some exist, so per-cour
-// entries (where no filename maps to the AniList episode number) still put the
-// freshest upload on top instead of a years-old batch.
+// Newest first. Within same-day results prefer more seeders then smaller files
+// (smaller Web-DL encodes surface above chunky Bluray rips when all else ties).
 export function sortResults (results, resolution) {
   const hasExact = results.some(r => r._tier === 'A')
   return results.sort((a, b) => {
@@ -577,7 +576,9 @@ export function sortResults (results, resolution) {
       const bm = matchesResolution(b.title, resolution) ? 1 : 0
       if (am !== bm) return bm - am
     }
-    return (b.seeders || 0) - (a.seeders || 0)
+    const sd = (b.seeders || 0) - (a.seeders || 0)
+    if (sd !== 0) return sd
+    return (a.size || 0) - (b.size || 0)
   })
 }
 

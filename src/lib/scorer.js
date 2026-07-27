@@ -42,15 +42,16 @@ const WEIGHTS = {
   groupUnknown: 0,
   confidence: 1,
   recency: 2,
-  seeders200: 3,
-  seeders50: 1,
-  seedersLow: 0,
+  seeders200: 5,
+  seeders50: 2,
+  seedersLow: -1,
   batchVsSingle: -6,
   movieVsSingle: -8,
   branchExact: 10,
   ageStaleDays120: -1,
   sourceBD: 4,
   sourceWEB: 2,
+  avoidBluRayPenalty: -12,
   dualAudio: 5,
   dub: 3,
   hevc: 2,
@@ -108,7 +109,11 @@ function resolutionBonus (norm, prefs) {
 function sourceBonus (norm, prefs) {
   const t = (norm.sourceTag || '').toLowerCase()
   let s = 0
-  if (t === 'bd' || t === 'bdrip' || t === 'bluray' || t === 'remux') s += WEIGHTS.sourceBD
+  const isBluRay = t === 'bd' || t === 'bdrip' || t === 'bluray' || t === 'remux'
+  if (isBluRay) {
+    if (prefs && prefs.avoidBluRay) s += WEIGHTS.avoidBluRayPenalty
+    else s += WEIGHTS.sourceBD
+  }
   if (t === 'web' || t === 'web-dl' || t === 'webrip' || t === 'netflix' || t === 'crunchyroll') s += WEIGHTS.sourceWEB
   if (prefs && prefs.preferredSource && t && prefs.preferredSource.has(t)) s += WEIGHTS.prefsSourceMatch
   return s
@@ -193,8 +198,8 @@ export function scoreCandidate (norm, { canonical, requestSeason, requestEpisode
   }
 }
 
-// Sort by score desc; tiebreak by date desc then seeders desc. Pure function;
-// caller is responsible for picking the slice length (formatter / limit).
+// Sort by score desc; tiebreak by date desc, then seeders desc, then size asc
+// (smaller files surface first when all else is equal — prefers WEB over BD).
 export function rankCandidates (cands, env) {
   const scored = cands.map(c => ({ c, s: scoreCandidate(c, env) }))
   scored.sort((a, b) => {
@@ -202,7 +207,8 @@ export function rankCandidates (cands, env) {
     const dA = a.c.date instanceof Date ? a.c.date.getTime() : (a.c.date || 0)
     const dB = b.c.date instanceof Date ? b.c.date.getTime() : (b.c.date || 0)
     if (dB !== dA) return dB - dA
-    return (b.c.seeders || 0) - (a.c.seeders || 0)
+    if (b.c.seeders !== a.c.seeders) return (b.c.seeders || 0) - (a.c.seeders || 0)
+    return (a.c.size || 0) - (b.c.size || 0)
   })
   return scored.map(x => ({ norm: x.c, score: x.s.score, branch: x.s.branch, components: x.s.components }))
 }

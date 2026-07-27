@@ -48,7 +48,7 @@ input:checked+.toggle-slider:before{transform:translateX(18px)}
 <body>
 <div class="header">
   <h1>Yuyase</h1>
-  <span class="badge">v1.3.0</span>
+  <span class="badge">v1.4.0</span>
   <span class="desc">Torrent extension pack for Hayase</span>
 </div>
 
@@ -65,20 +65,22 @@ input:checked+.toggle-slider:before{transform:translateX(18px)}
       <div class="pill-row" id="pills-resolution"></div>
     </div>
     <div class="form-group">
-      <label>Preferred Source</label>
-      <div class="pill-row" id="pills-source"></div>
-    </div>
-    <div class="form-group">
       <label>Preferred Codec</label>
       <div class="pill-row" id="pills-codec"></div>
     </div>
     <div class="form-group">
-      <label>Max Results <span class="hint">(0 = unlimited)</span></label>
-      <input type="number" id="inp-maxResults" placeholder="0" min="0" max="50">
+      <label>Max Results</label>
+      <input type="number" id="inp-maxResults" value="9" placeholder="9" min="1" max="50">
     </div>
     <div class="form-group">
       <label>Max File Size (MB) <span class="hint">(0 = no limit)</span></label>
       <input type="number" id="inp-maxFileSizeMB" placeholder="0" min="0">
+    </div>
+    <div class="form-group">
+      <label>Avoid Blu-ray / Remux<span class="hint"> large files, de-prioritises BD</span></label>
+      <label class="toggle-wrapper">
+        <input type="checkbox" id="chk-avoidBluRay" checked><span class="toggle-slider"></span>
+      </label>
     </div>
   </div>
 
@@ -101,13 +103,13 @@ input:checked+.toggle-slider:before{transform:translateX(18px)}
     <div class="form-group">
       <label>Prefer English Dubs</label>
       <label class="toggle-wrapper">
-        <input type="checkbox" id="chk-preferDub"><span class="toggle-slider"></span>
+        <input type="checkbox" id="chk-preferDub" checked><span class="toggle-slider"></span>
       </label>
     </div>
     <div class="form-group">
       <label>Allow raw (no subs)</label>
       <label class="toggle-wrapper">
-        <input type="checkbox" id="chk-allowRaw" checked><span class="toggle-slider"></span>
+        <input type="checkbox" id="chk-allowRaw"><span class="toggle-slider"></span>
       </label>
     </div>
   </div>
@@ -164,22 +166,21 @@ input:checked+.toggle-slider:before{transform:translateX(18px)}
   var CDN = 'https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main';
 
   var DEFAULTS = {
-    preferredResolution: [], preferredCodec: [], preferredGroups: [], avoidGroups: [],
-    preferredAudio: [], preferredSubtitles: [],
-    preferDualAudio: false, preferDub: false, allowRaw: true,
+    preferredResolution: ['1080'], preferredCodec: [], preferredGroups: [], avoidGroups: [],
+    preferredAudio: [], preferredSubtitles: ['en'],
+    preferDualAudio: false, preferDub: true, allowRaw: false,
     preferBatch: false, fallbackToBatch: true,
-    preferredSource: [], maxResults: 0, exclusions: [], maxFileSizeMB: 0
+    preferredSource: [], avoidBluRay: true, maxResults: 9, exclusions: [], maxFileSizeMB: 0
   };
 
   var PILLS = {
     resolution: { key:'preferredResolution', vals:['2160','1080','720','480'] },
-    source:     { key:'preferredSource',     vals:['bd','remux','web-dl','web','bluray','hdtv'] },
     codec:      { key:'preferredCodec',      vals:['hevc','av1','vp9','avc','x264','x265'] },
     audio:      { key:'preferredAudio',      vals:['ja','en','pt-BR','es-419','fr','de','it','ru','ko','zh','ar'] },
     subtitles:  { key:'preferredSubtitles',  vals:['en','es','pt-BR','fr','de','it','ru','ar','ja','ko','zh'] }
   };
 
-  var BOOLS   = ['preferDualAudio','preferDub','allowRaw','preferBatch','fallbackToBatch'];
+  var BOOLS   = ['preferDualAudio','preferDub','allowRaw','avoidBluRay','preferBatch','fallbackToBatch'];
   var TEXTS   = ['preferredGroups','avoidGroups','exclusions'];
   var NUMS    = ['maxResults','maxFileSizeMB'];
 
@@ -312,12 +313,50 @@ input:checked+.toggle-slider:before{transform:translateX(18px)}
     });
     NUMS.forEach(function(k){
       var el = document.getElementById('inp-'+k);
-      if (el) el.value = '';
+      if (el) el.value = DEFAULTS[k] || '';
     });
+    // Re-apply default pill selections after clearing
+    if (DEFAULTS.preferredResolution) {
+      DEFAULTS.preferredResolution.forEach(function(v) {
+        var pills = document.querySelectorAll('#pills-resolution .pill');
+        for (var i=0; i<pills.length; i++) {
+          if (pills[i].textContent.toLowerCase() === v.toLowerCase()) pills[i].classList.add('active');
+        }
+      });
+    }
+    if (DEFAULTS.preferredSubtitles) {
+      DEFAULTS.preferredSubtitles.forEach(function(v) {
+        var pills = document.querySelectorAll('#pills-subtitles .pill');
+        for (var i=0; i<pills.length; i++) {
+          if (pills[i].textContent.toLowerCase() === v.toLowerCase()) pills[i].classList.add('active');
+        }
+      });
+    }
     regenerate();
   }
 
-  regenerate();
+  // Initialise pills with defaults
+  function initDefaults() {
+    if (DEFAULTS.preferredResolution) {
+      DEFAULTS.preferredResolution.forEach(function(v) {
+        var pills = document.querySelectorAll('#pills-resolution .pill');
+        for (var i=0; i<pills.length; i++) {
+          if (pills[i].textContent.toLowerCase() === v.toLowerCase()) pills[i].classList.add('active');
+        }
+      });
+    }
+    if (DEFAULTS.preferredSubtitles) {
+      DEFAULTS.preferredSubtitles.forEach(function(v) {
+        var pills = document.querySelectorAll('#pills-subtitles .pill');
+        for (var i=0; i<pills.length; i++) {
+          if (pills[i].textContent.toLowerCase() === v.toLowerCase()) pills[i].classList.add('active');
+        }
+      });
+    }
+  }
+
+  // Wait for pills to render then init
+  setTimeout(function() { initDefaults(); regenerate(); }, 0);
 })();
 </script>
 </body>
