@@ -108,11 +108,11 @@ async function search (query) {
 }
 
 export default new class Seadex {
-  async single (query) { return search(query) }
-  async batch (query) { return search(query) }
-  async movie (query) { return search(query) }
+  async single (query, options) { return search(query) }
+  async batch (query, options) { return search(query) }
+  async movie (query, options) { return search(query) }
 
-  async test () {
+  async test (options) {
     let res
     try {
       res = await fetch(BASE + '?perPage=1')

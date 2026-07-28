@@ -353,10 +353,11 @@ export async function resolveEpisodeCandidates (query) {
   return candidates
 }
 
-export function searchContext (query, mode) {
+export function searchContext (query, mode, options) {
   const titles = query.titles || []
   const primary = rankTitlesForQuery(titles)[0]
   const primaryTokens = primary ? buildTitleTokens([primary]) : new Set()
+  const prefs = resolveOptions(options)
   return {
     mode,
     showTokens: buildTitleTokens(titles),
@@ -367,7 +368,7 @@ export function searchContext (query, mode) {
     episodeCandidates: query.episodeCandidates || null,
     exclusions: query.exclusions || [],
     resolution: query.resolution || '',
-    _prefs: query._prefs || {}
+    _prefs: prefs
   }
 }
 
@@ -435,6 +436,7 @@ import { validate, pickRequestedBranch } from './filters.js'
 import { rankCandidates } from './scorer.js'
 import { formatResult, effectiveAccuracy } from './formatter.js'
 import { scorerEnv } from './prefs.js'
+import { resolveOptions } from './config.js'
 
 // Build the env object the gates and scorer share.
 function pipelineEnv (ctx, canonical) {

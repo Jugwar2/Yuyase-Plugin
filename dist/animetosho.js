@@ -763,6 +763,40 @@ var CONFIG_SCHEMA = {
   maxFileSizeMB: { label: "Max file size (MB)", type: "integer", default: 0, hint: "0 = no limit" }
 };
 
+// src/lib/config.js
+function configSchema() {
+  return CONFIG_SCHEMA;
+}
+function configDefaults() {
+  return DEFAULTS;
+}
+function resolveOptions(opts) {
+  const raw = resolve({});
+  if (!opts || typeof opts !== "object") return raw;
+  if (opts.resolution && String(opts.resolution) !== "any") {
+    raw.preferredResolution = [String(opts.resolution)];
+  }
+  if (opts.codec && String(opts.codec) !== "any") {
+    raw.preferredCodec = [String(opts.codec).toLowerCase()];
+  }
+  if (typeof opts.preferDub === "boolean") raw.preferDub = opts.preferDub;
+  if (typeof opts.avoidBluRay === "boolean") raw.avoidBluRay = opts.avoidBluRay;
+  if (typeof opts.preferDualAudio === "boolean") raw.preferDualAudio = opts.preferDualAudio;
+  if (typeof opts.preferredGroups === "string" && opts.preferredGroups.trim()) {
+    raw.preferredGroups = opts.preferredGroups.trim().split(",").map((s) => s.trim()).filter(Boolean);
+  }
+  if (typeof opts.avoidGroups === "string" && opts.avoidGroups.trim()) {
+    raw.avoidGroups = opts.avoidGroups.trim().split(",").map((s) => s.trim()).filter(Boolean);
+  }
+  if (typeof opts.maxResults === "number" && Number.isInteger(opts.maxResults) && opts.maxResults > 0) {
+    raw.maxResults = opts.maxResults;
+  }
+  return resolve(raw);
+}
+function getInstallUrl(baseUrl, prefs) {
+  return baseUrl;
+}
+
 // src/lib/shared.js
 var BROWSER_HEADERS = {
   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -1020,10 +1054,11 @@ async function resolveEpisodeCandidates(query) {
   }
   return candidates;
 }
-function searchContext(query, mode) {
+function searchContext(query, mode, options) {
   const titles = query.titles || [];
   const primary = rankTitlesForQuery(titles)[0];
   const primaryTokens = primary ? buildTitleTokens([primary]) : /* @__PURE__ */ new Set();
+  const prefs = resolveOptions(options);
   return {
     mode,
     showTokens: buildTitleTokens(titles),
@@ -1034,7 +1069,7 @@ function searchContext(query, mode) {
     episodeCandidates: query.episodeCandidates || null,
     exclusions: query.exclusions || [],
     resolution: query.resolution || "",
-    _prefs: query._prefs || {}
+    _prefs: prefs
   };
 }
 function shapeResult(r, ctx, sourceDefault) {
@@ -1309,20 +1344,6 @@ function buildMagnet(hash, name) {
   return "magnet:?xt=urn:btih:" + String(hash).toLowerCase() + dn + "&" + trackers;
 }
 
-// src/lib/config.js
-function configSchema() {
-  return CONFIG_SCHEMA;
-}
-function configDefaults() {
-  return DEFAULTS;
-}
-function getInstallUrl(baseUrl, prefs) {
-  const merged = resolve(prefs);
-  const encoded = btoa(JSON.stringify(merged));
-  const sep = baseUrl.includes("?") ? "&" : "?";
-  return baseUrl + sep + "c=" + encoded;
-}
-
 // src/animetosho.js
 var PROFILE = SOURCE_PROFILES.animetosho;
 var BASE = "https://feed.animetosho.org/json";
@@ -1437,9 +1458,9 @@ async function classifyAndTag(raw, ctx, query) {
   }
   return out;
 }
-async function search(query, mode) {
+async function search(query, mode, options) {
   if (!query) return [];
-  const ctx = searchContext(query, mode);
+  const ctx = searchContext(query, mode, options);
   ctx._tracker = PROFILE.name;
   const resolvedAid = await resolveAnidbAid(query);
   let raw = [];
@@ -1468,17 +1489,17 @@ async function search(query, mode) {
   return finalize(results, ctx.resolution, 30, ctx._prefs);
 }
 var animetosho_default = new class AnimeTosho {
-  async single(query) {
-    if (query.episodeCount === 1) return search(query, "movie");
-    return search(await withEpisodeCandidates(query), "single");
+  async single(query, options) {
+    if (query.episodeCount === 1) return search(query, "movie", options);
+    return search(await withEpisodeCandidates(query), "single", options);
   }
-  async batch(query) {
-    return search(query, "batch");
+  async batch(query, options) {
+    return search(query, "batch", options);
   }
-  async movie(query) {
-    return search(query, "movie");
+  async movie(query, options) {
+    return search(query, "movie", options);
   }
-  async test() {
+  async test(options) {
     let res;
     try {
       res = await fetch(BASE + "?q=test");

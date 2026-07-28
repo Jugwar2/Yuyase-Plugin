@@ -63,9 +63,6 @@ var DEFAULTS = {
   exclusions: [],
   maxFileSizeMB: 0
 };
-function resolve(user = {}) {
-  return { ...DEFAULTS, ...user };
-}
 var CONFIG_SCHEMA = {
   preferredResolution: { label: "Preferred Resolution", type: "multi", options: ["2160", "1080", "720", "480"], default: ["1080"] },
   preferredCodec: { label: "Preferred Codec", type: "multi", options: ["hevc", "av1", "vp9", "avc", "x264", "x265"], default: [] },
@@ -85,6 +82,17 @@ var CONFIG_SCHEMA = {
   maxFileSizeMB: { label: "Max file size (MB)", type: "integer", default: 0, hint: "0 = no limit" }
 };
 
+// src/lib/config.js
+function configSchema() {
+  return CONFIG_SCHEMA;
+}
+function configDefaults() {
+  return DEFAULTS;
+}
+function getInstallUrl(baseUrl, prefs) {
+  return baseUrl;
+}
+
 // src/lib/shared.js
 var TRACKERS = [
   "udp://tracker.opentrackr.org:1337/announce",
@@ -99,20 +107,6 @@ function buildMagnet(hash, name) {
   const trackers = TRACKERS.map((t) => "tr=" + encodeURIComponent(t)).join("&");
   const dn = name ? "&dn=" + encodeURIComponent(name) : "";
   return "magnet:?xt=urn:btih:" + String(hash).toLowerCase() + dn + "&" + trackers;
-}
-
-// src/lib/config.js
-function configSchema() {
-  return CONFIG_SCHEMA;
-}
-function configDefaults() {
-  return DEFAULTS;
-}
-function getInstallUrl(baseUrl, prefs) {
-  const merged = resolve(prefs);
-  const encoded = btoa(JSON.stringify(merged));
-  const sep = baseUrl.includes("?") ? "&" : "?";
-  return baseUrl + sep + "c=" + encoded;
 }
 
 // src/seadex.js
@@ -210,16 +204,16 @@ async function search(query) {
   return out;
 }
 var seadex_default = new class Seadex {
-  async single(query) {
+  async single(query, options) {
     return search(query);
   }
-  async batch(query) {
+  async batch(query, options) {
     return search(query);
   }
-  async movie(query) {
+  async movie(query, options) {
     return search(query);
   }
-  async test() {
+  async test(options) {
     let res;
     try {
       res = await fetch(BASE + "?perPage=1");

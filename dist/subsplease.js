@@ -85,6 +85,40 @@ var CONFIG_SCHEMA = {
   maxFileSizeMB: { label: "Max file size (MB)", type: "integer", default: 0, hint: "0 = no limit" }
 };
 
+// src/lib/config.js
+function configSchema() {
+  return CONFIG_SCHEMA;
+}
+function configDefaults() {
+  return DEFAULTS;
+}
+function resolveOptions(opts) {
+  const raw = resolve({});
+  if (!opts || typeof opts !== "object") return raw;
+  if (opts.resolution && String(opts.resolution) !== "any") {
+    raw.preferredResolution = [String(opts.resolution)];
+  }
+  if (opts.codec && String(opts.codec) !== "any") {
+    raw.preferredCodec = [String(opts.codec).toLowerCase()];
+  }
+  if (typeof opts.preferDub === "boolean") raw.preferDub = opts.preferDub;
+  if (typeof opts.avoidBluRay === "boolean") raw.avoidBluRay = opts.avoidBluRay;
+  if (typeof opts.preferDualAudio === "boolean") raw.preferDualAudio = opts.preferDualAudio;
+  if (typeof opts.preferredGroups === "string" && opts.preferredGroups.trim()) {
+    raw.preferredGroups = opts.preferredGroups.trim().split(",").map((s) => s.trim()).filter(Boolean);
+  }
+  if (typeof opts.avoidGroups === "string" && opts.avoidGroups.trim()) {
+    raw.avoidGroups = opts.avoidGroups.trim().split(",").map((s) => s.trim()).filter(Boolean);
+  }
+  if (typeof opts.maxResults === "number" && Number.isInteger(opts.maxResults) && opts.maxResults > 0) {
+    raw.maxResults = opts.maxResults;
+  }
+  return resolve(raw);
+}
+function getInstallUrl(baseUrl, prefs) {
+  return baseUrl;
+}
+
 // src/lib/shared.js
 var TRACKERS = [
   "udp://tracker.opentrackr.org:1337/announce",
@@ -334,10 +368,11 @@ async function resolveEpisodeCandidates(query) {
   }
   return candidates;
 }
-function searchContext(query, mode) {
+function searchContext(query, mode, options) {
   const titles = query.titles || [];
   const primary = rankTitlesForQuery(titles)[0];
   const primaryTokens = primary ? buildTitleTokens([primary]) : /* @__PURE__ */ new Set();
+  const prefs = resolveOptions(options);
   return {
     mode,
     showTokens: buildTitleTokens(titles),
@@ -348,7 +383,7 @@ function searchContext(query, mode) {
     episodeCandidates: query.episodeCandidates || null,
     exclusions: query.exclusions || [],
     resolution: query.resolution || "",
-    _prefs: query._prefs || {}
+    _prefs: prefs
   };
 }
 function sortResults(results, resolution) {
@@ -488,20 +523,6 @@ function buildMagnet(hash, name) {
   return "magnet:?xt=urn:btih:" + String(hash).toLowerCase() + dn + "&" + trackers;
 }
 
-// src/lib/config.js
-function configSchema() {
-  return CONFIG_SCHEMA;
-}
-function configDefaults() {
-  return DEFAULTS;
-}
-function getInstallUrl(baseUrl, prefs) {
-  const merged = resolve(prefs);
-  const encoded = btoa(JSON.stringify(merged));
-  const sep = baseUrl.includes("?") ? "&" : "?";
-  return baseUrl + sep + "c=" + encoded;
-}
-
 // src/subsplease.js
 var PROFILE = SOURCE_PROFILES.subsplease;
 var BASE = "https://subsplease.org/api/";
@@ -601,9 +622,9 @@ function episodeMatchesAny(entry, query) {
   }
   return episodeMatches(entry.episode, query.episode);
 }
-async function runSearch(query, mode) {
+async function runSearch(query, mode, options) {
   if (!query || !query.titles || !query.titles.length) return [];
-  const ctx = searchContext(query, mode);
+  const ctx = searchContext(query, mode, options);
   ctx._tracker = PROFILE.name;
   const seenHashes = /* @__PURE__ */ new Set();
   const seenKeys = /* @__PURE__ */ new Set();
@@ -658,17 +679,17 @@ async function runSearch(query, mode) {
   return finalize(out, ctx.resolution, 30, ctx._prefs);
 }
 var subsplease_default = new class SubsPlease {
-  async single(query) {
-    if (query.episodeCount === 1) return runSearch(query, "movie");
-    return runSearch(await withEpisodeCandidates(query), "single");
+  async single(query, options) {
+    if (query.episodeCount === 1) return runSearch(query, "movie", options);
+    return runSearch(await withEpisodeCandidates(query), "single", options);
   }
-  async batch(query) {
-    return runSearch(query, "batch");
+  async batch(query, options) {
+    return runSearch(query, "batch", options);
   }
-  async movie(query) {
-    return runSearch(query, "movie");
+  async movie(query, options) {
+    return runSearch(query, "movie", options);
   }
-  async test() {
+  async test(options) {
     let res;
     try {
       res = await fetch(BASE + "?f=latest&tz=UTC");

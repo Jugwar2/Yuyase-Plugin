@@ -131,10 +131,10 @@ async function classifyAndTag (raw, ctx, query) {
   return out
 }
 
-async function search (query, mode) {
+async function search (query, mode, options) {
   if (!query) return []
 
-  const ctx = searchContext(query, mode)
+  const ctx = searchContext(query, mode, options)
   ctx._tracker = PROFILE.name
   const resolvedAid = await resolveAnidbAid(query)
 
@@ -161,14 +161,14 @@ async function search (query, mode) {
 }
 
 export default new class AnimeTosho {
-  async single (query) {
-    if (query.episodeCount === 1) return search(query, 'movie')
-    return search(await withEpisodeCandidates(query), 'single')
+  async single (query, options) {
+    if (query.episodeCount === 1) return search(query, 'movie', options)
+    return search(await withEpisodeCandidates(query), 'single', options)
   }
-  async batch (query) { return search(query, 'batch') }
-  async movie (query) { return search(query, 'movie') }
+  async batch (query, options) { return search(query, 'batch', options) }
+  async movie (query, options) { return search(query, 'movie', options) }
 
-  async test () {
+  async test (options) {
     let res
     try {
       res = await fetch(BASE + '?q=test')

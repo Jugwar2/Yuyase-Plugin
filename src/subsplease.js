@@ -104,10 +104,10 @@ function episodeMatchesAny (entry, query) {
   return episodeMatches(entry.episode, query.episode)
 }
 
-async function runSearch (query, mode) {
+async function runSearch (query, mode, options) {
   if (!query || !query.titles || !query.titles.length) return []
 
-  const ctx = searchContext(query, mode)
+  const ctx = searchContext(query, mode, options)
   ctx._tracker = PROFILE.name
   const seenHashes = new Set()
   const seenKeys = new Set()
@@ -169,14 +169,14 @@ async function runSearch (query, mode) {
 }
 
 export default new class SubsPlease {
-  async single (query) {
-    if (query.episodeCount === 1) return runSearch(query, 'movie')
-    return runSearch(await withEpisodeCandidates(query), 'single')
+  async single (query, options) {
+    if (query.episodeCount === 1) return runSearch(query, 'movie', options)
+    return runSearch(await withEpisodeCandidates(query), 'single', options)
   }
-  async batch (query) { return runSearch(query, 'batch') }
-  async movie (query) { return runSearch(query, 'movie') }
+  async batch (query, options) { return runSearch(query, 'batch', options) }
+  async movie (query, options) { return runSearch(query, 'movie', options) }
 
-  async test () {
+  async test (options) {
     let res
     try {
       res = await fetch(BASE + '?f=latest&tz=UTC')

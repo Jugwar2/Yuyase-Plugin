@@ -79,11 +79,11 @@ function itemToResult (raw, opts) {
   }, PROFILE, { batch: opts.batch })
 }
 
-async function runSearch (query, opts) {
+async function runSearch (query, opts, options) {
   if (!query.titles || !query.titles.length) return []
 
   const mode = opts.batch ? 'batch' : (opts.movie ? 'movie' : 'single')
-  const ctx = searchContext(query, mode)
+  const ctx = searchContext(query, mode, options)
   ctx._tracker = PROFILE.name
   const seen = new Set()
   const collected = []
@@ -111,23 +111,23 @@ async function runSearch (query, opts) {
 }
 
 export default new class ToonsHub {
-  async single (query) {
-    if (query.episodeCount === 1) return runSearch(query, { movie: true })
-    return runSearch(await withEpisodeCandidates(query), { episode: query.episode })
+  async single (query, options) {
+    if (query.episodeCount === 1) return runSearch(query, { movie: true }, options)
+    return runSearch(await withEpisodeCandidates(query), { episode: query.episode }, options)
   }
 
-  async batch (query) {
-    const results = await runSearch(query, { batch: true })
+  async batch (query, options) {
+    const results = await runSearch(query, { batch: true }, options)
     return results
       .filter(r => looksLikeBatch(r.title))
       .map(r => ({ ...r, type: 'batch', accuracy: 'low' }))
   }
 
-  async movie (query) {
-    return runSearch(query, { movie: true })
+  async movie (query, options) {
+    return runSearch(query, { movie: true }, options)
   }
 
-  async test () {
+  async test (options) {
     return checkNyaaFeed(NYAA_BASE + '/?page=rss&q=' + encodeURIComponent(TITLE_PREFIX) + '&c=' + ANIME_CATEGORY)
   }
 

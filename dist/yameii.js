@@ -763,6 +763,37 @@ var CONFIG_SCHEMA = {
   maxFileSizeMB: { label: "Max file size (MB)", type: "integer", default: 0, hint: "0 = no limit" }
 };
 
+// src/lib/config.js
+function configSchema() {
+  return CONFIG_SCHEMA;
+}
+function configDefaults() {
+  return DEFAULTS;
+}
+function resolveOptions(opts) {
+  const raw = resolve({});
+  if (!opts || typeof opts !== "object") return raw;
+  if (opts.resolution && String(opts.resolution) !== "any") {
+    raw.preferredResolution = [String(opts.resolution)];
+  }
+  if (opts.codec && String(opts.codec) !== "any") {
+    raw.preferredCodec = [String(opts.codec).toLowerCase()];
+  }
+  if (typeof opts.preferDub === "boolean") raw.preferDub = opts.preferDub;
+  if (typeof opts.avoidBluRay === "boolean") raw.avoidBluRay = opts.avoidBluRay;
+  if (typeof opts.preferDualAudio === "boolean") raw.preferDualAudio = opts.preferDualAudio;
+  if (typeof opts.preferredGroups === "string" && opts.preferredGroups.trim()) {
+    raw.preferredGroups = opts.preferredGroups.trim().split(",").map((s) => s.trim()).filter(Boolean);
+  }
+  if (typeof opts.avoidGroups === "string" && opts.avoidGroups.trim()) {
+    raw.avoidGroups = opts.avoidGroups.trim().split(",").map((s) => s.trim()).filter(Boolean);
+  }
+  if (typeof opts.maxResults === "number" && Number.isInteger(opts.maxResults) && opts.maxResults > 0) {
+    raw.maxResults = opts.maxResults;
+  }
+  return resolve(raw);
+}
+
 // src/lib/shared.js
 var BROWSER_HEADERS = {
   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -1046,10 +1077,11 @@ async function resolveEpisodeCandidates(query) {
   }
   return candidates;
 }
-function searchContext(query, mode) {
+function searchContext(query, mode, options) {
   const titles = query.titles || [];
   const primary = rankTitlesForQuery(titles)[0];
   const primaryTokens = primary ? buildTitleTokens([primary]) : /* @__PURE__ */ new Set();
+  const prefs = resolveOptions(options);
   return {
     mode,
     showTokens: buildTitleTokens(titles),
@@ -1060,7 +1092,7 @@ function searchContext(query, mode) {
     episodeCandidates: query.episodeCandidates || null,
     exclusions: query.exclusions || [],
     resolution: query.resolution || "",
-    _prefs: query._prefs || {}
+    _prefs: prefs
   };
 }
 function shapeResult(r, ctx, sourceDefault) {
@@ -1380,20 +1412,6 @@ function pickItems(xml) {
   return out;
 }
 
-// src/lib/config.js
-function configSchema() {
-  return CONFIG_SCHEMA;
-}
-function configDefaults() {
-  return DEFAULTS;
-}
-function getInstallUrl(baseUrl, prefs) {
-  const merged = resolve(prefs);
-  const encoded = btoa(JSON.stringify(merged));
-  const sep = baseUrl.includes("?") ? "&" : "?";
-  return baseUrl + sep + "c=" + encoded;
-}
-
 // src/yameii.js
 var PROFILE = SOURCE_PROFILES.yameii;
 var NYAA_BASE = "https://nyaa.si";
@@ -1465,10 +1483,10 @@ function itemToResult(raw, opts) {
     accuracy: PROFILE.accuracy
   }, PROFILE, { batch: opts.batch });
 }
-async function runSearch(query, opts) {
+async function runSearch(query, opts, options) {
   if (!query.titles || !query.titles.length) return [];
   const mode = opts.batch ? "batch" : opts.movie ? "movie" : "single";
-  const ctx = searchContext(query, mode);
+  const ctx = searchContext(query, mode, options);
   ctx._tracker = PROFILE.name;
   const seen = /* @__PURE__ */ new Set();
   const collected = [];
@@ -1493,18 +1511,18 @@ async function runSearch(query, opts) {
   return finalize(shaped, ctx.resolution, 30, ctx._prefs);
 }
 var yameii_default = new class Yameii {
-  async single(query) {
-    if (query.episodeCount === 1) return runSearch(query, { movie: true });
-    return runSearch(await withEpisodeCandidates(query), { episode: query.episode });
+  async single(query, options) {
+    if (query.episodeCount === 1) return runSearch(query, { movie: true }, options);
+    return runSearch(await withEpisodeCandidates(query), { episode: query.episode }, options);
   }
-  async batch(query) {
-    const results = await runSearch(query, { batch: true });
+  async batch(query, options) {
+    const results = await runSearch(query, { batch: true }, options);
     return results.filter((r) => looksLikeBatch(r.title)).map((r) => ({ ...r, type: "batch", accuracy: "low" }));
   }
-  async movie(query) {
-    return runSearch(query, { movie: true });
+  async movie(query, options) {
+    return runSearch(query, { movie: true }, options);
   }
-  async test() {
+  async test(options) {
     return checkNyaaFeed(NYAA_BASE + "/?u=" + encodeURIComponent(UPLOADER) + "&page=rss&c=" + ANIME_CATEGORY);
   }
   config() {

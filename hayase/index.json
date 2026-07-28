@@ -15,7 +15,17 @@
     "description": "Searches nyaa.si directly for anime torrents. Full firehose, string-search matched, strict episode filter.",
     "icon": "https://nyaa.si/static/favicon.png",
     "update": "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/hayase/index.json",
-    "code": "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/dist/nyaa.js"
+    "code": "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/dist/nyaa.js",
+    "options": {
+      "resolution":       { "type": "select",  "description": "Preferred resolution",        "values": ["1080","720","480","2160"], "default": "1080" },
+      "codec":            { "type": "select",  "description": "Preferred codec",             "values": ["any","hevc","av1","vp9","avc","x264","x265"], "default": "any" },
+      "preferDub":        { "type": "boolean", "description": "Prioritise English dubs",     "default": true },
+      "avoidBluRay":      { "type": "boolean", "description": "Avoid Blu-ray / Remux (large files)", "default": true },
+      "preferDualAudio":  { "type": "boolean", "description": "Prefer dual audio releases",  "default": false },
+      "maxResults":       { "type": "number",  "description": "Max results shown",           "default": 9 },
+      "preferredGroups":  { "type": "string",  "description": "Preferred release groups (comma)", "default": "" },
+      "avoidGroups":      { "type": "string",  "description": "Avoid release groups (comma)", "default": "" }
+    }
   },
   {
     "manifestVersion": 2,
@@ -33,7 +43,17 @@
     "description": "Aggregator with anidb episode-ID mapping. High accuracy via exact ID lookup, falls back to text search.",
     "icon": "https://animetosho.org/favicon.ico",
     "update": "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/hayase/index.json",
-    "code": "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/dist/animetosho.js"
+    "code": "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/dist/animetosho.js",
+    "options": {
+      "resolution":       { "type": "select",  "description": "Preferred resolution",        "values": ["1080","720","480","2160"], "default": "1080" },
+      "codec":            { "type": "select",  "description": "Preferred codec",             "values": ["any","hevc","av1","vp9","avc","x264","x265"], "default": "any" },
+      "preferDub":        { "type": "boolean", "description": "Prioritise English dubs",     "default": true },
+      "avoidBluRay":      { "type": "boolean", "description": "Avoid Blu-ray / Remux (large files)", "default": true },
+      "preferDualAudio":  { "type": "boolean", "description": "Prefer dual audio releases",  "default": false },
+      "maxResults":       { "type": "number",  "description": "Max results shown",           "default": 9 },
+      "preferredGroups":  { "type": "string",  "description": "Preferred release groups (comma)", "default": "" },
+      "avoidGroups":      { "type": "string",  "description": "Avoid release groups (comma)", "default": "" }
+    }
   },
   {
     "manifestVersion": 2,
@@ -51,7 +71,13 @@
     "description": "Manually curated best releases per anime, looked up by AniList ID. Returns batches/movies tagged best or alt.",
     "icon": "https://releases.moe/favicon.png",
     "update": "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/hayase/index.json",
-    "code": "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/dist/seadex.js"
+    "code": "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/dist/seadex.js",
+    "options": {
+      "resolution":       { "type": "select",  "description": "Preferred resolution",        "values": ["1080","720","480","2160"], "default": "1080" },
+      "preferDub":        { "type": "boolean", "description": "Prioritise English dubs",     "default": true },
+      "preferDualAudio":  { "type": "boolean", "description": "Prefer dual audio releases",  "default": false },
+      "maxResults":       { "type": "number",  "description": "Max results shown",           "default": 9 }
+    }
   },
   {
     "manifestVersion": 2,
@@ -66,10 +92,16 @@
     "languages": ["ALL"],
     "nsfw": false,
     "url": "aHR0cHM6Ly9zdWJzcGxlYXNlLm9yZw==",
-    "description": "Direct API for currently-airing weekly fansubs from SubsPlease. Catches new episodes immediately on release, but only covers shows in their fansub catalog.",
+    "description": "Direct API for currently-airing weekly fansubs from SubsPlease. Catches new episodes immediately on release.",
     "icon": "https://subsplease.org/favicon.ico",
     "update": "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/hayase/index.json",
-    "code": "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/dist/subsplease.js"
+    "code": "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/dist/subsplease.js",
+    "options": {
+      "resolution":       { "type": "select",  "description": "Preferred resolution",        "values": ["1080","720","480","2160"], "default": "1080" },
+      "preferDub":        { "type": "boolean", "description": "Prioritise English dubs",     "default": true },
+      "preferDualAudio":  { "type": "boolean", "description": "Prefer dual audio releases",  "default": false },
+      "maxResults":       { "type": "number",  "description": "Max results shown",           "default": 9 }
+    }
   },
   {
     "manifestVersion": 2,
@@ -87,7 +119,12 @@
     "description": "English dub uploads from Yameii on nyaa.si. Single-uploader source, highly consistent quality. IRC: #Yameii@irc.rizon.net.",
     "icon": "https://nyaa.si/static/favicon.png",
     "update": "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/hayase/index.json",
-    "code": "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/dist/yameii.js"
+    "code": "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/dist/yameii.js",
+    "options": {
+      "resolution":       { "type": "select",  "description": "Preferred resolution",        "values": ["1080","720","480","2160"], "default": "1080" },
+      "codec":            { "type": "select",  "description": "Preferred codec",             "values": ["any","hevc","av1","vp9","avc","x264","x265"], "default": "any" },
+      "maxResults":       { "type": "number",  "description": "Max results shown",           "default": 9 }
+    }
   },
   {
     "manifestVersion": 2,
@@ -105,6 +142,11 @@
     "description": "ToonsHub releases on nyaa.si. Title-prefix filter for the [ToonsHub] group. Wide coverage of currently-airing shows, both sub and dual-audio variants. Group's Telegram: t.me/thtorrents.",
     "icon": "https://nyaa.si/static/favicon.png",
     "update": "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/hayase/index.json",
-    "code": "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/dist/toonshub.js"
+    "code": "https://raw.githubusercontent.com/Jugwar2/Yuyase-Plugin/main/dist/toonshub.js",
+    "options": {
+      "resolution":       { "type": "select",  "description": "Preferred resolution",        "values": ["1080","720","480","2160"], "default": "1080" },
+      "codec":            { "type": "select",  "description": "Preferred codec",             "values": ["any","hevc","av1","vp9","avc","x264","x265"], "default": "any" },
+      "maxResults":       { "type": "number",  "description": "Max results shown",           "default": 9 }
+    }
   }
 ]
